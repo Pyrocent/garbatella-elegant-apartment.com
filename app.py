@@ -11,11 +11,11 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return render_template("index.html", country = request.accept_languages.best_match(lang.keys()))
+    return render_template("index.html", lang = iter(lang[request.accept_languages.best_match(lang.keys())][0]), next = next)
 
 @app.route("/book")
 def play():
-    return render_template("book.html", country = request.accept_languages.best_match(lang.keys()))
+    return render_template("book.html", lang = iter(lang[request.accept_languages.best_match(lang.keys())][1]), next = next)
 
 @app.route("/robots")
 def robots():
