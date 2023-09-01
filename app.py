@@ -1,5 +1,7 @@
+from config import lang
 from flask import (
     Flask,
+    request,
     redirect,
     send_file,
     render_template
@@ -9,11 +11,11 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return render_template("index.html")
+    return render_template("index.html", country = request.accept_languages.best_match(lang.keys()))
 
 @app.route("/book")
 def play():
-    return render_template("book.html")
+    return render_template("book.html", country = request.accept_languages.best_match(lang.keys()))
 
 @app.route("/robots")
 def robots():
