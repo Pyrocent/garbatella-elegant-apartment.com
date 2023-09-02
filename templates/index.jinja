@@ -6,7 +6,7 @@
         <meta name = "author" content = "Alessandro Panzieri">
         <meta name = "description" content = "{{next(lang)}}">
         <link rel = "icon" href = "../static/assets/favicon.png">
-        <link rel = "stylesheet" href = "../static/css/index.min.css">
+        <link rel = "stylesheet" href = "../static/css/index.css">
         <link rel = "preconnect" href = "https://fonts.googleapis.com">
         <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
         <link rel = "canonical" href = "https://www.garbatellastylishliving.com">
@@ -25,33 +25,35 @@
 
             <div id = "background">
 
-                <nav id = "container">
-                    <p id = "nome">Garbatella Stylish Living</p>
+                <nav id = "navbar">
+                    <p id = "site-name">Garbatella Stylish Living</p>
                     <div id = "dropdown">
-                        <button id = "select">{{next(lang)}}</button>
-                        <div id = "languages">
-                            <div class = "flag" id = "en"><img src = "../static/assets/flags/en.png">English</div>
-                            <div class = "flag" id = "it"><img src = "../static/assets/flags/it.png">Italiano</div>
+                        <button id = "language">{{next(lang)}}</button>
+                        <div id = "menu">
+                            <div id = "en" class = flag ><img src = "../static/assets/flags/en.png">English</div>
+                            <div id = "it" class = flag ><img src = "../static/assets/flags/it.png">Italiano</div>
+                        </div>
                     </div>
                 </nav>
 
                 <div id = "w">
-                    <p id = "titolo">{{next(lang)}}</p>
+                    <p id = "title">{{next(lang)}}</p>
                     <div id = "h">
                         <hr>
                         <p id = "point">*</p>
                         <hr>
                     </div>
-                    <p id = "sottotitolo">{{next(lang)}}</p>
+                    <p id = "subtitle">{{next(lang)}}</p>
                 </div>
 
-                <div id = d>
-                    <button id = "prenota">{{next(lang)}}</button>
+                <div id = "d">
+                    <button id = "book">{{next(lang)}}</button>
                 </div>
 
             </div>
 
         </main>
+
         <footer>
         </footer>
 

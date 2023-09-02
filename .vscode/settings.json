@@ -2,8 +2,6 @@
   "files.exclude": {
     ".vscode": true,
     "__pycache__": true,
-    ".gitignore": true,
-    "static\\css\\**.css": true,
-    "static\\css\\**.map": true
+    ".gitignore": true
   }
 }
