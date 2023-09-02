@@ -1,0 +1,82 @@
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(44, 134, 217);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(23, 90, 153);
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#container {
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../assets/house/1.jpeg");
+}
+
+#dropdown {
+    width: 150px;
+    float: right;
+    margin: 25px 25px 0 0;
+}
+
+#dropdown:hover #languages {
+    display: block;
+}
+
+#select {
+    width: 100%;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(44, 134, 217);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+#languages {
+    height: 35%;
+    width: 150px;
+    display: none;
+    overflow-y: scroll;
+    position: absolute;
+    border-radius: 10px;
+    background-color: rgb(249, 249, 249);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+.flag {
+    gap: 10px;
+    padding: 10px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.flag:first-child {
+    border-radius: 10px 10px 0 0;
+}
+
+.flag:hover {
+    background-color: rgb(221, 221, 221);
+}

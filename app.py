@@ -9,13 +9,19 @@ from flask import (
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/", methods = ["GET", "POST"])
 def index():
-    return render_template("index.html", lang = iter(lang[request.accept_languages.best_match(lang.keys())][0]), next = next)
+    if request.method == "POST":
+        return render_template("index.html", lang = iter(lang[request.form.get("lang")][0]), next = next)
+    else:
+        return render_template("index.html", lang = iter(lang[request.accept_languages.best_match(lang.keys())][0]), next = next)
 
-@app.route("/book")
+@app.route("/book", methods = ["GET", "POST"])
 def book():
-    return render_template("book.html", lang = iter(lang[request.accept_languages.best_match(lang.keys())][1]), next = next)
+    if request.method == "POST":
+        return render_template("book.html", lang = iter(lang[request.form.get("lang")][0]), next = next)
+    else:
+        return render_template("book.html", lang = iter(lang[request.accept_languages.best_match(lang.keys())][1]), next = next)
 
 @app.route("/robots")
 def robots():
