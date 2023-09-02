@@ -14,6 +14,7 @@ lang = {
         ],
         ["it",
          "Prenota Il Tuo Viaggio",
-         "Goditi Il Comfort Della Tua Casa Vacanza Nel Quartiere Garbatella - Il Luogo Ideale Per Soggiornare A Roma"]
+         "Goditi Il Comfort Della Tua Casa Vacanza Nel Quartiere Garbatella - Il Luogo Ideale Per Soggiornare A Roma"
+        ]
     ]
 }
