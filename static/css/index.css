@@ -1,3 +1,50 @@
+:root {
+    --margin-top: 30px;
+    --font-size-1: 15px;
+    --font-size-2: 30px;
+    --image-height: 325px;
+    --button-width: 225px;
+    --button-height: 45px;
+    --select-width: 100px;
+    --select-height: 30px;
+}
+
+@media screen and (max-width: 1440px) {
+    :root {
+        --scale: calc(1440 / 320 - 3);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    :root {
+        --scale: calc(1024 / 320 - 2);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    :root {
+        --scale: calc(768 / 320 - 1);
+    }
+}
+
+@media screen and (max-width: 425px) {
+    :root {
+        --scale: calc(425 / 320);
+    }
+}
+
+@media screen and (max-width: 375px) {
+    :root {
+        --scale: calc(375 / 320);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    :root {
+        --scale: calc(320 / 320);
+    }
+}
+
 ::-webkit-scrollbar {
     width: 5px;
 }
@@ -16,7 +63,6 @@ html, body {
 
 body {
     margin: 0;
-    padding: 10px;
     overflow-x: hidden;
 }
 
@@ -25,7 +71,7 @@ body::-webkit-scrollbar {
 }
 
 #background {
-    height: 500px;
+    height: calc(var(--image-height) * var(--scale));
     display: flex;
     flex-direction: column;
     background-size: cover;
@@ -43,17 +89,17 @@ body::-webkit-scrollbar {
 
 #site-name {
     margin: 0;
-    font-size: 25px;
+    font-size: calc(var(--font-size-1) * var(--scale));
     color: rgb(255, 255, 255);
     font-family: "EB Garamond", serif;
-    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.75));
 }
 
 select {
-    width: 150px;
-    height: 50px;
+    width: calc(var(--select-width) * var(--scale));
+    height: calc(var(--select-height) * var(--scale));
     cursor: pointer;
-    font-size: 20px;
+    font-size: calc(var(--font-size-1) * var(--scale));
     padding-left: 10px;
     color: rgb(0, 0, 0);
     font-family: "EB Garamond", serif;
@@ -62,7 +108,7 @@ select {
 }
 
 #w {
-    margin-top: 50px;
+    margin-top: calc(var(--margin-top) * var(--scale));
 }
 
 #title, #subtitle {
@@ -70,15 +116,15 @@ select {
     padding: 0;
     text-align: center;
     color: rgb(255, 255, 255);
-    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.75));
 }
 
 #title {
-    font-size: 50px;
+    font-size: calc(var(--font-size-2) * var(--scale));
 }
 
 #subtitle {
-    font-size: 25px;
+    font-size: calc(var(--font-size-1) * var(--scale));
 }
 
 #h {
@@ -92,7 +138,7 @@ hr {
 
 #point {
     margin: 0;
-    font-size: 30px;
+    font-size: calc(var(--font-size-1) * var(--scale));
     color: rgb(255, 255, 255);
 }
 
@@ -104,14 +150,14 @@ hr {
 }
 
 #book {
-    width: 300px;
-    height: 50px;
+    width: calc(var(--button-width) * var(--scale));
+    height: calc(var(--button-height) * var(--scale));
     border: none;
     padding: 10px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: calc(var(--font-size-1) * var(--scale));
     color: rgb(255, 255, 255);
     font-family: "EB Garamond", serif;
     background-color: rgb(44, 134, 217);
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.75);
 }
