@@ -5,8 +5,10 @@ $(document).ready(function () {
             headers: {"Content-Type": "application/x-www-form-urlencoded"},
             body: `lang=${$(this).val().substring(0, 2).toLowerCase()}`,
         })
-        .then(response => response.text())
-        .then(html => {document.documentElement.innerHTML = html;})
-        .catch(error => {console.error("Error:", error);});
+        window.location.reload()
+    });
+
+    $("#book").click(function () {
+        window.location.href = "/book"
     });
 });
