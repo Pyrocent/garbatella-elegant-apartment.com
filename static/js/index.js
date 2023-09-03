@@ -1,11 +1,9 @@
-const flags = document.getElementsByClassName("flag");
-
-Array.from(flags).forEach(flag => {
-    flag.addEventListener("click", function () {
+$(document).ready(function () {
+    $("select").change(function () {
         fetch("/", {
             method: "POST",
             headers: {"Content-Type": "application/x-www-form-urlencoded"},
-            body: `lang=${this.getAttribute('id')}`,
+            body: `lang=${$(this).val().substring(0, 2).toLowerCase()}`,
         })
         .then(response => response.text())
         .then(html => {document.documentElement.innerHTML = html;})

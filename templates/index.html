@@ -8,6 +8,7 @@
         <link rel = "icon" href = "../static/assets/favicon.png">
         <link rel = "stylesheet" href = "../static/css/index.css">
         <link rel = "preconnect" href = "https://fonts.googleapis.com">
+        <script src = "https://code.jquery.com/jquery-3.7.1.min.js"></script>
         <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
         <link rel = "canonical" href = "https://www.garbatellastylishliving.com">
         <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
@@ -19,6 +20,7 @@
             gtag("js", new Date());
             gtag("config", "G-48TLHLB0VM");
         </script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/css/select2.css" />
     </head>
     <body>
         <main>
@@ -27,13 +29,12 @@
 
                 <nav id = "navbar">
                     <p id = "site-name">Garbatella Stylish Living</p>
-                    <div id = "dropdown">
-                        <button id = "language">{{next(lang)}}</button>
-                        <div id = "menu">
-                            <div id = "en" class = "flag"><img src = "../static/assets/flags/en.png">English</div>
-                            <div id = "it" class = "flag"><img src = "../static/assets/flags/it.png">Italiano</div>
-                        </div>
-                    </div>
+                    <select>
+                        {% for x in range(2) %}
+                            {% set country = next(lang)%}
+                            <option value = "{{country}}">{{country}}</option>
+                        {% endfor %}
+                    </select>
                 </nav>
 
                 <div id = "w">
