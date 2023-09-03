@@ -23,7 +23,7 @@ lang = {
             "English",
             "Goditi Il Comfort Della Tua Casa Vacanza",
             "Il Luogo Ideale Per Soggiornare A Roma",
-            "Prenota Ora"
+            "PRENOTA ORA"
         ],
         [
             "it",

@@ -1,6 +1,7 @@
 :root {
     --font-size-1: 10px;
-    --font-size-2: 20px;
+    --font-size-2: 12px;
+    --font-size-3: 22.5px;
     --margin-top: 22.5px;
     --select-width: 80px;
     --select-height: 25px;
@@ -110,7 +111,7 @@ select {
 }
 
 #title {
-    font-size: calc(var(--font-size-2) * var(--scale));
+    font-size: calc(var(--font-size-3) * var(--scale));
 }
 
 #subtitle {
@@ -123,13 +124,13 @@ select {
 }
 
 hr {
-    width: 30%;
+    width: 25%;
 }
 
 #point {
     margin: 0;
     color: rgb(255, 255, 255);
-    font-size: calc(var(--font-size-1) * var(--scale));
+    font-size: calc(var(--font-size-2) * var(--scale));
 }
 
 #d {
@@ -150,5 +151,5 @@ hr {
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
     width: calc(var(--button-width) * var(--scale));
     height: calc(var(--button-height) * var(--scale));
-    font-size: calc(var(--font-size-1) * var(--scale));
+    font-size: calc(var(--font-size-2) * var(--scale));
 }
