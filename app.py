@@ -11,17 +11,15 @@ app = Flask(__name__)
 
 @app.route("/", methods = ["GET", "POST"])
 def index():
-    if request.method == "POST":
-        return render_template("index.html", lang = iter(lang[request.form.get("lang")][0]), next = next)
-    else:
-        return render_template("index.html", lang = iter(lang[request.accept_languages.best_match(lang.keys())][0]), next = next)
+    return render_template("index.html",
+                           lang = iter(lang[request.form.get("lang") or request.accept_languages.best_match(lang.keys())][0]),
+                           next = next)
 
 @app.route("/book", methods = ["GET", "POST"])
 def book():
-    if request.method == "POST":
-        return render_template("book.html", lang = iter(lang[request.form.get("lang")][0]), next = next)
-    else:
-        return render_template("book.html", lang = iter(lang[request.accept_languages.best_match(lang.keys())][1]), next = next)
+    return render_template("book.html",
+                        lang = iter(lang[request.form.get("lang") or request.accept_languages.best_match(lang.keys())][0]),
+                        next = next)
 
 @app.route("/robots")
 def robots():
