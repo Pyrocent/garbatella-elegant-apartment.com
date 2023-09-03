@@ -1,49 +1,39 @@
 :root {
-    --margin-top: 30px;
-    --font-size-1: 15px;
-    --font-size-2: 30px;
-    --image-height: 325px;
-    --button-width: 225px;
-    --button-height: 45px;
-    --select-width: 100px;
-    --select-height: 30px;
+    --margin-top: 22.5px;
+    --select-width: 80px;
+    --select-height: 25px;
+    --font-size-1: 12.5px;
+    --font-size-2: 22.5px;
+    --image-height: 250px;
+    --button-width: 185px;
+    --button-height: 35px;
 }
 
 @media screen and (max-width: 1440px) {
     :root {
-        --scale: calc(1440 / 320 - 3);
+        --scale: calc(1440 / 250 - 3);
     }
 }
 
 @media screen and (max-width: 1024px) {
     :root {
-        --scale: calc(1024 / 320 - 2);
+        --scale: calc(1024 / 250 - 2);
     }
 }
 
 @media screen and (max-width: 768px) {
     :root {
-        --scale: calc(768 / 320 - 1);
+        --scale: calc(768 / 250 - 1);
     }
 }
 
 @media screen and (max-width: 425px) {
     :root {
-        --scale: calc(425 / 320);
+        --scale: 1;
     }
 }
 
-@media screen and (max-width: 375px) {
-    :root {
-        --scale: calc(375 / 320);
-    }
-}
-
-@media screen and (max-width: 320px) {
-    :root {
-        --scale: calc(320 / 320);
-    }
-}
+substitute *screen width* with the actual screen width
 
 ::-webkit-scrollbar {
     width: 5px;
@@ -159,5 +149,5 @@ hr {
     color: rgb(255, 255, 255);
     font-family: "EB Garamond", serif;
     background-color: rgb(44, 134, 217);
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.75);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
 }

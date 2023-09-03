@@ -1,4 +1,7 @@
 $(document).ready(function () {
+
+    document.documentElement.style.setProperty("--scale", $(window).width() / 250);
+
     $("select").change(function () {
         fetch("/", {
             method: "POST",
