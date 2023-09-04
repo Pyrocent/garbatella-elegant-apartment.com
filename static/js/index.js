@@ -16,8 +16,8 @@ $(document).ready(function () {
             method: "POST",
             headers: {"Content-Type": "application/x-www-form-urlencoded"},
             body: `lang=${$(this).val().substring(0, 2).toLowerCase()}`,
-        })
-        window.location.reload()
+        });
+        window.location.reload();
     });
 
     $("#book").click(function () {
