@@ -3,11 +3,11 @@ $(document).ready(function () {
     screen = $(window).width();
     if (screen <= 425) {
         document.documentElement.style.setProperty("--scale", screen / 250);
-    } else if (426 <= screen && screen <= 768) {
+    } else if (425 < screen && screen <= 768) {
         document.documentElement.style.setProperty("--scale", screen / 250 - 2);
-    } else if (769 <= screen && screen <= 1024) {
+    } else if (768 < screen && screen <= 1024) {
         document.documentElement.style.setProperty("--scale", screen / 250 - 2.5);
-    } else if (1025 <= screen && screen <= 1440) {
+    } else if (1024 < screen && screen <= 1440) {
         document.documentElement.style.setProperty("--scale", screen / 250 - 3.5);
     }
 
@@ -16,8 +16,8 @@ $(document).ready(function () {
         infinite: true,
         autoplay: true,
         autoplaySpeed: 3000,
-        slidesToShow: 0,
-        slidesToScroll: 0,
+        slidesToShow: 2,
+        slidesToScroll: 2
     });
 
     $("select").change(function () {
