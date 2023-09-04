@@ -7,7 +7,7 @@ lang = {
             "Italiano",
             "Enjoy The Comfort Of Your Holiday Home",
             "The Ideal Place To Stay In Rome",
-            "Book Now"
+            "BOOK NOW"
         ],
         [
             "en",
