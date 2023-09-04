@@ -11,6 +11,15 @@ $(document).ready(function () {
         document.documentElement.style.setProperty("--scale", screen / 250 - 3.5);
     }
 
+    $("#carousel").slick({
+        arrows: false,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        slidesToShow: 0,
+        slidesToScroll: 0,
+    });
+
     $("select").change(function () {
         fetch("/", {
             method: "POST",

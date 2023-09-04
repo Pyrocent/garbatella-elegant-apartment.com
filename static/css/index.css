@@ -116,3 +116,15 @@ select {
     height: calc(var(--button-height) * var(--scale));
     font-size: calc(var(--font-size-2) * var(--scale));
 }
+
+#offer {
+    height: 350px;
+}
+
+#carousel {
+    margin: 0 5px 0 5px;
+}
+
+.slide {
+    margin: 10px 5px 10px 5px;
+}
