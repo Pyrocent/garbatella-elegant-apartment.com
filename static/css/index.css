@@ -36,6 +36,31 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+main {
+    display: none;
+}
+
+#splash {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../assets/rome.avif");
+}
+
+#splash p {
+    font-size: calc(var(--font-size-3) * var(--scale));
+    color: rgb(255, 255, 255);
+    font-family: "Cabin", sans-serif;;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.75));
+}
+
 #background {
     display: flex;
     flex-direction: column;

@@ -11,11 +11,18 @@ $(document).ready(function () {
         document.documentElement.style.setProperty("--scale", screen / 250 - 3.5);
     }
 
+    setTimeout(function() {
+        $("#splash").fadeOut();
+        setTimeout(function() {
+            $("main").css({"display": "block"})
+        }, 500);
+    }, 2000);
+
     $("#carousel").slick({
         arrows: false,
         infinite: true,
         autoplay: true,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 3500,
         slidesToShow: 2,
         slidesToScroll: 2
     });
