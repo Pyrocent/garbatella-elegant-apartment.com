@@ -36,6 +36,10 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+main {
+    display: none;
+}
+
 #background {
     display: flex;
     flex-direction: column;
