@@ -35,8 +35,6 @@
     }
 }
 
-substitute *screen width* with the actual screen width
-
 ::-webkit-scrollbar {
     width: 5px;
 }
