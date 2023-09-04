@@ -1,6 +1,15 @@
 $(document).ready(function () {
 
-    document.documentElement.style.setProperty("--scale", $(window).width() / 250);
+    screen = $(window).width();
+    if (screen <= 425) {
+        document.documentElement.style.setProperty("--scale", screen / 250);
+    } else if (426 <= screen && screen <= 768) {
+        document.documentElement.style.setProperty("--scale", screen / 250 - 2);
+    } else if (769 <= screen && screen <= 1024) {
+        document.documentElement.style.setProperty("--scale", screen / 250 - 2.5);
+    } else if (1025 <= screen && screen <= 1440) {
+        document.documentElement.style.setProperty("--scale", screen / 250 - 3.5);
+    }
 
     $("select").change(function () {
         fetch("/", {

@@ -2,37 +2,13 @@
     --font-size-1: 10px;
     --font-size-2: 12px;
     --font-size-3: 22.5px;
-    --margin-top-title: 22.5px;
-    --margin-top-subtitle: 10px;
     --select-width: 80px;
     --select-height: 22.5px;
     --button-width: 185px;
     --button-height: 35px;
     --image-height: 250px;
-}
-
-@media screen and (max-width: 1440px) {
-    :root {
-        --scale: calc(1440 / 250 - 3);
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    :root {
-        --scale: calc(1024 / 250 - 2);
-    }
-}
-
-@media screen and (max-width: 768px) {
-    :root {
-        --scale: calc(768 / 250 - 1);
-    }
-}
-
-@media screen and (max-width: 425px) {
-    :root {
-        --scale: 1;
-    }
+    --margin-top-title: 22.5px;
+    --margin-top-subtitle: 10px;
 }
 
 ::-webkit-scrollbar {
