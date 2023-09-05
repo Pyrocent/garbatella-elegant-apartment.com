@@ -16,11 +16,11 @@ lang = {
             "TWO SILENT TERRACES",
             "FREE WIFI",
             "District",
-            "SUPERMARKET IN FRONT OF THE HOUSE",
+            "SUPERMARKET IN FRONT OF",
             "AUTO PARKING UNDER THE HOUSE",
             "TOBACCO SHOP AT 10M",
             "CAFE 100M ON SAME STREET",
-            "GARBATELLA METRO 10 MINUTES WALK"
+            "GARBATELLA METRO 10 MIN WALK"
         ],
         [
             "en",
@@ -45,11 +45,11 @@ lang = {
             "DUE TERRAZZI SILENZIOSI",
             "WIFI GRATUITO",
             "Quartiere",
-            "SUPERMERCATO DAVANTI CASA",
+            "SUPERMERCATO DAVANTI",
             "PARCHEGGIO AUTO SOTTO CASA",
             "TABACCHERIA A 10M",
             "BAR A 100M SULLA STESSA STRADA",
-            "METRO GARBATELLA 1O MINUTI A PIEDI"
+            "METRO GARBATELLA 1O MIN A PIEDI"
         ],
         [
             "it",
