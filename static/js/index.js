@@ -1,14 +1,14 @@
 $(document).ready(function () {
 
-    screen = $(window).width();
-    if (screen <= 425) {
-        document.documentElement.style.setProperty("--scale", screen / 250);
-    } else if (425 < screen && screen <= 768) {
-        document.documentElement.style.setProperty("--scale", screen / 250 - 2);
-    } else if (768 < screen && screen <= 1024) {
-        document.documentElement.style.setProperty("--scale", screen / 250 - 2.5);
-    } else if (1024 < screen && screen <= 1440) {
-        document.documentElement.style.setProperty("--scale", screen / 250 - 3.5);
+    width = $(window).width();
+    if (width <= 425) {
+        document.documentElement.style.setProperty("--scale", width / 250);
+    } else if (425 < width && width <= 768) {
+        document.documentElement.style.setProperty("--scale", width / 250 - 2);
+    } else if (768 < width && width <= 1024) {
+        document.documentElement.style.setProperty("--scale", width / 250 - 2.5);
+    } else if (1024 < width && width <= 1440) {
+        document.documentElement.style.setProperty("--scale", width / 250 - 3.5);
     }
 
     setTimeout(function() {

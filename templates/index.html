@@ -27,21 +27,19 @@
     <body>
         <main>
             <div id = "background">
-                <div id = "obscure">
-                    <nav id = "navbar">
-                        <p id = "site">Garbatella Stylish Living</p>
-                        <select id = "languages">
-                            {% for x in range(2) %}
-                                {% set country = next(lang)%}
-                                <option value = "{{country}}">{{country}}</option>
-                            {% endfor %}
-                        </select>
-                    </nav>
-                    <p id = "title">{{next(lang)}}</p>
-                    <p id = "subtitle">{{next(lang)}}</p>
-                    <div id = "center">
-                        <button id = "book">{{next(lang)}}</button>
-                    </div>
+                <nav id = "navbar">
+                    <p id = "site">Garbatella Stylish Living</p>
+                    <select id = "languages">
+                        {% for x in range(2) %}
+                            {% set country = next(lang)%}
+                            <option value = "{{country}}">{{country}}</option>
+                        {% endfor %}
+                    </select>
+                </nav>
+                <p id = "title">{{next(lang)}}</p>
+                <p id = "subtitle">{{next(lang)}}</p>
+                <div id = "center">
+                    <button id = "book">{{next(lang)}}</button>
                 </div>
             </div>
             <div id = "carousel">
