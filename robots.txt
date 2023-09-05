@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.garbatellaelegantliving.com/sitemap.xml
+Sitemap: https://www.garbatella-elegant-apartment.com/sitemap.xml
