@@ -20,7 +20,7 @@ lang = {
             "AUTO PARKING UNDER THE HOUSE",
             "TOBACCO SHOP AT 10M",
             "CAFE 100M ON SAME STREET",
-            "'GARBATELLA' METRO 10 MINUTES WALK"
+            "GARBATELLA METRO 10 MINUTES WALK"
         ],
         [
             "en",
@@ -49,7 +49,7 @@ lang = {
             "PARCHEGGIO AUTO SOTTO CASA",
             "TABACCHERIA A 10M",
             "BAR A 100M SULLA STESSA STRADA",
-            "METRO 'GARBATELLA' A 1O MINUTI A PIEDI"
+            "METRO GARBATELLA 1O MINUTI A PIEDI"
         ],
         [
             "it",
