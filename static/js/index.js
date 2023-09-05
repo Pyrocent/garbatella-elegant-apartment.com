@@ -13,7 +13,7 @@ $(document).ready(function () {
 
     setTimeout(function() {
         $("main").css({"display": "block"})
-    }, 500);
+    }, 1000);
 
     $("select").change(function () {
         fetch("/", {
