@@ -2,6 +2,9 @@
   "files.exclude": {
     ".vscode": true,
     "__pycache__": true,
-    ".gitignore": true
+    ".gitignore": true,
+    "robots.txt": true,
+    "sitemap.xml": true,
+    "vercel.json": true
   }
 }
