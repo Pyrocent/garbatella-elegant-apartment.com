@@ -16,7 +16,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgb(44, 134, 217);
+    background: rgb(37, 104, 248);
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -87,8 +87,8 @@ main {
 #title {
     color: rgb(255, 255, 255);
     font-size: calc(var(--font-size-3) * var(--scale));
-    margin-top: calc(var(--margin-top-title) * var(--scale));
     filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.75));
+    margin-top: calc(var(--margin-top-title) * var(--scale));
 }
 
 #subtitle {
@@ -113,7 +113,7 @@ main {
     border-radius: 10px;
     color: rgb(255, 255, 255);
     font-family: "Cabin", sans-serif;
-    background-color: rgb(44, 134, 217);
+    background-color: rgb(37, 104, 248);
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
     width: calc(var(--button-width) * var(--scale));
     height: calc(var(--button-height) * var(--scale));
