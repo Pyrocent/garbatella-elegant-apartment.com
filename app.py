@@ -33,11 +33,11 @@ def book():
         next = next
     )
 
-@app.route("/robots")
+@app.route("/robots.txt")
 def robots():
     return send_file("robots.txt")
 
-@app.route("/sitemap")
+@app.route("/sitemap.xml")
 def sitemaps():
     return send_file("sitemap.txt")
 
