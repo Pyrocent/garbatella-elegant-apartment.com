@@ -15,15 +15,6 @@ $(document).ready(function () {
         $("main").css({"display": "block"})
     }, 500);
 
-    $("#carousel").slick({
-        arrows: false,
-        infinite: true,
-        autoplay: true,
-        autoplaySpeed: 3500,
-        slidesToShow: 2,
-        slidesToScroll: 2
-    });
-
     $("select").change(function () {
         fetch("/", {
             method: "POST",
@@ -42,5 +33,14 @@ $(document).ready(function () {
 
     $("#book").click(function () {
         window.location.href = "/book"
+    });
+
+    $("#carousel").slick({
+        arrows: false,
+        infinite: true,
+        autoplay: true,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        autoplaySpeed: 3000
     });
 });

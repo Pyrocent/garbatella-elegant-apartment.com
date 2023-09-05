@@ -27,28 +27,34 @@
     <body>
         <main>
             <div id = "background">
-                <nav id = "navbar">
-                    <p id = "site-name">Garbatella Stylish Living</p>
-                    <select>
-                        {% for x in range(2) %}
-                            {% set country = next(lang)%}
-                            <option value = "{{country}}">{{country}}</option>
-                        {% endfor %}
-                    </select>
-                </nav>
-                <p id = "title">{{next(lang)}}</p>
-                <p id = "subtitle">{{next(lang)}}</p>
-                <div id = "d">
-                    <button id = "book">{{next(lang)}}</button>
+                <div id = "obscure">
+                    <nav id = "navbar">
+                        <p id = "site">Garbatella Stylish Living</p>
+                        <select id = "languages">
+                            {% for x in range(2) %}
+                                {% set country = next(lang)%}
+                                <option value = "{{country}}">{{country}}</option>
+                            {% endfor %}
+                        </select>
+                    </nav>
+                    <p id = "title">{{next(lang)}}</p>
+                    <p id = "subtitle">{{next(lang)}}</p>
+                    <div id = "center">
+                        <button id = "book">{{next(lang)}}</button>
+                    </div>
                 </div>
             </div>
             <div id = "carousel">
-                <img class = "slide" src = "../static/assets/house/2.jpeg" alt = "">
-                <img class = "slide" src = "../static/assets/house/3.jpeg" alt = "">
-                <img class = "slide" src = "../static/assets/house/4.jpeg" alt = "">
-                <img class = "slide" src = "../static/assets/house/5.jpeg" alt = "">
-                <img class = "slide" src = "../static/assets/house/6.jpeg" alt = "">
-                <img class = "slide" src = "../static/assets/house/7.jpeg" alt = "">
+                <img class = "slide" src = "../static/assets/house/ingresso.jpeg" alt = "entrance">
+                <img class = "slide" src = "../static/assets/house/salone 1.jpeg" alt = "living room">
+                <img class = "slide" src = "../static/assets/house/salone 2.jpeg" alt = "living room">
+                <img class = "slide" src = "../static/assets/house/terrazzo 1.jpeg" alt = "terrace">
+                <img class = "slide" src = "../static/assets/house/camera letto 2.jpeg" alt = "bed room">
+                <img class = "slide" src = "../static/assets/house/bagno.jpeg" alt = "bathroom">
+                <img class = "slide" src = "../static/assets/house/cucina.jpeg" alt = "kitchen">
+                <img class = "slide" src = "../static/assets/house/camera letto 1.jpeg" alt = "bed room">
+                <img class = "slide" src = "../static/assets/house/terrazzo 2.jpeg" alt = "terrace">
+                <img class = "slide" src = "../static/assets/house/androne.jpeg" alt = "hall">
             </div>
         </main>
         <footer>
