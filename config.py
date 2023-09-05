@@ -7,7 +7,16 @@ lang = {
             "Italiano",
             "Enjoy The Comfort Of Your Holiday Home",
             "The Perfect Place To Stay In Rome",
-            "BOOK NOW"
+            "BOOK NOW",
+            "Entire House",
+            "A Spacious Living Room",
+            "Two Comfortable Double Beds",
+            "A Cozy Bathroom",
+            "An Equipped Kitchen",
+            "Two Silent Terraces",
+            "District",
+            "Supermarket Under The House",
+            "Metro Station 10 Minutes Walk"
         ],
         [
             "en",
@@ -23,7 +32,16 @@ lang = {
             "English",
             "Goditi Il Comfort Della Tua Casa Vacanza",
             "Il Luogo Ideale Per Soggiornare A Roma",
-            "PRENOTA ORA"
+            "PRENOTA ORA",
+            "Intera Casa",
+            "UN SOGGIORNO SPAZIOSO",
+            "DUE COMODI LETTI MATRIMONIALI",
+            "UN BAGNO ACCOGLIENTE",
+            "UNA CUCINA ACCESSORIATA",
+            "DUE TERRAZZI SILENZIOSI",
+            "Quartiere",
+            "SUPERMERCATO SOTTO CASA",
+            "STAZIONE METRO A 1O MINUTI A PIEDI"
         ],
         [
             "it",

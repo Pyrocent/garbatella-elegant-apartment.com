@@ -24,10 +24,10 @@
             gtag("config", "G-48TLHLB0VM");
         </script>
     </head>
-    <body>
+    <bo>
         <main>
-            <div id = "background">
-                <nav id = "navbar">
+            <section id = "background">
+                <nav>
                     <p id = "site">Garbatella Stylish Living</p>
                     <select id = "languages">
                         {% for x in range(2) %}
@@ -38,22 +38,47 @@
                 </nav>
                 <p id = "title">{{next(lang)}}</p>
                 <p id = "subtitle">{{next(lang)}}</p>
-                <div id = "center">
-                    <button id = "book">{{next(lang)}}</button>
+                <div id = "center"><button id = "book">{{next(lang)}}</button></div>
+            </section>
+
+            <section>
+                <div id = "carousel">
+                    <img class = "slide" src = "../static/assets/house/house-01.jpeg" alt = "entrance">
+                    <img class = "slide" src = "../static/assets/house/house-02.jpeg" alt = "living room">
+                    <img class = "slide" src = "../static/assets/house/house-03.jpeg" alt = "living room">
+                    <img class = "slide" src = "../static/assets/house/house-04.jpeg" alt = "terrace">
+                    <img class = "slide" src = "../static/assets/house/house-05.jpeg" alt = "bed room">
+                    <img class = "slide" src = "../static/assets/house/house-06.jpeg" alt = "bathroom">
+                    <img class = "slide" src = "../static/assets/house/house-07.jpeg" alt = "kitchen">
+                    <img class = "slide" src = "../static/assets/house/house-08.jpeg" alt = "bed room">
+                    <img class = "slide" src = "../static/assets/house/house-09.jpeg" alt = "terrace">
+                    <img class = "slide" src = "../static/assets/house/house-10.jpeg" alt = "hall">
                 </div>
-            </div>
-            <div id = "carousel">
-                <img class = "slide" src = "../static/assets/house/ingresso.jpeg" alt = "entrance">
-                <img class = "slide" src = "../static/assets/house/salone-1.jpeg" alt = "living room">
-                <img class = "slide" src = "../static/assets/house/salone-2.jpeg" alt = "living room">
-                <img class = "slide" src = "../static/assets/house/terrazzo-1.jpeg" alt = "terrace">
-                <img class = "slide" src = "../static/assets/house/camera-letto-2.jpeg" alt = "bed room">
-                <img class = "slide" src = "../static/assets/house/bagno.jpeg" alt = "bathroom">
-                <img class = "slide" src = "../static/assets/house/cucina.jpeg" alt = "kitchen">
-                <img class = "slide" src = "../static/assets/house/camera-letto-1.jpeg" alt = "bed room">
-                <img class = "slide" src = "../static/assets/house/terrazzo-2.jpeg" alt = "terrace">
-                <img class = "slide" src = "../static/assets/house/androne.jpeg" alt = "hall">
-            </div>
+            </section>
+
+            <section id = "offer">
+
+                <iframe src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1249.2741725420026!2d12.494126158568635!3d41.865075074793495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13258b0a8680a7f7%3A0x30b341755018f6cb!2sGarbatella%20Elegant%20Living!5e0!3m2!1sen!2sit!4v1693936905901!5m2!1sen!2sit" allowfullscreen = "" loading = "lazy" referrerpolicy = "no-referrer-when-downgrade"></iframe>
+
+                <div id = "group-1">
+                    <p>{{next(lang)}}</p>
+                    <div><img src = "../static/assets/icons/icon-01.png" alt = "living room">{{next(lang)}}</div>
+                    <div><img src = "../static/assets/icons/icon-02.png" alt = "bed room">{{next(lang)}}</div>
+                    <div><img src = "../static/assets/icons/icon-03.png" alt = "bathroom">{{next(lang)}}</div>
+                    <div><img src = "../static/assets/icons/icon-04.png" alt = "kitchen">{{next(lang)}}</div>
+                    <div><img src = "../static/assets/icons/icon-05.png" alt = "terrace">{{next(lang)}}</div>
+                </div>
+
+                <div id = "group-2">
+                    <p>{{next(lang)}}</p>
+                    <div><img src = "../static/assets/icons/icon-06.png" alt = "supermarket">{{next(lang)}}</div>
+                    <div><img src = "../static/assets/icons/icon-07.png" alt = "metro">{{next(lang)}}</div>    
+                </div>
+
+            </section>
+
+            <footer>
+            </footer>
         </main>
         <footer>
         </footer>
