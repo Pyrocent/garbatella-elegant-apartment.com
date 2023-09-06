@@ -21,7 +21,7 @@ lang = {
             "TOBACCO SHOP AT 10M",
             "CAFE AT 100M IN THE SAME STREET",
             "'GARBATELLA' METRO STATION AT 10 MINUTES WALK",
-            "LESS THAN 25 MINUTES FROM THE CITY CENTRE"
+            "LESS THAN 20 MINUTES FROM THE CITY CENTRE"
         ],
         [
             "en",
@@ -51,7 +51,7 @@ lang = {
             "TABACCHERIA A 10M",
             "BAR A 100M NELLA STESSA VIA",
             "STAZIONE METRO 'GARBATELLA' A 1O MINUTI A PIEDI",
-            "A MENO DI 25 MINUTI DAL CENTRO"
+            "A MENO DI 20 MINUTI DAL CENTRO"
         ],
         [
             "it",
