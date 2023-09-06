@@ -15,7 +15,7 @@ $(document).ready(function () {
         $("main").css({"display": "block"})
     }, 1000);
 
-    $("select").change(function () {
+    $("languages").change(function () {
         fetch("/", {
             method: "POST",
             headers: {"Content-Type": "application/x-www-form-urlencoded"},
