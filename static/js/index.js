@@ -1,18 +1,5 @@
 $(document).ready(function () {
 
-    width = $(window).width();
-    if (width <= 425) {
-        document.documentElement.style.setProperty("--scale", width / 250);
-    } else if (425 < width && width <= 1024) {
-        document.documentElement.style.setProperty("--scale", width / 250 - 2);
-    } else if (1024 < width && width <= 1440) {
-        document.documentElement.style.setProperty("--scale", width / 250 - 3);
-    }
-
-    setTimeout(function() {
-        $("main").css({"display": "block"})
-    }, 1000);
-
     $("#languages").change(function () {
         fetch("/", {
             method: "POST",
@@ -40,6 +27,7 @@ $(document).ready(function () {
         slidesToScroll: 1,
         asNavFor: "#slider-nav"
     });
+
     $("#slider-nav").slick({
         arrows: false,
         autoplay: true,
