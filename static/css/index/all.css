@@ -5,7 +5,7 @@ html, body {
 body {
     margin: 0 5px;
     overflow-x: hidden;
-    font-family: "Cabin", sans-serif !important;
+    font-family: "Cabin", sans-serif;
 }
 
 body::-webkit-scrollbar {
