@@ -30,7 +30,7 @@
                 <nav id = "navbar">
                     <p id = "name">Garbatella Elegant Apartment</p>
                     <select id = "languages">
-                        {% for x in range(2) %}
+                        {% for x in range(5) %}
                             {% set country = next(lang)%}
                             <option value = "{{country}}">{{country}}</option>
                         {% endfor %}
@@ -40,20 +40,35 @@
                 <p id = "subtitle">{{next(lang)}}</p>
                 <div class = "center"><button class = "book">{{next(lang)}}</button></div>
             </header>
-            <section id = "carousel">
-                <img class = "slide" src = "../static/assets/house/house-01.jpeg" alt = "entrance">
-                <img class = "slide" src = "../static/assets/house/house-02.jpeg" alt = "living room">
-                <img class = "slide" src = "../static/assets/house/house-03.jpeg" alt = "living room">
-                <img class = "slide" src = "../static/assets/house/house-04.jpeg" alt = "terrace">
-                <img class = "slide" src = "../static/assets/house/house-05.jpeg" alt = "bed room">
-                <img class = "slide" src = "../static/assets/house/house-06.jpeg" alt = "bathroom">
-                <img class = "slide" src = "../static/assets/house/house-07.jpeg" alt = "kitchen">
-                <img class = "slide" src = "../static/assets/house/house-08.jpeg" alt = "bed room">
-                <img class = "slide" src = "../static/assets/house/house-09.jpeg" alt = "terrace">
-                <img class = "slide" src = "../static/assets/house/house-10.jpeg" alt = "hall">
+            <section id = "sliders">
+                <div id = "slider-for">
+                    <img class = "slide" src = "../static/assets/house/house-01.jpeg" alt = "entrance">
+                    <img class = "slide" src = "../static/assets/house/house-02.jpeg" alt = "living room">
+                    <img class = "slide" src = "../static/assets/house/house-03.jpeg" alt = "living room">
+                    <img class = "slide" src = "../static/assets/house/house-04.jpeg" alt = "terrace">
+                    <img class = "slide" src = "../static/assets/house/house-05.jpeg" alt = "bed room">
+                    <img class = "slide" src = "../static/assets/house/house-06.jpeg" alt = "bathroom">
+                    <img class = "slide" src = "../static/assets/house/house-07.jpeg" alt = "kitchen">
+                    <img class = "slide" src = "../static/assets/house/house-08.jpeg" alt = "bed room">
+                    <img class = "slide" src = "../static/assets/house/house-09.jpeg" alt = "terrace">
+                    <img class = "slide" src = "../static/assets/house/house-10.jpeg" alt = "hall">
+                </div>
+                <div id = "slider-nav">
+                    <img class = "slide" src = "../static/assets/house/house-01.jpeg" alt = "entrance">
+                    <img class = "slide" src = "../static/assets/house/house-02.jpeg" alt = "living room">
+                    <img class = "slide" src = "../static/assets/house/house-03.jpeg" alt = "living room">
+                    <img class = "slide" src = "../static/assets/house/house-04.jpeg" alt = "terrace">
+                    <img class = "slide" src = "../static/assets/house/house-05.jpeg" alt = "bed room">
+                    <img class = "slide" src = "../static/assets/house/house-06.jpeg" alt = "bathroom">
+                    <img class = "slide" src = "../static/assets/house/house-07.jpeg" alt = "kitchen">
+                    <img class = "slide" src = "../static/assets/house/house-08.jpeg" alt = "bed room">
+                    <img class = "slide" src = "../static/assets/house/house-09.jpeg" alt = "terrace">
+                    <img class = "slide" src = "../static/assets/house/house-10.jpeg" alt = "hall">
+                </div>
             </section>
-            <iframe id = "map" title = "Garbatella Elegant Apartment" src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1485.646389142045!2d12.493335485153713!3d41.86504690519352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13258b0a8680a7f7%3A0x30b341755018f6cb!2sGarbatella%20Elegant%20Apartment!5e0!3m2!1sen!2sit!4v1693959592948!5m2!1sen!2sit" allowfullscreen="" loading = "lazy" referrerpolicy = "no-referrer-when-downgrade"></iframe>
-            <section id = "section-03">
+
+            <!-- <iframe id = "map" title = "Garbatella Elegant Apartment" src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1485.646389142045!2d12.493335485153713!3d41.86504690519352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13258b0a8680a7f7%3A0x30b341755018f6cb!2sGarbatella%20Elegant%20Apartment!5e0!3m2!1sen!2sit!4v1693959592948!5m2!1sen!2sit" allowfullscreen="" loading = "lazy" referrerpolicy = "no-referrer-when-downgrade"></iframe>
+            <section id = "section-02">
                 <div id = "home">
                     <p>{{next(lang)}}</p>
                     <div><img src = "../static/assets/icons/icon-01.png" alt = "living room">{{next(lang)}}</div>
@@ -72,12 +87,8 @@
                     <div><img src = "../static/assets/icons/icon-11.png" alt = "metro">{{next(lang)}}</div>
                     <div><img src = "../static/assets/icons/icon-12.png" alt = "centre">{{next(lang)}}</div>
                 </div>
-            </section>
-            <footer>
-            </footer>
+            </section> -->
         </main>
-        <footer>
-        </footer>
         <script src = "../static/js/index.js"></script>
     </body>
 </html>

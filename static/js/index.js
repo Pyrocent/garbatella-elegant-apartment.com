@@ -3,12 +3,10 @@ $(document).ready(function () {
     width = $(window).width();
     if (width <= 425) {
         document.documentElement.style.setProperty("--scale", width / 250);
-    } else if (425 < width && width <= 768) {
+    } else if (425 < width && width <= 1024) {
         document.documentElement.style.setProperty("--scale", width / 250 - 2);
-    } else if (768 < width && width <= 1024) {
-        document.documentElement.style.setProperty("--scale", width / 250 - 2.5);
     } else if (1024 < width && width <= 1440) {
-        document.documentElement.style.setProperty("--scale", width / 250 - 3.5);
+        document.documentElement.style.setProperty("--scale", width / 250 - 3);
     }
 
     setTimeout(function() {
@@ -35,12 +33,31 @@ $(document).ready(function () {
         window.location.href = "/book"
     });
 
-    $("#carousel").slick({
+    $("#slider-for").slick({
+        fade: true,
         arrows: false,
-        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        asNavFor: "#slider-nav"
+    });
+    $("#slider-nav").slick({
+        arrows: false,
         autoplay: true,
-        slidesToShow: 2,
-        slidesToScroll: 2,
-        autoplaySpeed: 3000
+        vertical: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        focusOnSelect: true,
+        pauseOnHover: false,
+        pauseOnFocus: false,
+        autoplaySpeed: 3000,
+        asNavFor: "#slider-for",
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    vertical: false
+                }
+            }
+        ]
     });
 });

@@ -1,14 +1,25 @@
 lang = {
+    "de": [
+        [
+            "de"
+        ],
+        [
+            "de"
+        ]
+    ],
     "en": [
         [
             "en",
             "Enjoy The Comfort Of Your Holiday Home In The Garbatella District - The Ideal Place To Stay In Rome",
             "English",
+            "Deutsch",
+            "Español",
+            "Français",
             "Italiano",
             "Enjoy The Comfort Of Your Holiday Home",
             "The Perfect Place To Stay In Rome",
             "BOOK NOW",
-            "Entire House",
+            "100m² House",
             "A SPACIOUS LIVING ROOM",
             "TWO COMFORTABLE DOUBLE BEDS",
             "A COZY BATHROOM",
@@ -29,16 +40,35 @@ lang = {
             "Enjoy The Comfort Of Your Holiday Home In The Garbatella District - The Ideal Place To Stay In Rome"
         ]
     ],
+    "es": [
+        [
+            "es"
+        ],
+        [
+            "es"
+        ]
+    ],
+    "fr": [
+        [
+            "fr"
+        ],
+        [
+            "fr"
+        ]
+    ],
     "it": [
         [
             "it",
             "Goditi Il Comfort Della Tua Casa Vacanza Nel Quartiere Garbatella - Il Luogo Ideale Per Soggiornare A Roma",
             "Italiano",
+            "Deutsch",
             "English",
+            "Español",
+            "Français",
             "Goditi Il Comfort Della Tua Casa Vacanza",
             "Il Luogo Ideale Per Soggiornare A Roma",
             "PRENOTA ORA",
-            "Intera Casa",
+            "100m² Di Casa",
             "UN SOGGIORNO SPAZIOSO",
             "DUE COMODI LETTI MATRIMONIALI",
             "UN BAGNO ACCOGLIENTE",

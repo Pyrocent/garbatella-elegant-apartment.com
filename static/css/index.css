@@ -17,7 +17,7 @@ html, body {
 }
 
 body {
-    margin: 0;
+    margin: 0 5px;
     font-family: "Cabin", sans-serif;
 }
 
@@ -31,13 +31,11 @@ main {
 
 header {
     display: flex;
+    margin-bottom: 5px;
     flex-direction: column;
-    background-size: cover;
-    background-position: center;
     border-radius: 0 0 20px 20px;
-    background-repeat: no-repeat;
     height: calc(var(--background-height) * var(--scale));
-    background-image: url("../assets/house/house-00.jpeg");
+    background: url("../assets/house/house-00.jpeg") center -300px no-repeat fixed;
 }
 
 #navbar {
@@ -103,42 +101,67 @@ header {
     font-size: calc(var(--font-size-2) * var(--scale));
 }
 
-#carousel {
-    margin-top: 10px;
+#sliders {
+    gap: 5px;
+    display: flex;
+    max-width: fit-content;
+}
+
+#slider-nav {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#slider-nav .slide {
+    cursor: pointer;
+    padding-right: 5px;
 }
 
 .slide {
-    cursor: pointer;
-    margin-left: 5px;
-    margin-right: 5px;
     border-radius: 10px;
 }
 
-#section-03 {
-    margin: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+@media screen and (max-width: 767px) {
+    #sliders {
+        flex-wrap: wrap;
+    }
+    #slider-for, #slider-nav {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 768px) {
+    #slider-for {
+        width: 75%;
+    }
+    #slider-nav {
+        width: 25%;
+    }
 }
 
-#map {
-    width: 100%;
-    margin-top: 10px;
-    height: calc(var(--background-height) * var(--scale) / 4 * 2.5);
+
+
+
+/* #map {
+    max-height: 25%;
+    min-width: 100%;
+}
+
+#section-02 {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #home, #district {
     gap: 5px;
     display: flex;
-    margin-bottom: 20px;
     flex-direction: column;
     align-items: flex-start;
     font-size: calc(var(--font-size-1) * var(--scale));
 }
 
 #home p, #district p {
-    margin: 0 0 20px 0;
-    text-align: center;
+    margin: 0;
     font-size: calc(var(--font-size-3) * var(--scale));
 }
 
@@ -148,4 +171,4 @@ header {
     padding-left: 20px;
     align-items: center;
     font-size: calc(var(--font-size-2) * var(--scale));
-}
+} */
