@@ -29,7 +29,7 @@ main {
     display: none;
 }
 
-#section-01 {
+header {
     display: flex;
     flex-direction: column;
     background-size: cover;
