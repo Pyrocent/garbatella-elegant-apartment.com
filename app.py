@@ -18,8 +18,7 @@ def index():
 
     return render_template(
         "index.html",
-        lang = iter(lang[session.get("lang", request.accept_languages.best_match(lang.keys()))][0]),
-        next = next
+        lang = iter(lang[session.get("lang", request.accept_languages.best_match(lang.keys()), default = "en")]["index"])
     )
 
 @app.route("/book", methods = ["GET", "POST"])
@@ -29,8 +28,7 @@ def book():
 
     return render_template(
         "book.html",
-        lang = iter(lang[session.get("lang", request.accept_languages.best_match(lang.keys()))][1]),
-        next = next
+        lang = iter(lang[session.get("lang", request.accept_languages.best_match(lang.keys()), default = "en")]["book"])
     )
 
 @app.route("/robots.txt")
