@@ -3,6 +3,7 @@
     ".vscode": true,
     "__pycache__": true,
     ".gitignore": true,
+    "requirements.txt": true,
     "robots.txt": true,
     "sitemap.xml": true,
     "vercel.json": true
