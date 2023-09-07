@@ -10,6 +10,7 @@ lang = {
     "en": [
         [
             "en",
+            "Holiday Home in Rome | Elegant and Welcoming",
             "Enjoy The Comfort Of Your Holiday Home In The Garbatella District - The Ideal Place To Stay In Rome",
             "English",
             "Deutsch",
@@ -59,7 +60,8 @@ lang = {
     "it": [
         [
             "it",
-            "Goditi Il Comfort Della Tua Casa Vacanza Nel Quartiere Garbatella - Il Luogo Ideale Per Soggiornare A Roma",
+            "Casa Vacanze a Roma | Elegante e Accogliente",
+            "Goditi Il Comfort Della Tua Casa Vacanze Nel Quartiere Garbatella - Il Luogo Ideale Per Soggiornare A Roma",
             "Italiano",
             "Deutsch",
             "English",
