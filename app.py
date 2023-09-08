@@ -15,19 +15,19 @@ app.secret_key = "key"
 def index():
     return render_template(
         "index.html",
-        lang = iter(lang[session.get("lang", request.accept_languages.best_match(lang.keys(), default = "en"))]["index"])
+        lang = lang[session.get("lang", request.accept_languages.best_match(lang.keys(), default = "en"))]["index"]
     )
 
 @app.get("/book")
 def book():
     return render_template(
         "book.html",
-        lang = iter(lang[session.get("lang", request.accept_languages.best_match(lang.keys(), default = "en"))]["book"])
+        lang = lang[session.get("lang", request.accept_languages.best_match(lang.keys(), default = "en"))]["book"]
     )
 
 @app.post("/")
 @app.post("/book")
-def a():
+def _():
     session["lang"] = request.form.get("lang")
 
 @app.route("/robots.txt")

@@ -2,7 +2,7 @@
 <html lang = '{{lang["country code"]}}'>
     <head>
         <meta charset = "UTF-8">
-        <title>{{lang["title"]}}</title>
+        <title>{{lang["tab title"]}}</title>
         <meta name = "theme-color" content = "#2568f8">
         <meta name = "author" content = "Alessandro Panzieri">
         <meta name = "description" content = '{{lang["description"]}}'>
@@ -37,15 +37,14 @@
                 <nav id = "navbar">
                     <p id = "name">Garbatella Elegant Apartment</p>
                     <select id = "languages">
-                        {% for x in range(5) %}
-                            {% set country = lang[""]%}
-                            <option value = "{{country}}">{{country}}</option>
+                        {% for language in lang["supported languages"] %}
+                            <option value = "{{language}}">{{language}}</option>
                         {% endfor %}
                     </select>
                 </nav>
-                <p id = "title">{{lang[""]}}</p>
-                <p id = "subtitle">{{lang[""]}}</p>
-                <div class = "center"><button class = "book">{{lang[""]}}</button></div>
+                <p id = "title">{{lang["header title"]}}</p>
+                <p id = "subtitle">{{lang["header subtitle"]}}</p>
+                <div class = "center"><button class = "book">{{lang["book button"]}}</button></div>
             </header>
             <section id = "sliders">
                 <div id = "slider-for">

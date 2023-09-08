@@ -10,21 +10,17 @@ lang = {
     "en": {
         "index": {
             "country code": "en",
-            "title": "Holiday Home in Rome | Elegant and Welcoming",
-            "description": "Enjoy The Comfort Of Your Holiday Home In The Garbatella District - The Ideal Place To Stay In Rome"
+            "tab title": "Holiday Home in Rome | Elegant and Welcoming",
+            "description": "Enjoy The Comfort Of Your Holiday Home In The Garbatella District - The Ideal Place To Stay In Rome",
+            "supported languages": ["English", "Deutsch", "Español", "Français", "Italiano"],
+            "header title": "Enjoy The Comfort Of Your Holiday Home",
+            "header subtitle": "The Perfect Place To Stay In Rome",
+            "book button": "BOOK NOW"
         },
         "book": {
             "country code": "en",
-            "title": "Book Your Next Holiday",
+            "tab title": "Book Your Next Holiday",
             "description": "Enjoy The Comfort Of Your Holiday Home In The Garbatella District - The Ideal Place To Stay In Rome",
-            "": "English",
-            "": "Deutsch",
-            "": "Español",
-            "": "Français",
-            "": "Italiano",
-            "": "Enjoy The Comfort Of Your Holiday Home",
-            "": "The Perfect Place To Stay In Rome",
-            "": "BOOK NOW"
         }
     },
     "es": {
@@ -46,21 +42,17 @@ lang = {
     "it": {
         "index": {
             "country code": "it",
-            "title": "Casa Vacanze a Roma | Elegante e Accogliente",
-            "description": "Goditi Il Comfort Della Tua Casa Vacanze Nel Quartiere Garbatella - Il Luogo Ideale Per Soggiornare A Roma"
+            "tab title": "Casa Vacanze a Roma | Elegante e Accogliente",
+            "description": "Goditi Il Comfort Della Tua Casa Vacanze Nel Quartiere Garbatella - Il Luogo Ideale Per Soggiornare A Roma",
+            "supported languages": ["Italiano", "Deutsch", "English", "Español", "Français"],
+            "header title": "Goditi Il Comfort Della Tua Casa Vacanza",
+            "header subtitle": "Il Luogo Ideale Per Soggiornare A Roma",
+            "book button": "PRENOTA ORA"
         },
         "book": {
             "country code": "it",
-            "title": "Prenota Il Tuo Viaggio",
+            "tab title": "Prenota Il Tuo Viaggio",
             "description": "Goditi Il Comfort Della Tua Casa Vacanze Nel Quartiere Garbatella - Il Luogo Ideale Per Soggiornare A Roma",
-            "": "Italiano",
-            "": "Deutsch",
-            "": "English",
-            "": "Español",
-            "": "Français",
-            "": "Goditi Il Comfort Della Tua Casa Vacanza",
-            "": "Il Luogo Ideale Per Soggiornare A Roma",
-            "": "PRENOTA ORA"
         }
     }
 }
