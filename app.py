@@ -11,25 +11,24 @@ from flask import (
 app = Flask(__name__)
 app.secret_key = "key"
 
-@app.route("/", methods = ["GET", "POST"])
+@app.get("/")
 def index():
-    if request.method == "POST":
-        session["lang"] = request.form.get("lang")
-
     return render_template(
         "index.html",
-        lang = iter(lang[session.get("lang", request.accept_languages.best_match(lang.keys()), default = "en")]["index"])
+        lang = iter(lang[session.get("lang", request.accept_languages.best_match(lang.keys(), default = "en"))]["index"])
     )
 
-@app.route("/book", methods = ["GET", "POST"])
+@app.get("/book")
 def book():
-    if request.method == "POST":
-        session["lang"] = request.form.get("lang")
-
     return render_template(
         "book.html",
-        lang = iter(lang[session.get("lang", request.accept_languages.best_match(lang.keys()), default = "en")]["book"])
+        lang = iter(lang[session.get("lang", request.accept_languages.best_match(lang.keys(), default = "en"))]["book"])
     )
+
+@app.post("/")
+@app.post("/book")
+def a():
+    session["lang"] = request.form.get("lang")
 
 @app.route("/robots.txt")
 def robots():
