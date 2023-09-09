@@ -3,7 +3,10 @@ lang = {
         "index": {
             "country code": "de"
         },
-        "book": {
+        "book-holiday": {
+            "country code": "de"
+        },
+        "pay-city-tax": {
             "country code": "de"
         }
     },
@@ -17,17 +20,25 @@ lang = {
             "header subtitle": "The Perfect Place To Stay In Rome",
             "book button": "BOOK NOW"
         },
-        "book": {
+        "book-holiday": {
             "country code": "en",
-            "tab title": "Book Your Next Holiday",
+            "tab title": "Book Your Holiday Home",
             "description": "Enjoy The Comfort Of Your Holiday Home In The Garbatella District - The Ideal Place To Stay In Rome",
+        },
+        "pay-city-tax": {
+            "country code": "en",
+            "tab title": "City Tax Payment",
+            "description": ""
         }
     },
     "es": {
         "index": {
             "country code": "es"
         },
-        "book": {
+        "book-holiday": {
+            "country code": "es"
+        },
+        "pay-city-tax": {
             "country code": "es"
         }
     },
@@ -35,7 +46,10 @@ lang = {
         "index": {
             "country code": "fr"
         },
-        "book": {
+        "book-holiday": {
+            "country code": "fr"
+        },
+        "pay-city-tax": {
             "country code": "fr"
         }
     },
@@ -49,10 +63,15 @@ lang = {
             "header subtitle": "Il Luogo Ideale Per Soggiornare A Roma",
             "book button": "PRENOTA ORA"
         },
-        "book": {
+        "book-holiday": {
             "country code": "it",
-            "tab title": "Prenota Il Tuo Viaggio",
-            "description": "Goditi Il Comfort Della Tua Casa Vacanze Nel Quartiere Garbatella - Il Luogo Ideale Per Soggiornare A Roma",
+            "tab title": "Prenota La Tua Casa Vacanze",
+            "description": "Goditi Il Comfort Della Tua Casa Vacanze Nel Quartiere Garbatella - Il Luogo Ideale Per Soggiornare A Roma"
+        },
+        "pay-city-tax": {
+            "country code": "it",
+            "tab title": "Pagamento Tassa Di Soggiorno",
+            "description": ""
         }
     }
 }

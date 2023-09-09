@@ -18,15 +18,23 @@ def index():
         lang = lang[session.get("lang", request.accept_languages.best_match(lang.keys(), default = "en"))]["index"]
     )
 
-@app.get("/book")
-def book():
+@app.get("/book-holiday")
+def book_holiday():
     return render_template(
-        "book.html",
-        lang = lang[session.get("lang", request.accept_languages.best_match(lang.keys(), default = "en"))]["book"]
+        "book-holiday.html",
+        lang = lang[session.get("lang", request.accept_languages.best_match(lang.keys(), default = "en"))]["book-holiday"]
+    )
+
+@app.get("/pay-city-tax")
+def pay_city_tax():
+    return render_template(
+        "pay-city-tax.html",
+        lang = lang[session.get("lang", request.accept_languages.best_match(lang.keys(), default = "en"))]["pay-city-tax"]
     )
 
 @app.post("/")
-@app.post("/book")
+@app.post("/book-holiday")
+@app.post("/pay-city-tax")
 def _():
     session["lang"] = request.form.get("lang")
 

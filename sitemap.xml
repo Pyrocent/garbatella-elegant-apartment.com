@@ -2,10 +2,14 @@
 <urlset xmlns = "http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://www.garbatella-elegant-apartment.com/</loc>
-        <priority>0.8</priority>
+        <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://www.garbatella-elegant-apartment.com/book</loc>
-        <priority>0.2</priority>
+        <loc>https://www.garbatella-elegant-apartment.com/book-holiday</loc>
+        <priority>1.5</priority>
+    </url>
+    <url>
+        <loc>https://www.garbatella-elegant-apartment.com/pay-city-tax</loc>
+        <priority>1.5</priority>
     </url>
 </urlset>
