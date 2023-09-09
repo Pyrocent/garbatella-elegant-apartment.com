@@ -1,3 +1,4 @@
+from secrets import token_hex
 from config import lang
 from flask import (
     Flask,
@@ -9,7 +10,7 @@ from flask import (
 )
 
 app = Flask(__name__)
-app.secret_key = "key"
+app.config["SECRET_KEY"] = token_hex(16)
 
 @app.get("/")
 def index():
