@@ -71,16 +71,10 @@ header {
 #sliders {
     gap: 5px;
     display: flex;
-    flex-wrap: wrap;
-}
-
-#for, #nav {
-    width: 100%;
 }
 
 #nav {
-    overflow-x: hidden;
-    overflow-y: hidden;
+    overflow: hidden;
 }
 
 #nav .slide {

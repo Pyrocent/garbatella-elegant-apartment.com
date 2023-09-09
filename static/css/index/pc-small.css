@@ -81,8 +81,7 @@ header {
 
 #nav {
     width: 25%;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    overflow: hidden;
 }
 
 #nav .slide {
