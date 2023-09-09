@@ -15,21 +15,21 @@ app.config["SECRET_KEY"] = token_hex(16)
 @app.route("/")
 def index():
     return render_template(
-        "index.html",
+        "min/index.min.html",
         lang = lang[session.get("lang", request.accept_languages.best_match(lang.keys(), default = "en"))]["index"]
     )
 
 @app.get("/book-holiday-home")
 def book_holiday_home():
     return render_template(
-        "book-holiday-home.html",
+        "min/book-holiday-home.min.html",
         lang = lang[session.get("lang", request.accept_languages.best_match(lang.keys(), default = "en"))]["book-holiday-home"]
     )
 
 @app.get("/tourist-tax-payment")
 def tourist_tax_payment():
     return render_template(
-        "tourist-tax-payment.html",
+        "min/tourist-tax-payment.min.html",
         lang = lang[session.get("lang", request.accept_languages.best_match(lang.keys(), default = "en"))]["tourist-tax-payment"]
     )
 
