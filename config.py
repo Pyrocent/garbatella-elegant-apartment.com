@@ -6,7 +6,7 @@ lang = {
         "book-holiday-home": {
             "country code": "de"
         },
-        "pay-city-tax": {
+        "city-tax-payment": {
             "country code": "de"
         }
     },
@@ -25,7 +25,7 @@ lang = {
             "tab title": "Book Your Holiday Home",
             "description": "Enjoy The Comfort Of Your Holiday Home In The Garbatella District - The Ideal Place To Stay In Rome",
         },
-        "pay-city-tax": {
+        "city-tax-payment": {
             "country code": "en",
             "tab title": "City Tax Payment",
             "description": ""
@@ -38,7 +38,7 @@ lang = {
         "book-holiday-home": {
             "country code": "es"
         },
-        "pay-city-tax": {
+        "city-tax-payment": {
             "country code": "es"
         }
     },
@@ -49,7 +49,7 @@ lang = {
         "book-holiday-home": {
             "country code": "fr"
         },
-        "pay-city-tax": {
+        "city-tax-payment": {
             "country code": "fr"
         }
     },
@@ -68,7 +68,7 @@ lang = {
             "tab title": "Prenota La Tua Casa Vacanze",
             "description": "Goditi Il Comfort Della Tua Casa Vacanze Nel Quartiere Garbatella - Il Luogo Ideale Per Soggiornare A Roma"
         },
-        "pay-city-tax": {
+        "city-tax-payment": {
             "country code": "it",
             "tab title": "Pagamento Tassa Di Soggiorno",
             "description": ""
