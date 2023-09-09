@@ -39,11 +39,11 @@ def tourist_tax_payment():
 def _():
     session["lang"] = request.form.get("lang")
 
-@app.route("/robots.txt")
+@app.get("/robots.txt")
 def robots():
     return send_file("robots.txt")
 
-@app.route("/sitemap.xml")
+@app.get("/sitemap.xml")
 def sitemaps():
     return send_file("sitemap.txt")
 

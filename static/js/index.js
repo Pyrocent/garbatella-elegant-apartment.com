@@ -39,13 +39,11 @@ $(document).ready(function () {
         pauseOnFocus: false,
         autoplaySpeed: 3000,
         asNavFor: "#slider-for",
-        responsive: [
-            {
-                breakpoint: 768,
-                settings: {
-                    vertical: false
-                }
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                vertical: false
             }
-        ]
+        }]
     });
 });
