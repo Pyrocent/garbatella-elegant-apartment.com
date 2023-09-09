@@ -38,7 +38,7 @@ def tourist_tax_payment():
 @app.post("/tourist-tax-payment")
 def _():
     session["lang"] = request.form.get("lang")
-    return "language has been changed to the selected one", 200
+    return "", 200
 
 @app.get("/robots.txt")
 def robots():
