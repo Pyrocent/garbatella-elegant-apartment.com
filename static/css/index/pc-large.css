@@ -75,17 +75,17 @@ header {
     display: flex;
 }
 
-#slider-for {
+#for {
     width: 75%;
 }
 
-#slider-nav {
+#nav {
     width: 25%;
     overflow-x: hidden;
     overflow-y: hidden;
 }
 
-#slider-nav .slide {
+#nav .slide {
     cursor: pointer;
     padding-right: 5px;
 }

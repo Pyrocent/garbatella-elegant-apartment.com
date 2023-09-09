@@ -20,25 +20,25 @@ $(document).ready(function () {
         window.location.href = "/book-holiday-home"
     });
 
-    $("#slider-for").slick({
+    $("#for").slick({
         fade: true,
         arrows: false,
         slidesToShow: 1,
-        slidesToScroll: 1,
-        asNavFor: "#slider-nav"
+        asNavFor: "#nav",
+        slidesToScroll: 1
     });
 
-    $("#slider-nav").slick({
+    $("#nav").slick({
         arrows: false,
         autoplay: true,
         vertical: true,
         slidesToShow: 3,
+        asNavFor: "#for",
         slidesToScroll: 1,
         focusOnSelect: true,
         pauseOnHover: false,
         pauseOnFocus: false,
         autoplaySpeed: 3000,
-        asNavFor: "#slider-for",
         responsive: [{
             breakpoint: 768,
             settings: {

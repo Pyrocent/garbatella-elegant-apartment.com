@@ -74,16 +74,16 @@ header {
     flex-wrap: wrap;
 }
 
-#slider-for, #slider-nav {
+#for, #nav {
     width: 100%;
 }
 
-#slider-nav {
+#nav {
     overflow-x: hidden;
     overflow-y: hidden;
 }
 
-#slider-nav .slide {
+#nav .slide {
     padding-right: 5px;
 }
 
