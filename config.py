@@ -3,7 +3,7 @@ lang = {
         "index": {
             "country code": "de"
         },
-        "book-holiday": {
+        "book-holiday-home": {
             "country code": "de"
         },
         "pay-city-tax": {
@@ -20,7 +20,7 @@ lang = {
             "header subtitle": "The Perfect Place To Stay In Rome",
             "book button": "BOOK NOW"
         },
-        "book-holiday": {
+        "book-holiday-home": {
             "country code": "en",
             "tab title": "Book Your Holiday Home",
             "description": "Enjoy The Comfort Of Your Holiday Home In The Garbatella District - The Ideal Place To Stay In Rome",
@@ -35,7 +35,7 @@ lang = {
         "index": {
             "country code": "es"
         },
-        "book-holiday": {
+        "book-holiday-home": {
             "country code": "es"
         },
         "pay-city-tax": {
@@ -46,7 +46,7 @@ lang = {
         "index": {
             "country code": "fr"
         },
-        "book-holiday": {
+        "book-holiday-home": {
             "country code": "fr"
         },
         "pay-city-tax": {
@@ -63,7 +63,7 @@ lang = {
             "header subtitle": "Il Luogo Ideale Per Soggiornare A Roma",
             "book button": "PRENOTA ORA"
         },
-        "book-holiday": {
+        "book-holiday-home": {
             "country code": "it",
             "tab title": "Prenota La Tua Casa Vacanze",
             "description": "Goditi Il Comfort Della Tua Casa Vacanze Nel Quartiere Garbatella - Il Luogo Ideale Per Soggiornare A Roma"

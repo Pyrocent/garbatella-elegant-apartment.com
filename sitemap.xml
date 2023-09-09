@@ -5,11 +5,11 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://www.garbatella-elegant-apartment.com/book-holiday</loc>
+        <loc>https://www.garbatella-elegant-apartment.com/book-holiday-home</loc>
         <priority>1.5</priority>
     </url>
     <url>
-        <loc>https://www.garbatella-elegant-apartment.com/pay-city-tax</loc>
+        <loc>https://www.garbatella-elegant-apartment.com/city-tax-payment</loc>
         <priority>1.5</priority>
     </url>
 </urlset>
