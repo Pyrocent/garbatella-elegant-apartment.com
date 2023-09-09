@@ -12,7 +12,7 @@ from flask import (
 app = Flask(__name__)
 app.config["SECRET_KEY"] = token_hex(16)
 
-@app.get("/")
+@app.route("/")
 def index():
     return render_template(
         "index.html",
@@ -38,6 +38,7 @@ def tourist_tax_payment():
 @app.post("/tourist-tax-payment")
 def _():
     session["lang"] = request.form.get("lang")
+    return "language has been changed to the selected one", 200
 
 @app.get("/robots.txt")
 def robots():
