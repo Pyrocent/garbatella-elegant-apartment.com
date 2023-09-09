@@ -25,16 +25,16 @@ def book_holiday_home():
         lang = lang[session.get("lang", request.accept_languages.best_match(lang.keys(), default = "en"))]["book-holiday-home"]
     )
 
-@app.get("/city-tax-payment")
-def city_tax_payment():
+@app.get("/tourist-tax-payment")
+def tourist_tax_payment():
     return render_template(
-        "city-tax-payment.html",
-        lang = lang[session.get("lang", request.accept_languages.best_match(lang.keys(), default = "en"))]["city-tax-payment"]
+        "tourist-tax-payment.html",
+        lang = lang[session.get("lang", request.accept_languages.best_match(lang.keys(), default = "en"))]["tourist-tax-payment"]
     )
 
 @app.post("/")
 @app.post("/book-holiday-home")
-@app.post("/city-tax-payment")
+@app.post("/tourist-tax-payment")
 def _():
     session["lang"] = request.form.get("lang")
 

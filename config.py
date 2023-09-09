@@ -6,7 +6,7 @@ lang = {
         "book-holiday-home": {
             "country code": "de"
         },
-        "city-tax-payment": {
+        "tourist-tax-payment": {
             "country code": "de"
         }
     },
@@ -25,10 +25,10 @@ lang = {
             "tab title": "Book Your Holiday Home",
             "description": "Enjoy The Comfort Of Your Holiday Home In The Garbatella District - The Ideal Place To Stay In Rome",
         },
-        "city-tax-payment": {
+        "tourist-tax-payment": {
             "country code": "en",
-            "tab title": "City Tax Payment",
-            "description": ""
+            "tab title": "Tourist Tax Payment",
+            "description": "Choose the payment method you prefer to pay the tourist tax"
         }
     },
     "es": {
@@ -38,7 +38,7 @@ lang = {
         "book-holiday-home": {
             "country code": "es"
         },
-        "city-tax-payment": {
+        "tourist-tax-payment": {
             "country code": "es"
         }
     },
@@ -49,7 +49,7 @@ lang = {
         "book-holiday-home": {
             "country code": "fr"
         },
-        "city-tax-payment": {
+        "tourist-tax-payment": {
             "country code": "fr"
         }
     },
@@ -68,10 +68,10 @@ lang = {
             "tab title": "Prenota La Tua Casa Vacanze",
             "description": "Goditi Il Comfort Della Tua Casa Vacanze Nel Quartiere Garbatella - Il Luogo Ideale Per Soggiornare A Roma"
         },
-        "city-tax-payment": {
+        "tourist-tax-payment": {
             "country code": "it",
             "tab title": "Pagamento Tassa Di Soggiorno",
-            "description": ""
+            "description": "Scegli il metodo di pagamento che preferisci per pagare la tassa di soggiorno"
         }
     }
 }
@@ -89,7 +89,7 @@ lang = {
 # "TOBACCO SHOP AT 10M",
 # "CAFE AT 100M IN THE SAME STREET"
 # "'GARBATELLA' METRO STATION AT 10 MINUTES WALK"
-# "LESS THAN 20 MINUTES FROM THE CITY CENTRE"
+# "LESS THAN 20 MINUTES FROM THE tourist CENTRE"
 
 # "100m² Di Casa"
 # "UN SOGGIORNO SPAZIOSO"
