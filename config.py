@@ -18,7 +18,29 @@ lang = {
             "supported languages": ["English", "Deutsch", "Español", "Français", "Italiano"],
             "header title": "Enjoy The Comfort Of Your Holiday Home",
             "header subtitle": "The Perfect Place To Stay In Rome",
-            "book button": "BOOK NOW"
+            "book button": "BOOK NOW",
+            "home": "HOME - 100m²",
+            "living room": "A Spacious Living Room",
+            "bed room": "Two Comfortable Double Rooms",
+            "bathroom": "A Welcoming Bathroom",
+            "kitchen": "An Equipped Kitchen",
+            "terrace": "Two Silent Terraces",
+            "free wifi": "Free Unlimited Wifi",
+            "district": "DISTRICT",
+            "supermarket": "Supermarket In Front Of The House",
+            "auto parking": "Car Parking Under The House",
+            "tobacco shop": "Tobacconist 10 Meters Away",
+            "cafe": "Bar In The Same Street No More Than 100 Meters",
+            "metro": "Garbatella Metro Station 10 Minutes Walk",
+            "city center": "To The City Center In Less Than 20 Minutes",
+            "prohibitions": "PROHIBITIONS",
+            "no animals": "No Animals",
+            "no smoke": "No Smoking Inside",
+            "no party": "It Is Forbidden To Hold Excessively Noisy Parties",
+            "contacts": "CONTACTS",
+            "email": "Email: ",
+            "phone": "Phone: +39 391-186-8961",
+            "tourist tax": "Pay The Tourist Tax"
         },
         "book-holiday-home": {
             "country code": "en",
@@ -61,7 +83,29 @@ lang = {
             "supported languages": ["Italiano", "Deutsch", "English", "Español", "Français"],
             "header title": "Goditi Il Comfort Della Tua Casa Vacanza",
             "header subtitle": "Il Luogo Ideale Per Soggiornare A Roma",
-            "book button": "PRENOTA ORA"
+            "book button": "PRENOTA ORA",
+            "home": "CASA - 100m²",
+            "living room": "Un Soggiorno Spazioso",
+            "bed room": "Due Comode Camere Matrimoniali",
+            "bathroom": "Un Bagno Accogliente",
+            "kitchen": "Una Cucina Accessoriata",
+            "terrace": "Due Sileziosi Terrazzi",
+            "free wifi": "Wifi Gratuito Illimitato",
+            "district": "QUARTIERE",
+            "supermarket": "Supermercato Difronte Casa",
+            "auto parking": "Parcheggio Auto Sotto Casa",
+            "tobacco shop": "Tabaccheria a 10 Metri",
+            "cafe": "Bar Nella Stessa Via a Non Più Di 100 Metri",
+            "metro": "Stazione Metro Garbatella a 10 Minuti a Piedi",
+            "city center": "Al Centro In Meno Di 20 Minuti",
+            "prohibitions": "DIVIETI",
+            "no animals": "No Animali",
+            "no smoke": "Vietato Fumare All'Interno",
+            "no party": "Vietato Svolgere Feste Troppo Rumorose",
+            "contacts": "CONTATTI",
+            "email": "Email: ",
+            "phone": "Telefono: +39 391-186-8961",
+            "tourist tax": "Paga La Tassa Di Soggiorno"
         },
         "book-holiday-home": {
             "country code": "it",
@@ -75,33 +119,3 @@ lang = {
         }
     }
 }
-
-# "100m² House",
-# "A SPACIOUS LIVING ROOM"
-# "TWO COMFORTABLE DOUBLE BEDS"
-# "A COZY BATHROOM"
-# "AN EQUIPPED KITCHEN"
-# "TWO SILENT TERRACES"
-# "UNLIMITED FREE WIFI"
-# "District",
-# "SUPERMARKET IN FRONT OF THE HOUSE"
-# "AUTO PARKING UNDER THE HOUSE"
-# "TOBACCO SHOP AT 10M",
-# "CAFE AT 100M IN THE SAME STREET"
-# "'GARBATELLA' METRO STATION AT 10 MINUTES WALK"
-# "LESS THAN 20 MINUTES FROM THE tourist CENTRE"
-
-# "100m² Di Casa"
-# "UN SOGGIORNO SPAZIOSO"
-# "DUE COMODI LETTI MATRIMONIALI"
-# "UN BAGNO ACCOGLIENTE"
-# "UNA CUCINA ACCESSORIATA"
-# "DUE TERRAZZI SILENZIOSI"
-# "WIFI GRATUITO ILLIMITATO"
-# "Quartiere"
-# "SUPERMERCATO DAVANTI CASA"
-# "PARCHEGGIO AUTO SOTTO CASA"
-# "TABACCHERIA A 10M"
-# "BAR A 100M NELLA STESSA VIA"
-# "STAZIONE METRO 'GARBATELLA' A 1O MINUTI A PIEDI"
-# "A MENO DI 20 MINUTI DAL CENTRO"

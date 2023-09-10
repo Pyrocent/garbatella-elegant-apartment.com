@@ -20,25 +20,25 @@ $(document).ready(function () {
         window.location.href = "/book-holiday-home"
     });
 
-    $("#for").slick({
+    $("#slider-for").slick({
         fade: true,
         arrows: false,
         slidesToShow: 1,
-        asNavFor: "#nav",
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        asNavFor: "#slider-nav",
     });
 
-    $("#nav").slick({
+    $("#slider-nav").slick({
         arrows: false,
         autoplay: true,
         vertical: true,
         slidesToShow: 3,
-        asNavFor: "#for",
         slidesToScroll: 1,
         focusOnSelect: true,
         pauseOnHover: false,
         pauseOnFocus: false,
         autoplaySpeed: 3000,
+        asNavFor: "#slider-for",
         responsive: [
             {
                 breakpoint: 768,
@@ -48,4 +48,12 @@ $(document).ready(function () {
             }
         ]
     });
+
+    $(".tab-button").click(function() {
+        $(".tab-content").hide();
+        $(".tab-button").removeClass("active");
+        $("#" + $(this).data("tab")).show().addClass("active");
+    });
+
+    $(".tab-button[data-tab='home']").click();   
 });

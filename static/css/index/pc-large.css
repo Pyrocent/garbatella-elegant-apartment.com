@@ -36,38 +36,42 @@ header {
 }
 
 #title {
-    color: rgb(255, 255, 255);
     font-size: 40px;
-    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.75));
     margin-top: 40px;
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.75));
 }
 
 #subtitle {
-    padding: 2.5px 0 2.5px 0;
-    background-color: rgba(255, 255, 255, 0.5);
     font-size: 20px;
     margin-top: 20px;
+    padding: 2.5px 0 2.5px 0;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
-.center {
+#center {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.book {
+#center .book {
     width: 355px;
     height: 65px;
     border: none;
     padding: 10px;
     font-size: 25px;
     cursor: pointer;
-    border-radius: 20px;
+    border-radius: 10px;
     color: rgb(255, 255, 255);
     font-family: "Cabin", sans-serif;
     background-color: rgb(37, 104, 248);
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
+}
+
+#center .book:hover {
+    scale: 1.1;
 }
 
 #sliders {
@@ -75,19 +79,121 @@ header {
     display: flex;
 }
 
-#for {
+#slider-for {
     width: 75%;
 }
 
-#nav {
+#slider-nav {
     width: 25%;
     overflow: hidden;
 }
 
-#nav .slide {
+#slider-nav .slide {
     cursor: pointer;
 }
 
 .slide {
     border-radius: 10px;
+}
+
+footer {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 20px;
+    background-color: rgb(37, 104, 248);
+}
+
+#map {
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+}
+
+#tabs-container {
+    width: 50%;
+}
+
+#tabs-container .book {
+    width: 100%;
+    height: 65px;
+    border: none;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: "Cabin", sans-serif;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
+}
+
+#tabs-container .book:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(151, 219, 119);
+}
+
+#tabs-buttons {
+    gap: 5px;
+    display: flex;
+}
+
+.tab-button {
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: "Cabin", sans-serif;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
+}
+
+.tab-button:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.tab-button.active {
+    background-color: rgb(129, 52, 52);
+}
+
+.tab-content {
+    height: 242px;
+    display: none;
+    padding: 20px;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+#home, #district, #prohibitions, #contacts {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-text {
+    gap: 10px;
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+#tax {
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 5px 5px 5px 10px;
+    background-color: rgb(37, 104, 248);;
+}
+
+#tax a {
+    margin: 0;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+#tax a:hover {
+    color: rgb(235, 235, 235);
 }
