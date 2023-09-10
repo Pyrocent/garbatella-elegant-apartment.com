@@ -4,7 +4,7 @@ header {
     margin-bottom: 5px;
     flex-direction: column;
     border-radius: 0 0 20px 20px;
-    background: url("../../assets/house/house-00.jpeg") -600px -400px no-repeat fixed;
+    background: url("../../../assets/house/house-00.jpeg") -600px -400px no-repeat fixed;
 }
 
 #navbar {
