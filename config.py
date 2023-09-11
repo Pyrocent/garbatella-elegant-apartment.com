@@ -38,8 +38,8 @@ lang = {
             "no smoke": "No Smoking Inside",
             "no party": "No Excessively Noisy Parties",
             "contact": "CONTACT",
-            "email": "Email: ",
-            "phone": "Phone: +39 327-667-2288",
+            "email": "Email",
+            "phone": "Phone",
             "tourist tax": "Pay The Tourist Tax"
         },
         "book-holiday-home": {
@@ -54,8 +54,7 @@ lang = {
             "supported languages": ["English", "Deutsch", "Español", "Français", "Italiano"],
             "info": "Tourist Tax Payment",
             "accountholder": "Accountholder",
-            "or": "OR",
-            "paypal button": "Pay With PayPal"
+            "or": "OR PAY WITH"
         }
     },
     "es": {
@@ -108,8 +107,8 @@ lang = {
             "no smoke": "Vietato Fumare All'Interno",
             "no party": "Vietate Feste Troppo Rumorose",
             "contact": "CONTATTO",
-            "email": "Email: ",
-            "phone": "Telefono: +39 327-667-2288",
+            "email": "Email",
+            "phone": "Telefono",
             "tourist tax": "Paga La Tassa Di Soggiorno"
         },
         "book-holiday-home": {
@@ -124,9 +123,7 @@ lang = {
             "supported languages": ["Italiano", "Deutsch", "English", "Español", "Français"],
             "info": "Pagamento Tassa Di Soggiorno",
             "accountholder": "Intestatario",
-            "or": "OPPURE",
-            "paypal button": "Paga Con PayPal"
-            
+            "or": "OPPURE PAGA CON"            
         }
     }
 }

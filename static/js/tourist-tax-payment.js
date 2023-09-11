@@ -24,4 +24,8 @@ $(document).ready(function () {
 
     });
 
+    $("#paypal").click(function () {
+        window.location.href = ""
+    });
+
 });

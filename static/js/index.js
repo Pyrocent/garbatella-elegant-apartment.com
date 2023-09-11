@@ -65,5 +65,5 @@ $(document).ready(function () {
         $("#" + $(this).data("tab")).show().addClass("active");
     });
 
-    $(".tab-button[data-tab='home']").click();   
+    $(".tab-button[data-tab='home']").click();
 });

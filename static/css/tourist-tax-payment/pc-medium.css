@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    cursor: default;
     overflow: hidden;
     font-family: "Cabin", sans-serif;
 }
@@ -20,6 +21,7 @@ body::-webkit-scrollbar {
     flex-direction: column;
     transform: translate(-50%, -50%);
     background-color: rgb(37, 104, 248);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 #bar {
@@ -44,7 +46,7 @@ body::-webkit-scrollbar {
     padding-left: 5px;
     border-radius: 5px;
     font-family: "Cabin", sans-serif;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
 }
 
 #info {
@@ -64,21 +66,23 @@ body::-webkit-scrollbar {
     color: rgb(255, 255, 255);
 }
 
-#separator {
-    display: flex;
-}
-
-#separator p {
-    margin: 0 10px;
-    font-size: 15px;
-    color: rgb(255, 255, 255);
-}
-
 .copy {
     gap: 5px;
     display: flex;
     cursor: pointer;
     align-items: center;
+}
+
+#separator {
+    display: flex;
+    white-space: nowrap;
+}
+
+#separator p {
+    margin: 0 10px;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
 }
 
 hr {
@@ -89,11 +93,18 @@ hr {
     width: 100%;
     height: 65px;
     border: none;
+    display: flex;
     padding: 10px;
     font-size: 25px;
     cursor: pointer;
     border-radius: 10px;
+    align-items: center;
+    justify-content: center;
     font-family: "Cabin", sans-serif;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
+}
+
+#paypal img {
+    width: 20%;
 }

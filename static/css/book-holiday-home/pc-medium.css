@@ -1,8 +1,0 @@
-body {
-    overflow-x: hidden;
-    font-family: "Cabin", sans-serif;
-}
-
-body::-webkit-scrollbar {
-    display: none;
-}
