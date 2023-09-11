@@ -55,12 +55,17 @@ body::-webkit-scrollbar {
     color: rgb(255, 255, 255);
 }
 
-#accountholder, #iban, #bic {
+#accountholder,
+#iban,
+#bic {
     display: flex;
     justify-content: space-between;
 }
 
-#bank p, #accountholder p, #iban p, #bic p {
+#bank p,
+#accountholder p,
+#iban p,
+#bic p {
     margin: 0;
     font-size: 15px;
     color: rgb(255, 255, 255);
