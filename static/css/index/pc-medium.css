@@ -1,5 +1,6 @@
 body {
     margin: 0 5px;
+    cursor: default;
     overflow-x: hidden;
     font-family: "Cabin", sans-serif;
 }
@@ -43,9 +44,9 @@ header {
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
 }
 
-#title, #subtitle {
+#title,
+#subtitle {
     margin: 0;
-    cursor: default;
     text-align: center;
 }
 
@@ -178,7 +179,10 @@ header {
     display: block;
 }
 
-#home, #district, #prohibited, #contact {
+#home,
+#district,
+#prohibited,
+#contact {
     gap: 10px;
     display: flex;
     flex-direction: column;
@@ -188,7 +192,6 @@ header {
     gap: 10px;
     display: flex;
     font-size: 25px;
-    cursor: default;
     align-items: center;
     color: rgb(255, 255, 255);
 }
@@ -198,7 +201,8 @@ header {
     margin-top: 5px;
     padding: 5px 5px 5px 10px;
     border-radius: 10px 10px 0 0;
-    background-color: rgb(37, 104, 248);;
+    background-color: rgb(37, 104, 248);
+    ;
 }
 
 #tax a {
