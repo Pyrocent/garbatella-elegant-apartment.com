@@ -10,7 +10,7 @@ from flask import (
 )
 
 app = Flask(__name__)
-app.config["SECRET_KEY"] = token_hex(16)
+app.secret_key = token_hex(16)
 
 @app.get("/")
 def index():
