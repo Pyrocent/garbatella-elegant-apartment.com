@@ -167,7 +167,7 @@ footer {
     display: block;
 }
 
-#home, #district, #prohibitions, #contacts {
+#home, #district, #prohibited, #contact {
     gap: 10px;
     display: flex;
     flex-direction: column;
