@@ -4,47 +4,50 @@ header {
     margin-bottom: 5px;
     flex-direction: column;
     border-radius: 0 0 20px 20px;
-    background: url("../../../assets/house/house-00.jpeg") center -300px no-repeat fixed;
+    background: url("../../../assets/house/cover.jpeg") center -300px no-repeat fixed;
 }
 
 #navbar {
-    padding: 10px;
     display: flex;
     align-items: center;
+    padding: 10px 10px 0 10px;
     justify-content: space-between;
 }
 
 #name {
     margin: 0;
     font-size: 20px;
+    cursor: pointer;
     color: rgb(255, 255, 255);
     filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.75));
 }
 
 #languages {
-    width: 155px;
+    width: 150px;
     height: 40px;
     font-size: 20px;
     cursor: pointer;
+    padding-left: 5px;
     font-family: "Cabin", sans-serif;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
 }
 
 #title, #subtitle {
     margin: 0;
+    cursor: default;
     text-align: center;
 }
 
 #title {
     font-size: 40px;
-    margin-top: 40px;
+    margin-top: 100px;
     color: rgb(255, 255, 255);
     filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.75));
 }
 
 #subtitle {
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 15px;
     padding: 2.5px 0 2.5px 0;
     background-color: rgba(255, 255, 255, 0.5);
 }
@@ -57,7 +60,7 @@ header {
 }
 
 #center .book {
-    width: 355px;
+    width: 350px;
     height: 65px;
     border: none;
     padding: 10px;
@@ -71,7 +74,7 @@ header {
 }
 
 #center .book:hover {
-    scale: 1.1;
+    background-color: rgb(151, 219, 119);
 }
 
 #sliders {
@@ -106,13 +109,14 @@ footer {
 }
 
 #map {
-    width: 50%;
+    width: 40%;
     border: none;
     border-radius: 10px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
 }
 
 #tabs-container {
-    width: 50%;
+    width: 60%;
 }
 
 #tabs-container .book {
@@ -153,10 +157,6 @@ footer {
     background-color: rgb(235, 235, 235);
 }
 
-.tab-button.active {
-    background-color: rgb(129, 52, 52);
-}
-
 .tab-content {
     height: 242px;
     display: none;
@@ -177,11 +177,14 @@ footer {
     gap: 10px;
     display: flex;
     font-size: 25px;
+    cursor: default;
     align-items: center;
     color: rgb(255, 255, 255);
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.5));
 }
 
 #tax {
+    font-size: 15px;
     margin-top: 5px;
     border-radius: 10px;
     padding: 5px 5px 5px 10px;

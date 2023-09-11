@@ -1,78 +1,80 @@
 header {
-    height: 450px;
+    height: 500px;
     display: flex;
     margin-bottom: 5px;
     flex-direction: column;
     border-radius: 0 0 20px 20px;
-    background: url("../../../assets/house/house-00.jpeg") center -300px no-repeat fixed;
+    background: url("../../../assets/house/cover.jpeg") center -300px no-repeat fixed;
 }
 
 #navbar {
-    padding: 10px;
     display: flex;
     align-items: center;
+    padding: 10px 10px 0 10px;
     justify-content: space-between;
 }
 
 #name {
     margin: 0;
     font-size: 20px;
+    cursor: pointer;
     color: rgb(255, 255, 255);
     filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.75));
 }
 
 #languages {
-    width: 155px;
+    width: 150px;
     height: 40px;
     font-size: 20px;
     cursor: pointer;
+    padding-left: 5px;
     font-family: "Cabin", sans-serif;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
 }
 
 #title, #subtitle {
     margin: 0;
+    cursor: default;
     text-align: center;
 }
 
 #title {
     font-size: 40px;
-    margin-top: 40px;
+    margin-top: 100px;
     color: rgb(255, 255, 255);
     filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.75));
 }
 
 #subtitle {
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 15px;
     padding: 2.5px 0 2.5px 0;
     background-color: rgba(255, 255, 255, 0.5);
 }
 
-.center {
+#center {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.book {
-    width: 355px;
+#center .book {
+    width: 350px;
     height: 65px;
     border: none;
     padding: 10px;
     font-size: 25px;
     cursor: pointer;
-    border-radius: 20px;
+    border-radius: 10px;
     color: rgb(255, 255, 255);
     font-family: "Cabin", sans-serif;
     background-color: rgb(37, 104, 248);
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
 }
 
-.book:hover {
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
+#center .book:hover {
+    background-color: rgb(151, 219, 119);
 }
 
 #sliders {
@@ -80,19 +82,121 @@ header {
     display: flex;
 }
 
-#for {
+#slider-for {
     width: 75%;
 }
 
-#nav {
+#slider-nav {
     width: 25%;
     overflow: hidden;
 }
 
-#nav .slide {
+#slider-nav .slide {
     cursor: pointer;
 }
 
 .slide {
     border-radius: 10px;
+}
+
+footer {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 20px;
+    background-color: rgb(37, 104, 248);
+}
+
+#map {
+    width: 40%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
+}
+
+#tabs-container {
+    width: 60%;
+}
+
+#tabs-container .book {
+    width: 100%;
+    height: 65px;
+    border: none;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: "Cabin", sans-serif;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
+}
+
+#tabs-container .book:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(151, 219, 119);
+}
+
+#tabs-buttons {
+    gap: 5px;
+    display: flex;
+}
+
+.tab-button {
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: "Cabin", sans-serif;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
+}
+
+.tab-button:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.tab-content {
+    height: 242px;
+    display: none;
+    padding: 20px;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+#home, #district, #prohibitions, #contacts {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-text {
+    gap: 10px;
+    display: flex;
+    font-size: 20px;
+    cursor: default;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.5));
+}
+
+#tax {
+    font-size: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 5px 5px 5px 10px;
+    background-color: rgb(37, 104, 248);;
+}
+
+#tax a {
+    margin: 0;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+#tax a:hover {
+    color: rgb(235, 235, 235);
 }
