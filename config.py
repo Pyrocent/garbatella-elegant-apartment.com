@@ -101,7 +101,7 @@ lang = {
             "prohibited": "DIVIETI",
             "no animals": "No Animali",
             "no smoke": "Vietato Fumare All'Interno",
-            "no party": "Vietato Svolgere Feste Troppo Rumorose",
+            "no party": "Vietate Feste Troppo Rumorose",
             "contact": "CONTATTO",
             "email": "Email: ",
             "phone": "Telefono: +39 327-667-2288",

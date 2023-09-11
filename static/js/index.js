@@ -32,26 +32,32 @@ $(document).ready(function () {
         asNavFor: "#slider-nav",
     });
 
-    $("#slider-nav").slick({
-        arrows: false,
-        autoplay: true,
-        vertical: true,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        focusOnSelect: true,
-        pauseOnHover: false,
-        pauseOnFocus: false,
-        autoplaySpeed: 3000,
-        asNavFor: "#slider-for",
-        responsive: [
-            {
-                breakpoint: 768,
-                settings: {
-                    vertical: false
-                }
-            }
-        ]
-    });
+    if ($(window).width() <= 768) {
+        $("#slider-nav").slick({
+            arrows: false,
+            autoplay: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            focusOnSelect: true,
+            pauseOnHover: false,
+            pauseOnFocus: false,
+            autoplaySpeed: 3000,
+            asNavFor: "#slider-for"
+        });
+    } else {
+        $("#slider-nav").slick({
+            arrows: false,
+            autoplay: true,
+            vertical: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            focusOnSelect: true,
+            pauseOnHover: false,
+            pauseOnFocus: false,
+            autoplaySpeed: 3000,
+            asNavFor: "#slider-for"
+        });
+    }
 
     $(".tab-button").click(function() {
         $(".tab-content").hide();
