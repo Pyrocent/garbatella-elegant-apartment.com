@@ -49,8 +49,13 @@ lang = {
         },
         "tourist-tax-payment": {
             "country code": "en",
-            "tab title": "Tourist Tax Payment",
-            "description": "Choose the payment method you prefer to pay the tourist tax"
+            "tab title": "Tourist Tax",
+            "description": "Choose the payment method you prefer to pay the tourist tax",
+            "supported languages": ["English", "Deutsch", "Español", "Français", "Italiano"],
+            "info": "Tourist Tax Payment",
+            "accountholder": "Accountholder",
+            "or": "OR",
+            "paypal button": "Pay With PayPal"
         }
     },
     "es": {
@@ -114,8 +119,14 @@ lang = {
         },
         "tourist-tax-payment": {
             "country code": "it",
-            "tab title": "Pagamento Tassa Di Soggiorno",
-            "description": "Scegli il metodo di pagamento che preferisci per pagare la tassa di soggiorno"
+            "tab title": "Tassa Di Soggiorno",
+            "description": "Scegli il metodo di pagamento che preferisci per pagare la tassa di soggiorno",
+            "supported languages": ["Italiano", "Deutsch", "English", "Español", "Français"],
+            "info": "Pagamento Tassa Di Soggiorno",
+            "accountholder": "Intestatario",
+            "or": "OPPURE",
+            "paypal button": "Paga Con PayPal"
+            
         }
     }
 }
