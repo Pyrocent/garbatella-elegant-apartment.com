@@ -12,7 +12,7 @@ from flask import (
 app = Flask(__name__)
 app.config["SECRET_KEY"] = token_hex(16)
 
-@app.route("/")
+@app.get("/")
 def index():
     return render_template(
         "min/index.min.html",
@@ -46,7 +46,7 @@ def robots():
 
 @app.get("/sitemap.xml")
 def sitemaps():
-    return send_file("sitemap.txt")
+    return send_file("sitemap.xml")
 
 @app.errorhandler(404)
 @app.errorhandler(405)

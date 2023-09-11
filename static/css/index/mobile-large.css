@@ -1,10 +1,28 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0 5px 5px;
+    overflow: hidden;
+    font-family: "Cabin", sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
 header {
     height: 400px;
     display: flex;
     margin-bottom: 5px;
     flex-direction: column;
     border-radius: 0 0 20px 20px;
-    background: url("../../../assets/house/cover.jpeg") -450px -300px no-repeat fixed;
+    background-size: cover;
+    background: url("../../../assets/house/cover.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #navbar {
@@ -88,7 +106,7 @@ header {
 }
 
 .slide {
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 footer {
@@ -138,7 +156,6 @@ footer {
     border-radius: 10px;
     font-family: "Cabin", sans-serif;
     background-color: rgb(255, 255, 255);
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
 }
 
 .tab-content {
@@ -163,14 +180,13 @@ footer {
     font-size: 20px;
     align-items: center;
     color: rgb(255, 255, 255);
-    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.5));
 }
 
 #tax {
     font-size: 15px;
     margin-top: 5px;
-    border-radius: 10px;
     padding: 5px 5px 5px 10px;
+    border-radius: 10px 10px 0 0;
     background-color: rgb(37, 104, 248);;
 }
 
