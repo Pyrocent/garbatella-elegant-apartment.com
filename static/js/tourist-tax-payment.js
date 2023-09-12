@@ -21,7 +21,7 @@ $(document).ready(function () {
     });
 
     $(".copy").click(function () {
-
+        navigator.clipboard.writeText($(this).find("p").text());
     });
 
     $("#paypal").click(function () {
