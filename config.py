@@ -39,7 +39,7 @@ lang = {
             "no party": "No Excessively Noisy Parties",
             "contact": "CONTACT",
             "email": "Email",
-            "phone": "Phone",
+            "phone": "Mobile Phone",
             "tourist tax": "Pay The Tourist Tax"
         },
         "book-holiday-home": {
@@ -111,7 +111,7 @@ lang = {
             "no party": "Vietate Feste Troppo Rumorose",
             "contact": "CONTATTO",
             "email": "Email",
-            "phone": "Telefono",
+            "phone": "Cell.",
             "tourist tax": "Paga La Tassa Di Soggiorno"
         },
         "book-holiday-home": {
