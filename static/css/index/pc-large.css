@@ -1,5 +1,6 @@
 body {
     margin: 0 5px;
+    cursor: default;
     overflow-x: hidden;
     font-family: "Cabin", sans-serif;
 }
@@ -9,12 +10,15 @@ body::-webkit-scrollbar {
 }
 
 header {
-    height: 500px;
     display: flex;
+    height: 500px;
     margin-bottom: 5px;
     flex-direction: column;
     border-radius: 0 0 20px 20px;
-    background: url("../../../assets/house/cover.jpeg") center -300px no-repeat fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center -300px;
+    background-image: url("../../../assets/house/cover.jpeg");
 }
 
 #navbar {
@@ -33,7 +37,7 @@ header {
 }
 
 #languages {
-    width: 150px;
+    width: 75px;
     height: 40px;
     font-size: 20px;
     cursor: pointer;
@@ -43,22 +47,18 @@ header {
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
 }
 
-#title, #subtitle {
-    margin: 0;
-    cursor: default;
-    text-align: center;
-}
-
 #title {
     font-size: 40px;
-    margin-top: 100px;
+    text-align: center;
+    margin: 100px 0 0 0;
     color: rgb(255, 255, 255);
     filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.75));
 }
 
 #subtitle {
     font-size: 20px;
-    margin-top: 15px;
+    text-align: center;
+    margin: 15px 0 0 0;
     padding: 2.5px 0 2.5px 0;
     background-color: rgba(255, 255, 255, 0.5);
 }
@@ -120,14 +120,59 @@ header {
 }
 
 #map {
-    width: 40%;
+    width: 50%;
     border: none;
     border-radius: 10px;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
 }
 
 #tabs-container {
-    width: 60%;
+    width: 50%;
+}
+
+#tabs-buttons {
+    gap: 5px;
+    display: flex;
+}
+
+.tab-button {
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: "Cabin", sans-serif;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
+}
+
+.tab-button.active {
+    color: rgb(255, 255, 255);
+    background-color: rgb(151, 219, 119);
+}
+
+.tab-button:hover:not(.tab-button.active) {
+    background-color: rgb(235, 235, 235);
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    gap: 10px;
+    display: flex;
+    height: 242px;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.icon-text {
+    gap: 10px;
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    color: rgb(255, 255, 255);
 }
 
 #tabs-container .book {
@@ -148,57 +193,12 @@ header {
     background-color: rgb(151, 219, 119);
 }
 
-#tabs-buttons {
-    gap: 5px;
-    display: flex;
-}
-
-.tab-button {
-    border: none;
-    cursor: pointer;
-    font-size: 20px;
-    padding: 10px 20px;
-    border-radius: 10px;
-    font-family: "Cabin", sans-serif;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
-}
-
-.tab-button:hover {
-    background-color: rgb(235, 235, 235);
-}
-
-.tab-content {
-    height: 242px;
-    display: none;
-    padding: 20px;
-}
-
-.tab-content.active {
-    display: block;
-}
-
-#home, #district, #prohibited, #contact {
-    gap: 10px;
-    display: flex;
-    flex-direction: column;
-}
-
-.icon-text {
-    gap: 10px;
-    display: flex;
-    font-size: 25px;
-    cursor: default;
-    align-items: center;
-    color: rgb(255, 255, 255);
-}
-
 #tax {
     font-size: 15px;
     margin-top: 5px;
     padding: 5px 5px 5px 10px;
     border-radius: 10px 10px 0 0;
-    background-color: rgb(37, 104, 248);;
+    background-color: rgb(37, 104, 248);
 }
 
 #tax a {
