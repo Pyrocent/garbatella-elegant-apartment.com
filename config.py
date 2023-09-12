@@ -54,6 +54,7 @@ lang = {
             "supported languages": ["EN", "DE", "ES", "FR", "IT"],
             "info": "Tourist Tax Payment",
             "accountholder": "Accountholder",
+            "bank account": "Bank Account N°",
             "or": "OR PAY WITH"
         }
     },
@@ -123,7 +124,8 @@ lang = {
             "supported languages": ["IT", "DE", "EN", "ES", "FR"],
             "info": "Pagamento Tassa Di Soggiorno",
             "accountholder": "Intestatario",
-            "or": "OPPURE PAGA CON"            
+            "bank account": "N° Conto Corrente",
+            "or": "OPPURE PAGA CON"
         }
     }
 }
