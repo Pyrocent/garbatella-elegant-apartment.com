@@ -11,25 +11,26 @@ from flask import (
 
 app = Flask(__name__)
 app.secret_key = token_hex(16)
+app.template_folder = "./templates/min"
 
 @app.get("/")
 def index():
     return render_template(
-        "min/index.min.html",
+        "index.min.html",
         lang = lang[session.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))]["index"]
     )
 
 @app.get("/book-holiday-home")
 def book_holiday_home():
     return render_template(
-        "min/book-holiday-home.min.html",
+        "book-holiday-home.min.html",
         lang = lang[session.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))]["book-holiday-home"]
     )
 
 @app.get("/tourist-tax-payment")
 def tourist_tax_payment():
     return render_template(
-        "min/tourist-tax-payment.min.html",
+        "tourist-tax-payment.min.html",
         lang = lang[session.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))]["tourist-tax-payment"]
     )
 
