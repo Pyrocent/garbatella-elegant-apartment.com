@@ -60,10 +60,10 @@ $(document).ready(function () {
     }
 
     $(".tab-button").click(function() {
-        $(".tab-content").hide();
+        $(".tab-content").removeClass("active");
         $(".tab-button").removeClass("active");
-        $("#" + $(this).data("tab")).show().addClass("active");
+        $(this).addClass("active");
+        $("#" + $(this).data("tab")).addClass("active");
     });
 
-    $(".tab-button[data-tab='home']").click();
 });
