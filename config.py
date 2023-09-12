@@ -52,7 +52,9 @@ lang = {
             "tab title": "Tourist Tax",
             "description": "Choose the payment method you prefer to pay the tourist tax",
             "supported languages": ["EN", "DE", "ES", "FR", "IT"],
-            "info": "Tourist Tax Payment",
+            "info title": "Tourist Tax Payment",
+            "money": "6 Euros Per Night Per Person",
+            "bracket": "(No Children Under 12)",
             "accountholder": "Accountholder",
             "bank account": "Bank Account N°",
             "or": "OR PAY WITH"
@@ -122,7 +124,9 @@ lang = {
             "tab title": "Tassa Di Soggiorno",
             "description": "Scegli il metodo di pagamento che preferisci per pagare la tassa di soggiorno",
             "supported languages": ["IT", "DE", "EN", "ES", "FR"],
-            "info": "Pagamento Tassa Di Soggiorno",
+            "info title": "Pagamento Tassa Di Soggiorno",
+            "money": "6 Euro a Notte a Persona",
+            "bracket": "(No Minori Di 12 Anni)",
             "accountholder": "Intestatario",
             "bank account": "N° Conto Corrente",
             "or": "OPPURE PAGA CON"
