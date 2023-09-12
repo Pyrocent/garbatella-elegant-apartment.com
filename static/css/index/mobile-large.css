@@ -9,30 +9,34 @@ body::-webkit-scrollbar {
 }
 
 header {
-    height: 400px;
     display: flex;
+    height: 375px;
     margin-bottom: 5px;
     flex-direction: column;
     border-radius: 0 0 20px 20px;
-
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: -250px -250px;
+    background-image: url("../../../assets/house/cover.jpeg");
 }
 
 #navbar {
     display: flex;
     align-items: center;
-    padding: 10px 10px 0 10px;
+    margin: 10px 10px 0 10px;
     justify-content: space-between;
 }
 
 #name {
     margin: 0;
     font-size: 15px;
+    text-align: center;
     color: rgb(255, 255, 255);
     filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.75));
 }
 
 #languages {
-    width: 115px;
+    width: 50px;
     height: 35px;
     font-size: 15px;
     padding-left: 5px;
@@ -41,21 +45,18 @@ header {
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
 }
 
-#title, #subtitle {
-    margin: 0;
-    text-align: center;
-}
-
 #title {
-    font-size: 40px;
-    margin-top: 50px;
+    font-size: 37px;
+    text-align: center;
+    margin: 50px 0 0 0;
     color: rgb(255, 255, 255);
     filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.75));
 }
 
 #subtitle {
     font-size: 20px;
-    margin-top: 15px;
+    text-align: center;
+    margin: 15px 0 0 0;
     padding: 2.5px 0 2.5px 0;
     background-color: rgba(255, 255, 255, 0.5);
 }
@@ -81,25 +82,25 @@ header {
 }
 
 #sliders {
-    gap: 5px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
-#slider-for, #slider-nav {
+#slider-for {
     width: 100%;
 }
 
 #slider-nav {
+    width: 100%;
     overflow: hidden;
 }
 
 #slider-nav .slide {
-    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .slide {
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 #info {
@@ -124,18 +125,6 @@ header {
     width: 100%;
 }
 
-#tabs-container .book {
-    width: 100%;
-    height: 65px;
-    border: none;
-    padding: 10px;
-    font-size: 25px;
-    border-radius: 10px;
-    font-family: "Cabin", sans-serif;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
-}
-
 #tabs-buttons {
     gap: 5px;
     display: flex;
@@ -151,28 +140,43 @@ header {
     background-color: rgb(255, 255, 255);
 }
 
+.tab-button.active {
+    color: rgb(255, 255, 255);
+    background-color: rgb(151, 219, 119);
+}
+
 .tab-content {
-    height: 242px;
     display: none;
-    padding: 10px;
 }
 
 .tab-content.active {
-    display: block;
-}
-
-#home, #district, #prohibited, #contact {
     gap: 10px;
     display: flex;
+    height: 242px;
+    padding: 20px;
+    overflow-x: scroll;
     flex-direction: column;
 }
 
 .icon-text {
     gap: 10px;
     display: flex;
-    font-size: 20px;
+    font-size: 25px;
     align-items: center;
+    white-space: nowrap;
     color: rgb(255, 255, 255);
+}
+
+#tabs-container .book {
+    width: 100%;
+    height: 65px;
+    border: none;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    font-family: "Cabin", sans-serif;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
 }
 
 #tax {
@@ -180,7 +184,7 @@ header {
     margin-top: 5px;
     padding: 5px 5px 5px 10px;
     border-radius: 10px 10px 0 0;
-    background-color: rgb(37, 104, 248);;
+    background-color: rgb(37, 104, 248);
 }
 
 #tax a {
