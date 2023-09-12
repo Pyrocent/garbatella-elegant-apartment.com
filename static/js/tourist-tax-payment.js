@@ -8,7 +8,7 @@ $(document).ready(function () {
         fetch("/tourist-tax-payment", {
             method: "POST",
             headers: {"Content-Type": "application/x-www-form-urlencoded"},
-            body: `lang=${$(this).val().substring(0, 2).toLowerCase()}`,
+            body: `lang=${$(this).val()}`,
         })
         .then(response => {
             if (response.status === 200) {

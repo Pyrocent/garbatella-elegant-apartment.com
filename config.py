@@ -1,5 +1,5 @@
 lang = {
-    "de": {
+    "DE": {
         "index": {
             "country code": "de"
         },
@@ -10,12 +10,12 @@ lang = {
             "country code": "de"
         }
     },
-    "en": {
+    "EN": {
         "index": {
             "country code": "en",
             "tab title": "Holiday Home in Rome",
             "description": "Enjoy The Comfort Of Your Holiday Home In The Garbatella District - The Ideal Place To Stay In Rome",
-            "supported languages": ["English", "Deutsch", "Español", "Français", "Italiano"],
+            "supported languages": ["EN", "DE", "ES", "FR", "IT"],
             "header title": "Enjoy The Comfort Of Your Holiday Home",
             "header subtitle": "The Perfect Place To Stay In Rome",
             "book button": "BOOK NOW",
@@ -51,13 +51,13 @@ lang = {
             "country code": "en",
             "tab title": "Tourist Tax",
             "description": "Choose the payment method you prefer to pay the tourist tax",
-            "supported languages": ["English", "Deutsch", "Español", "Français", "Italiano"],
+            "supported languages": ["EN", "DE", "ES", "FR", "IT"],
             "info": "Tourist Tax Payment",
             "accountholder": "Accountholder",
             "or": "OR PAY WITH"
         }
     },
-    "es": {
+    "ES": {
         "index": {
             "country code": "es"
         },
@@ -68,7 +68,7 @@ lang = {
             "country code": "es"
         }
     },
-    "fr": {
+    "FR": {
         "index": {
             "country code": "fr"
         },
@@ -79,12 +79,12 @@ lang = {
             "country code": "fr"
         }
     },
-    "it": {
+    "IT": {
         "index": {
             "country code": "it",
             "tab title": "Casa Vacanze a Roma",
             "description": "Goditi Il Comfort Della Tua Casa Vacanze Nel Quartiere Garbatella - Il Luogo Ideale Per Soggiornare A Roma",
-            "supported languages": ["Italiano", "Deutsch", "English", "Español", "Français"],
+            "supported languages": ["IT", "DE", "EN", "ES", "FR"],
             "header title": "Goditi Il Comfort Della Tua Casa Vacanza",
             "header subtitle": "Il Luogo Ideale Per Soggiornare A Roma",
             "book button": "PRENOTA ORA",
@@ -120,7 +120,7 @@ lang = {
             "country code": "it",
             "tab title": "Tassa Di Soggiorno",
             "description": "Scegli il metodo di pagamento che preferisci per pagare la tassa di soggiorno",
-            "supported languages": ["Italiano", "Deutsch", "English", "Español", "Français"],
+            "supported languages": ["IT", "DE", "EN", "ES", "FR"],
             "info": "Pagamento Tassa Di Soggiorno",
             "accountholder": "Intestatario",
             "or": "OPPURE PAGA CON"            
