@@ -85,7 +85,7 @@ header {
 }
 
 #center .book:hover {
-    background-color: rgb(151, 219, 119);
+    background-color: rgb(0, 122, 82);
 }
 
 #sliders {
@@ -148,7 +148,7 @@ header {
 
 .tab-button.active {
     color: rgb(255, 255, 255);
-    background-color: rgb(151, 219, 119);
+    background-color: rgb(0, 122, 82);
 }
 
 .tab-button:hover:not(.tab-button.active) {
@@ -190,7 +190,7 @@ header {
 
 #tabs-container .book:hover {
     color: rgb(255, 255, 255);
-    background-color: rgb(151, 219, 119);
+    background-color: rgb(0, 122, 82);
 }
 
 #tax {
