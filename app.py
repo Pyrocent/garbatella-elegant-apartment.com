@@ -11,7 +11,7 @@ from flask import (
 
 app = Flask(__name__)
 app.secret_key = token_hex(16)
-app.template_folder = "./templates/min"
+app.template_folder = "templates/min"
 
 @app.get("/")
 def index():
@@ -39,6 +39,7 @@ def tourist_tax_payment():
 @app.post("/tourist-tax-payment")
 def _():
     session["lang"] = request.form.get("lang")
+    print(session.get("lang"))
     return "", 200
 
 @app.get("/robots.txt")
