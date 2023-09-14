@@ -54,6 +54,7 @@ body::-webkit-scrollbar {
 }
 
 #accountholder,
+#bank,
 #iban,
 #bic,
 #account {
@@ -63,6 +64,7 @@ body::-webkit-scrollbar {
 }
 
 #accountholder p,
+#bank p,
 #iban p,
 #bic p,
 #account p {

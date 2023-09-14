@@ -56,6 +56,7 @@ lang = {
             "money": "6 Euros Per Night Per Person",
             "bracket": "(No Children Under 12)",
             "accountholder": "Accountholder",
+            "bank name": "Bank Name",
             "bank account": "Bank Account N°",
             "or": "OR PAY WITH"
         }
@@ -128,6 +129,7 @@ lang = {
             "money": "6 Euro a Notte a Persona",
             "bracket": "(No Minori Di 12 Anni)",
             "accountholder": "Intestatario",
+            "bank name": "Nome Banca",
             "bank account": "N° Conto Corrente",
             "or": "OPPURE PAGA CON"
         }
