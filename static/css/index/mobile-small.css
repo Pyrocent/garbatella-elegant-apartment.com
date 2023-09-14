@@ -9,9 +9,10 @@ header {
     height: 250px;
     margin-bottom: 5px;
     flex-direction: column;
+    background-size: cover;
+    background-position: center;
     border-radius: 0 0 20px 20px;
     background-repeat: no-repeat;
-    background-position: -485px -350px;
     background-image: url("../../../assets/house/cover.jpeg");
 }
 
