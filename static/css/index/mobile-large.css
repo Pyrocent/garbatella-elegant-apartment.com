@@ -15,7 +15,6 @@ header {
     flex-direction: column;
     border-radius: 0 0 20px 20px;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: -465px -325px;
     background-image: url("../../../assets/house/cover.jpeg");
 }
