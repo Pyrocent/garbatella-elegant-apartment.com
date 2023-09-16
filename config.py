@@ -37,8 +37,8 @@ lang = {
             "no smoke": "No Smoking Inside",
             "no party": "No Loud Parties",
             "contact": "CONTACT",
-            "email": "Email",
-            "mobile phone": "Mobile Phone",
+            "mail": "Mail",
+            "phone": "Phone",
             "tourist tax": "Pay The Tourist Tax"
         },
         "book-holiday-home": {
@@ -109,8 +109,8 @@ lang = {
             "no smoke": "Vietato Fumare All'Interno",
             "no party": "Vietate Feste Rumorose",
             "contact": "CONTATTO",
-            "email": "Email",
-            "mobile phone": "Cell",
+            "mail": "Mail",
+            "phone": "Cell",
             "tourist tax": "Paga La Tassa Di Soggiorno"
         },
         "book-holiday-home": {

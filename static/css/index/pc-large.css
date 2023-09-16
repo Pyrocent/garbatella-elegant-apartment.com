@@ -188,6 +188,7 @@ header {
     height: 242px;
     padding: 20px;
     flex-direction: column;
+    font-family: "Outfit", sans-serif;
 }
 
 .icon-text {
