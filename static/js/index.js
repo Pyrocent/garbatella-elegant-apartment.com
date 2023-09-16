@@ -26,10 +26,11 @@ $(document).ready(function () {
 
     $("#slider-for").slick({
         fade: true,
-        arrows: false,
         slidesToShow: 1,
         slidesToScroll: 1,
         asNavFor: "#slider-nav",
+        prevArrow: "<button class = slick-prev><</button>",
+        nextArrow: "<button class = slick-next>></button>"
     });
 
     if ($(window).width() <= 768) {
@@ -37,6 +38,7 @@ $(document).ready(function () {
             arrows: false,
             autoplay: true,
             slidesToShow: 3,
+            touchMove: false,
             slidesToScroll: 1,
             focusOnSelect: true,
             pauseOnHover: false,
@@ -50,6 +52,7 @@ $(document).ready(function () {
             autoplay: true,
             vertical: true,
             slidesToShow: 3,
+            touchMove: false,
             slidesToScroll: 1,
             focusOnSelect: true,
             pauseOnHover: false,
