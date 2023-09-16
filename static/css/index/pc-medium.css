@@ -118,7 +118,7 @@ header {
 }
 
 .slick-next {
-    right: 0%;
+    left: 100%;
     z-index: 0;
 }
 

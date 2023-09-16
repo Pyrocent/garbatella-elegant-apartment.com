@@ -113,7 +113,7 @@ header {
 }
 
 .slick-prev {
-    right: 0%;
+    left: 0%;
     z-index: 1;
 }
 

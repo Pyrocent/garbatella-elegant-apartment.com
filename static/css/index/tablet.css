@@ -114,7 +114,7 @@ header {
 }
 
 .slick-next {
-    right: 0%;
+    left: 100%;
 }
 
 #slider-nav {

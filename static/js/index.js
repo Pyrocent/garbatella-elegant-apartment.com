@@ -33,27 +33,34 @@ $(document).ready(function () {
         nextArrow: "<button class = slick-next>></button>"
     });
 
-    $("#slider-nav").slick({
-        arrows: false,
-        autoplay: true,
-        slidesToShow: 3,
-        touchMove: false,
-        slidesToScroll: 1,
-        mobileFirst: true,
-        focusOnSelect: true,
-        pauseOnHover: false,
-        pauseOnFocus: false,
-        autoplaySpeed: 3000,
-        asNavFor: "#slider-for",
-        responsive: [
-            {
-                breakpoint: 768,
-                settings: {
-                    vertical: true,
-              }
-            }
-        ]
-    });
+    if ($(window).width() <= 768) {
+        $("#slider-nav").slick({
+            arrows: false,
+            autoplay: true,
+            slidesToShow: 3,
+            touchMove: false,
+            slidesToScroll: 1,
+            focusOnSelect: true,
+            pauseOnHover: false,
+            pauseOnFocus: false,
+            autoplaySpeed: 3000,
+            asNavFor: "#slider-for"
+        });
+    } else {
+        $("#slider-nav").slick({
+            arrows: false,
+            autoplay: true,
+            vertical: true,
+            slidesToShow: 3,
+            touchMove: false,
+            slidesToScroll: 1,
+            focusOnSelect: true,
+            pauseOnHover: false,
+            pauseOnFocus: false,
+            autoplaySpeed: 3000,
+            asNavFor: "#slider-for"
+        });
+    }
 
     $(".tab-button").click(function() {
         $(".tab-content").removeClass("active");
