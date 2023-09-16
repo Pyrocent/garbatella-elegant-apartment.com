@@ -95,6 +95,7 @@ header {
 #slider-for {
     width: 75%;
     margin-bottom: 5px;
+    overflow-x: hidden;
 }
 
 .slick-prev,
