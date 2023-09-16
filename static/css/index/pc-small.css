@@ -100,7 +100,6 @@ header {
 .slick-prev,
 .slick-next {
     top: 50%;
-    padding: 0;
     width: 7.5%;
     border: none;
     cursor: pointer;
