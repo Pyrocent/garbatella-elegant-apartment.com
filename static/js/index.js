@@ -58,8 +58,9 @@ $(document).ready(function () {
     $(".tab-button").click(function() {
         $(".tab-content").removeClass("active");
         $(".tab-button").removeClass("active");
-        $(this).addClass("active");
-        $("#" + $(this).data("tab")).addClass("active");
+        var $this = $(this);
+        $this.addClass("active");
+        $("#" + $this.data("tab")).addClass("active");
     });
 
 });

@@ -21,11 +21,16 @@ $(document).ready(function () {
     });
 
     $(".copy").click(function () {
-        navigator.clipboard.writeText($(this).find("p").text());
+        var $this = $(this);
+        navigator.clipboard.writeText($this.find("p").text());
+        $this.find("img").attr("src", "static/assets/icons/checkmark.png");
+        setTimeout(function () {
+            $this.find("img").attr("src", "static/assets/icons/copy.png");
+        }, 1000);
     });
 
     $("#paypal").click(function () {
-        window.location.href = ""
+        window.location.href = "https://www.paypal.me/"
     });
 
 });
