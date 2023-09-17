@@ -7,10 +7,10 @@
     "robots.txt": true,
     "sitemap.xml": true,
     "vercel.json": true,
-    "templates\\min": true,
     "static\\css\\index\\min": true,
     "static\\css\\book-holiday-home\\min": true,
     "static\\css\\tourist-tax-payment\\min": true,
-    "static\\js\\min": true
+    "static\\js\\min": true,
+    "templates\\min": true
   }
 }
