@@ -16,7 +16,7 @@ app.template_folder = "templates/min"
 
 @app.before_request
 def before_request():
-    g.lang = lang[session.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))]["index"]
+    g.lang = lang[session.get("lang", request.accept_languages.best_match(lang.keys(), default = "en"))]["index"]
 
 @app.get("/")
 def index():
@@ -33,7 +33,7 @@ def tourist_tax_payment():
 @app.post("/")
 @app.post("/book-holiday-home")
 @app.post("/tourist-tax-payment")
-def _():
+def change_language():
     session["lang"] = request.form.get("lang")
     return redirect(request.referrer)
 

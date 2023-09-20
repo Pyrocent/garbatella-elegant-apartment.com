@@ -20,6 +20,18 @@
     </head>
     <body>
         <main>
+            <section id = "book">
+
+                <div id = "bar">
+                    <p id = "name">Garbatella Elegant Apartment</p>
+                    <select id = "languages">
+                        {% for language in lang["supported languages"] %}
+                            <option value = "{{language}}">{{language}}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+            </section>
         </main>
 
         <script src = "static/js/min/book-holiday-home.min/js"></script>

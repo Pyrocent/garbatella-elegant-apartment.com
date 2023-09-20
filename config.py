@@ -1,5 +1,5 @@
 lang = {
-    "DE": {
+    "de": {
         "index": {
             "country code": "de"
         },
@@ -10,7 +10,7 @@ lang = {
             "country code": "de"
         }
     },
-    "EN": {
+    "en": {
         "index": {
             "country code": "en",
             "tab title": "Holiday Home in Rome",
@@ -60,7 +60,7 @@ lang = {
             "or": "OR PAY WITH"
         }
     },
-    "ES": {
+    "es": {
         "index": {
             "country code": "es"
         },
@@ -71,7 +71,7 @@ lang = {
             "country code": "es"
         }
     },
-    "FR": {
+    "fr": {
         "index": {
             "country code": "fr"
         },
@@ -82,7 +82,7 @@ lang = {
             "country code": "fr"
         }
     },
-    "IT": {
+    "it": {
         "index": {
             "country code": "it",
             "tab title": "Casa Vacanze a Roma",
