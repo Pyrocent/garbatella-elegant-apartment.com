@@ -1,5 +1,5 @@
 lang = {
-    "de": {
+    "DE": {
         "index": {
             "country code": "de"
         },
@@ -10,7 +10,7 @@ lang = {
             "country code": "de"
         }
     },
-    "en": {
+    "EN": {
         "index": {
             "country code": "en",
             "tab title": "Holiday Home in Rome",
@@ -45,6 +45,13 @@ lang = {
             "country code": "en",
             "tab title": "Book Your Holiday Home",
             "description": "Enjoy The Comfort Of Your Holiday Home In The Garbatella District - The Ideal Place To Stay In Rome",
+            "supported languages": ["EN", "DE", "ES", "FR", "IT"],
+            "name": "NAME",
+            "surname": "SURNAME",
+            "mail": "MAIL",
+            "phone": "PHONE",
+            "dates": "DATES",
+            "guests": "GUESTS NO."
         },
         "tourist-tax-payment": {
             "country code": "en",
@@ -56,11 +63,11 @@ lang = {
             "bracket": "(No Children Under 12)",
             "accountholder": "Accountholder",
             "bank name": "Bank Name",
-            "bank account": "Bank Account N°",
+            "bank account": "Bank Account No.",
             "or": "OR PAY WITH"
         }
     },
-    "es": {
+    "ES": {
         "index": {
             "country code": "es"
         },
@@ -71,7 +78,7 @@ lang = {
             "country code": "es"
         }
     },
-    "fr": {
+    "FR": {
         "index": {
             "country code": "fr"
         },
@@ -82,7 +89,7 @@ lang = {
             "country code": "fr"
         }
     },
-    "it": {
+    "IT": {
         "index": {
             "country code": "it",
             "tab title": "Casa Vacanze a Roma",
@@ -110,13 +117,20 @@ lang = {
             "no party": "Vietate Feste Rumorose",
             "contact": "CONTATTO",
             "mail": "Mail",
-            "phone": "Cell",
+            "phone": "Tel",
             "tourist tax": "Paga La Tassa Di Soggiorno"
         },
         "book-holiday-home": {
             "country code": "it",
             "tab title": "Prenota La Tua Casa Vacanze",
-            "description": "Goditi Il Comfort Della Tua Casa Vacanze Nel Quartiere Garbatella - Il Luogo Ideale Per Soggiornare A Roma"
+            "description": "Goditi Il Comfort Della Tua Casa Vacanze Nel Quartiere Garbatella - Il Luogo Ideale Per Soggiornare A Roma",
+            "supported languages": ["IT", "DE", "EN", "ES", "FR"],
+            "name": "NOME",
+            "surname": "COGNOME",
+            "mail": "MAIL",
+            "phone": "TELEFONO",
+            "dates": "DATE",
+            "guests": "N° OSPITI"
         },
         "tourist-tax-payment": {
             "country code": "it",
