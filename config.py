@@ -53,7 +53,8 @@ lang = {
             "dates": "DATES",
             "from": "FROM",
             "to": "TO",
-            "submit": "BOOK"
+            "submit": "BOOK",
+            "date format": "Y/m/d"
         },
         "tourist-tax-payment": {
             "country code": "en",
@@ -134,7 +135,8 @@ lang = {
             "dates": "DATE",
             "from": "DA",
             "to": "A",
-            "submit": "PRENOTA"
+            "submit": "PRENOTA",
+            "date format": "d/m/Y"
         },
         "tourist-tax-payment": {
             "country code": "it",

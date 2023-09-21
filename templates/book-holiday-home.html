@@ -75,11 +75,13 @@
         <script src = "static/js/min/book-holiday-home.min.js"></script>
         <script type = "text/javascript">
             flatpickr("#dates", {
-                locale: "{{lang['country code']}}",
+                disable: [],
                 mode: "range",
                 minDate: "today",
-                disable: []
+                locale: "{{lang['country code']}}",
+                dateFormat: "{{lang['date format']}}"
             });
         </script>
+
     </body>
 </html>
