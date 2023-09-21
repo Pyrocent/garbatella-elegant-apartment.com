@@ -25,7 +25,7 @@
     </head>
     <body>
         <main>
-            <form action = "../static/php/email.php" method = "POST">
+            <form action = "https://formsubmit.co/panzieri.ale@gmail.com" method = "POST">
 
                 <div id = "bar">
                     <p id = "name">Garbatella Elegant Apartment</p>
@@ -68,6 +68,11 @@
                 </fieldset>
 
                 <input id = "book" type = "submit" value = "{{lang['submit']}}">
+
+                <input type = "hidden" name = "_captcha" value = "false">
+                <input type = "hidden" name = "_template" value = "table">
+                <input type = "hidden" name = "_subject" value = "Hai Una Nuova Prenotazione">
+                <input type = "hidden" name = "_next" value = "https://www.garbatella-elegant-apartment.com/">
 
             </form>
         </main>
