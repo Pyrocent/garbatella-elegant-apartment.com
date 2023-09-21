@@ -19,9 +19,12 @@ form {
     position: absolute;
     border-radius: 10px;
     flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
     transform: translate(-50%, -50%);
-    background-color: rgb(37, 104, 248);
+    background-position: center center;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+    background-image: url("../../../assets/coliseum.jpg");
 }
 
 #bar {
@@ -50,10 +53,12 @@ form {
 }
 
 fieldset {
-    color: rgb(255, 255, 255);    
+    border: none;
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.75));
 }
 
-#booker, #contact, #dates {
+#booker, #contacts, #dates {
     gap: 5px;
     display: flex;
 }
@@ -84,7 +89,7 @@ input {
     border-radius: 10px;
     font-family: "Cabin", sans-serif;
     background-color: rgb(255, 255, 255);
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.75);
 }
 
 #book:hover {

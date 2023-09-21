@@ -16,19 +16,14 @@ $(document).ready(function () {
         });
     });
 
-    var currentDate = new Date();
-    var tomorrowDate = new Date(currentDate);
-    tomorrowDate.setDate(currentDate.getDate() + 1);
-    var formattedDate = tomorrowDate.getFullYear() + "-" + (tomorrowDate.getMonth() + 1) + "-" + tomorrowDate.getDate();
-
     flatpickr("#arrive", {
         disable: [],
-        minDate: formattedDate,
+        minDate: "today",
         plugins: [new rangePlugin({input: "#departure"})]
     });
     flatpickr("#departure", {
         disable: [],
-        minDate: formattedDate
+        minDate: "today"
     });
 
 });
