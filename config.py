@@ -51,7 +51,8 @@ lang = {
             "dates": "DATES",
             "guests": "GUESTS NO.",
             "from": "FROM",
-            "to": "TO"
+            "to": "TO",
+            "submit": "BOOK"
         },
         "tourist-tax-payment": {
             "country code": "en",
@@ -130,7 +131,8 @@ lang = {
             "dates": "DATE",
             "guests": "N° OSPITI",
             "from": "DA",
-            "to": "A"
+            "to": "A",
+            "submit": "PRENOTA" 
         },
         "tourist-tax-payment": {
             "country code": "it",
