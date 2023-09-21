@@ -9,7 +9,7 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-#book {
+form {
     top: 50%;
     left: 50%;
     gap: 10px;
@@ -47,4 +47,21 @@ body::-webkit-scrollbar {
     border-radius: 5px;
     font-family: "Cabin", sans-serif;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+#book {
+    width: 100%;
+    height: 65px;
+    border: none;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: "Cabin", sans-serif;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
+}
+
+#book:hover {
+    border-radius: 90px;
 }
