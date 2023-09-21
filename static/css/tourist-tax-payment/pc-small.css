@@ -112,3 +112,7 @@ hr {
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
     background-image: url("../../../assets/paypal.png");
 }
+
+#paypal:hover {
+    border-radius: 90px;
+}
