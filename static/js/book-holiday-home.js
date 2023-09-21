@@ -21,13 +21,14 @@ $(document).ready(function () {
     tomorrowDate.setDate(currentDate.getDate() + 1);
     var formattedDate = tomorrowDate.getFullYear() + "-" + (tomorrowDate.getMonth() + 1) + "-" + tomorrowDate.getDate();
 
-    flatpickr("#date-01", {
+    flatpickr("#arrive", {
         disable: [],
         minDate: formattedDate,
-        plugins: [new rangePlugin({input: "#date-02"})]
+        plugins: [new rangePlugin({input: "#departure"})]
     });
-    flatpickr("#date-02", {
+    flatpickr("#departure", {
         disable: [],
         minDate: formattedDate
     });
+
 });
