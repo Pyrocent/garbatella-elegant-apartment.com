@@ -25,7 +25,7 @@
     </head>
     <body>
         <main>
-            <form>
+            <form action = "https://formsubmit.co/panzieri.ale@gmail.com" method = "POST">
 
                 <div id = "bar">
                     <p id = "name">Garbatella Elegant Apartment</p>
@@ -64,10 +64,14 @@
 
                 <fieldset>
                     <legend>{{lang["guests"]}}</legend>
-                    <input name = "guests" type = "number">
+                    <input name = "guests">
                 </fieldset>
 
                 <input id = "book" type = "submit" value = "{{lang['submit']}}">
+
+                <input type = "hidden" name = "_captcha" value = "false">
+                <input type = "hidden" name = "_subject" value = "Hai Una nuova Prenotazione">
+                <input type = "hidden" name = "_next" value = "https://google.com/">
 
             </form>
         </main>
