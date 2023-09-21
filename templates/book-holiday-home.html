@@ -17,6 +17,11 @@
         <link rel = "stylesheet" href = "static/css/book-holiday-home/min/pc-medium.min.css" media = "screen and (min-width: 1025px) and (max-width: 1440px)">
         <link rel = "stylesheet" href = "static/css/book-holiday-home/min/pc-large.min.css" media = "screen and (min-width: 1441px)">
 
+        <link rel = "preconnect" href = "https://fonts.googleapis.com">
+        <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+        <link rel = "stylesheet" href = "https://fonts.googleapis.com/css2?family=Outfit&display=swap">
+        <link rel = "stylesheet" type = "text/css" href = "https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap">
+
         <script src = "https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/flatpickr.min.js"></script>
         <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/flatpickr.min.css">
         <script src = "https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/plugins/rangePlugin.min.js"></script>
@@ -56,10 +61,10 @@
                     <input name = "TELEFONO" required>
                 </fieldset>
 
-                <fieldset>
+                <fieldset id = "dates">
                     <legend>* {{lang["dates"]}}</legend>
-                    <input id = "arrive" name = "DATA DI ARRIVO" placeholder = '{{lang["from"]}}' required>
-                    <input id = "departure" name = "DATA DI PARTENZA" placeholder = '{{lang["to"]}}' required>
+                    <input id = "arrive" name = "ARRIVO" placeholder = '{{lang["from"]}}' required>
+                    <input id = "departure" name = "PARTENZA" placeholder = '{{lang["to"]}}' required>
                 </fieldset>
 
                 <fieldset>
@@ -72,7 +77,7 @@
                 <input type = "hidden" name = "_template" value = "box">
                 <input type = "hidden" name = "_captcha" value = "false">
                 <input type = "hidden" name = "_subject" value = "Hai Una Nuova Prenotazione">
-                <input type = "hidden" name = "_next" value = "https://www.garbatella-elegant-apartment.com/">
+                <input type = "hidden" name = "_next" value = "https://www.garbatella-elegant-apartment.vercel.app/">
 
             </form>
         </main>
