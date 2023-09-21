@@ -24,7 +24,7 @@ $(document).ready(function () {
     flatpickr("#date-01", {
         disable: [],
         minDate: formattedDate,
-        plugins: [new rangePlugin({ input: "#date-02"})]
+        plugins: [new rangePlugin({input: "#date-02"})]
     });
     flatpickr("#date-02", {
         disable: [],
