@@ -24,6 +24,11 @@
 
         <script src = "https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/flatpickr.min.js"></script>
         <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/flatpickr.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/l10n/it.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/l10n/pt.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/l10n/fr.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/l10n/de.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/l10n/es.min.js"></script>
 
         <script src = "https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
     </head>
@@ -68,5 +73,13 @@
         </main>
 
         <script src = "static/js/min/book-holiday-home.min.js"></script>
+        <script type = "text/javascript">
+            flatpickr("#dates", {
+                locale: "{{lang['country code']}}",
+                mode: "range",
+                minDate: "today",
+                disable: []
+            });
+        </script>
     </body>
 </html>

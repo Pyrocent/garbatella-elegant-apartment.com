@@ -16,11 +16,4 @@ $(document).ready(function () {
         });
     });
 
-    flatpickr("#dates", {
-        mode: "range",
-        minDate: "today",
-        dateFormat: "d/m/Y",
-        disable: []
-    });
-
 });
