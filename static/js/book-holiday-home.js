@@ -16,14 +16,11 @@ $(document).ready(function () {
         });
     });
 
-    flatpickr("#arrive", {
-        disable: [],
+    flatpickr("#dates", {
+        mode: "range",
         minDate: "today",
-        plugins: [new rangePlugin({input: "#departure"})]
-    });
-    flatpickr("#departure", {
-        disable: [],
-        minDate: "today"
+        dateFormat: "d/m/Y",
+        disable: []
     });
 
 });

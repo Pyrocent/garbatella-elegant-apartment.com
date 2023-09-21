@@ -15,7 +15,7 @@ lang = {
             "country code": "en",
             "tab title": "Holiday Home in Rome",
             "description": "Enjoy The Comfort Of Your Holiday Home In The Garbatella District - The Ideal Place To Stay In Rome",
-            "supported languages": ["EN", "DE", "ES", "FR", "IT"],
+            "supported languages": ["EN", "DE", "ES", "FR", "IT", "PT"],
             "header title": "Enjoy The Comfort Of Your Holiday Home",
             "header subtitle": "The Perfect Place To Stay In Rome",
             "book button": "BOOK NOW",
@@ -43,7 +43,7 @@ lang = {
             "country code": "en",
             "tab title": "Book Your Holiday Home",
             "description": "Enjoy The Comfort Of Your Holiday Home In The Garbatella District - The Ideal Place To Stay In Rome",
-            "supported languages": ["EN", "DE", "ES", "FR", "IT"],
+            "supported languages": ["EN", "DE", "ES", "FR", "IT", "PT"],
             "who books?": "WHO BOOKS?",
             "name": "NAME",
             "surname": "SURNAME",
@@ -51,7 +51,6 @@ lang = {
             "email": "EMAIL",
             "phone": "PHONE",
             "dates": "DATES",
-            "guests": "GUESTS NO.",
             "from": "FROM",
             "to": "TO",
             "submit": "BOOK"
@@ -60,7 +59,7 @@ lang = {
             "country code": "en",
             "tab title": "Tourist Tax",
             "description": "Choose the payment method you prefer to pay the tourist tax",
-            "supported languages": ["EN", "DE", "ES", "FR", "IT"],
+            "supported languages": ["EN", "DE", "ES", "FR", "IT", "PT"],
             "info title": "Tourist Tax Payment",
             "money": "6 Euros Per Night Per Person",
             "bracket": "(No Children Under 12)",
@@ -97,7 +96,7 @@ lang = {
             "country code": "it",
             "tab title": "Casa Vacanze a Roma",
             "description": "Goditi Il Comfort Della Tua Casa Vacanze Nel Quartiere Garbatella - Il Luogo Ideale Per Soggiornare A Roma",
-            "supported languages": ["IT", "DE", "EN", "ES", "FR"],
+            "supported languages": ["IT", "DE", "EN", "ES", "FR", "PT"],
             "header title": "Goditi Il Comfort Della Tua Casa Vacanza",
             "header subtitle": "Il Luogo Ideale Per Soggiornare A Roma",
             "book button": "PRENOTA ORA",
@@ -125,7 +124,7 @@ lang = {
             "country code": "it",
             "tab title": "Prenota La Tua Casa Vacanze",
             "description": "Goditi Il Comfort Della Tua Casa Vacanze Nel Quartiere Garbatella - Il Luogo Ideale Per Soggiornare A Roma",
-            "supported languages": ["IT", "DE", "EN", "ES", "FR"],
+            "supported languages": ["IT", "DE", "EN", "ES", "FR", "PT"],
             "who books?": "CHI PRENOTA?",
             "name": "NOME",
             "surname": "COGNOME",
@@ -133,16 +132,15 @@ lang = {
             "email": "EMAIL",
             "phone": "TELEFONO",
             "dates": "DATE",
-            "guests": "N° OSPITI",
             "from": "DA",
             "to": "A",
-            "submit": "PRENOTA" 
+            "submit": "PRENOTA"
         },
         "tourist-tax-payment": {
             "country code": "it",
             "tab title": "Tassa Di Soggiorno",
             "description": "Scegli il metodo di pagamento che preferisci per pagare la tassa di soggiorno",
-            "supported languages": ["IT", "DE", "EN", "ES", "FR"],
+            "supported languages": ["IT", "DE", "EN", "ES", "FR", "PT"],
             "info title": "Pagamento Tassa Di Soggiorno",
             "money": "6 Euro a Notte a Persona",
             "bracket": "(No Minori Di 12 Anni)",
@@ -150,6 +148,17 @@ lang = {
             "bank name": "Nome Banca",
             "bank account": "N° Conto Corrente",
             "or": "OPPURE PAGA CON"
+        }
+    },
+    "PT": {
+        "index": {
+            "country code": "pt"
+        },
+        "book-holiday-home": {
+            "country code": "pt"
+        },
+        "tourist-tax-payment": {
+            "country code": "pt"
         }
     }
 }
