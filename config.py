@@ -37,8 +37,6 @@ lang = {
             "no smoke": "No Smoking Inside",
             "no party": "No Loud Parties",
             "contact": "CONTACT",
-            "mail": "Mail",
-            "phone": "Phone",
             "tourist tax": "Pay The Tourist Tax"
         },
         "book-holiday-home": {
@@ -48,10 +46,12 @@ lang = {
             "supported languages": ["EN", "DE", "ES", "FR", "IT"],
             "name": "NAME",
             "surname": "SURNAME",
-            "mail": "MAIL",
+            "email": "EMAIL",
             "phone": "PHONE",
             "dates": "DATES",
-            "guests": "GUESTS NO."
+            "guests": "GUESTS NO.",
+            "from": "FROM",
+            "to": "TO"
         },
         "tourist-tax-payment": {
             "country code": "en",
@@ -116,8 +116,6 @@ lang = {
             "no smoke": "Vietato Fumare All'Interno",
             "no party": "Vietate Feste Rumorose",
             "contact": "CONTATTO",
-            "mail": "Mail",
-            "phone": "Tel",
             "tourist tax": "Paga La Tassa Di Soggiorno"
         },
         "book-holiday-home": {
@@ -127,10 +125,12 @@ lang = {
             "supported languages": ["IT", "DE", "EN", "ES", "FR"],
             "name": "NOME",
             "surname": "COGNOME",
-            "mail": "MAIL",
+            "email": "EMAIL",
             "phone": "TELEFONO",
             "dates": "DATE",
-            "guests": "N° OSPITI"
+            "guests": "N° OSPITI",
+            "from": "DA",
+            "to": "A"
         },
         "tourist-tax-payment": {
             "country code": "it",

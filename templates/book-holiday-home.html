@@ -8,6 +8,7 @@
         <link rel = "icon" href = "static/assets/icons/favicon.png">
         <meta name = "description" content = '{{lang["description"]}}'>
         <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+
         <link rel = "stylesheet" href = "static/css/book-holiday-home/min/mobile-small.min.css" media = "screen and (max-width: 320px)">
         <link rel = "stylesheet" href = "static/css/book-holiday-home/min/mobile-medium.min.css" media = "screen and (min-width: 321px) and (max-width: 375px)">
         <link rel = "stylesheet" href = "static/css/book-holiday-home/min/mobile-large.min.css" media = "screen and (min-width: 376px) and (max-width: 425px)">
@@ -37,35 +38,35 @@
 
                 <fieldset>
                     <legend>* {{lang["name"]}}</legend>
-                    <input name = "name" required>
+                    <input name = "name" type = "text" required>
                 </fieldset>
 
                 <fieldset>
                     <legend>* {{lang["surname"]}}</legend>
-                    <input name = "surname" required>
+                    <input name = "surname" type = "text" required>
                 </fieldset>
 
                 <fieldset>
-                    <legend>* {{lang["mail"]}}</legend>
-                    <input name = "mail" required>
+                    <legend>* {{lang["email"]}}</legend>
+                    <input name = "email" type = "email" required>
                 </fieldset>
 
                 <fieldset>
                     <legend>* {{lang["phone"]}}</legend>
-                    <input name = "phone" required>
+                    <input name = "phone" type = "tel" required>
                 </fieldset>
 
                 <fieldset>
                     <legend>* {{lang["dates"]}}</legend>
                     <div>
-                        <input name = "dates" id = "date-01" required>
-                        <input name = "dates" id = "date-02" required>
+                        <input type = "date" name = "dates" id = "date-01" placeholder = "{{lang['from']}}" required>
+                        <input type = "date" name = "dates" id = "date-02" placeholder = "{{lang['to']}}" required>
                     </div>
                 </fieldset>
 
                 <fieldset>
                     <legend>{{lang["guests"]}}</legend>
-                    <input name = "guests">
+                    <input name = "guests" type = "number">
                 </fieldset>
 
             </form>
