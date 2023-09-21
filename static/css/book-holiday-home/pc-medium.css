@@ -49,6 +49,31 @@ form {
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
 }
 
+fieldset {
+    color: rgb(255, 255, 255);    
+}
+
+#booker, #contact, #dates {
+    gap: 5px;
+    display: flex;
+}
+
+#arrive {
+    flex: 0.5;
+}
+
+#departure {
+    flex: 0.5;
+}
+
+input {
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: "Outfit", sans-serif;
+}
+
 #book {
     width: 100%;
     height: 65px;
