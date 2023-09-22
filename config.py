@@ -50,9 +50,7 @@ lang = {
             "contacts": "CONTACTS",
             "email": "EMAIL",
             "phone": "PHONE",
-            "dates": "DATES",
-            "from": "FROM",
-            "to": "TO",
+            "days": "DAYS",
             "submit": "BOOK",
             "date format": "Y/m/d"
         },
@@ -64,10 +62,8 @@ lang = {
             "info title": "Tourist Tax Payment",
             "money": "6 Euros Per Night Per Person",
             "bracket": "(No Children Under 12)",
-            "accountholder": "Accountholder",
-            "bank name": "Bank Name",
-            "bank account": "Bank Account No.",
-            "or": "OR PAY WITH"
+            "or": "OR",
+            "credit card": "CREDIT CARD"
         }
     },
     "ES": {
@@ -132,9 +128,7 @@ lang = {
             "contacts": "CONTATTI",
             "email": "EMAIL",
             "phone": "TELEFONO",
-            "dates": "DATE",
-            "from": "DA",
-            "to": "A",
+            "days": "GIORNI",
             "submit": "PRENOTA",
             "date format": "d/m/Y"
         },
@@ -146,10 +140,8 @@ lang = {
             "info title": "Pagamento Tassa Di Soggiorno",
             "money": "6 Euro a Notte a Persona",
             "bracket": "(No Minori Di 12 Anni)",
-            "accountholder": "Intestatario",
-            "bank name": "Nome Banca",
-            "bank account": "N° Conto Corrente",
-            "or": "OPPURE PAGA CON"
+            "or": "OPPURE",
+            "credit card": "CARTA DI CREDITO"
         }
     },
     "PT": {

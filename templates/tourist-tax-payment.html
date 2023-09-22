@@ -27,68 +27,31 @@
         <main>
             <section id = "pay">
 
-                <div id = "bar">
-                    <p id = "name">Garbatella Elegant Apartment</p>
-                    <select id = "languages">
-                        {% for language in lang["supported languages"] %}
-                            <option value = "{{language}}">{{language}}</option>
-                        {% endfor %}
-                    </select>
-                </div>
+                    <div id = "bar">
+                        <p id = "name">Garbatella Elegant Apartment</p>
+                        <select id = "languages">
+                            {% for language in lang["supported languages"] %}
+                                <option value = "{{language}}">{{language}}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <button id = "paypal"></button>
+
+                    <div id = "separator"><hr><p>{{lang["or"]}}</p><hr></div>
+
+                    <button id = "revolut"><img src = "../../static/assets/icons/credit.png" alt = "credit card">{{lang["credit card"]}}</button>
 
                 <div id = info>
                     {{lang["info title"]}}
-                    <br><br>
+                    <br>
                     {{lang["money"]}}
                     <br>
                     {{lang["bracket"]}}
                 </div>
 
-                <div id = "accountholder">
-                    <p>{{lang["accountholder"]}}:</p>
-                    <div class = "copy">
-                        <p>Stefano Panzieri</p>
-                        <img src = "static/assets/icons/copy.png" alt = "copy">
-                    </div>
-                </div>
-
-                <div id = "bank">
-                    <p>{{lang["bank name"]}}:</p>
-                    <div class = "copy">
-                        <p>FinecoBank S.p.A</p>
-                        <img src = "static/assets/icons/copy.png" alt = "copy">
-                    </div>
-                </div>
-
-                <div id = "iban">
-                    <p>IBAN:</p>
-                    <div class = "copy">
-                        <p>IT52C0301503200000006415446</p>
-                        <img src = "static/assets/icons/copy.png" alt = "copy">
-                    </div>
-                </div>
-
-                <div id = "bic">
-                    <p>SWIFT/BIC:</p>
-                    <div class = "copy">
-                        <p>FEBIITM2</p>
-                        <img src = "static/assets/icons/copy.png" alt = "copy">
-                    </div>
-                </div>
-
-                <div id = "account">
-                    <p>{{lang["bank account"]}}</p>
-                    <div class = "copy">
-                        <p>6415446</p>
-                        <img src = "static/assets/icons/copy.png" alt = "copy">
-                    </div>
-                </div>
-
-                <div id = "separator"><hr><p>{{lang["or"]}}</p><hr></div>
-
-                <button id = "paypal"></button>
-
             </section>
+
         </main>
 
         <script src = "static/js/min/tourist-tax-payment.min.js"></script>

@@ -1,3 +1,4 @@
+import airbnb
 from secrets import token_hex
 from config import lang
 from flask import (
@@ -24,7 +25,14 @@ def index():
 
 @app.get("/book-holiday-home")
 def book_holiday_home():
-    return render_template("book-holiday-home.min.html", lang = g.lang["book-holiday-home"])
+
+    disable = []
+    for month in airbnb.Api(randomize = True).get_calendar("940534339344086732")["calendar_months"]:
+        for day in month["days"]:
+            if day["available"] == False:
+                disable.append(day["date"])
+
+    return render_template("book-holiday-home.min.html", lang = g.lang["book-holiday-home"], disable = disable)
 
 @app.get("/tourist-tax-payment")
 def tourist_tax_payment():

@@ -16,4 +16,8 @@ $(document).ready(function () {
         });
     });
 
+    $("#calender").click(function(){
+        $("#days").click();
+    });
+
 });
