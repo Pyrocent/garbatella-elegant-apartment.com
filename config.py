@@ -51,8 +51,6 @@ lang = {
             "email": "EMAIL",
             "phone": "PHONE",
             "dates": "DATES",
-            "from": "FROM",
-            "to": "TO",
             "submit": "BOOK",
             "date format": "Y/m/d"
         },
@@ -133,8 +131,6 @@ lang = {
             "email": "EMAIL",
             "phone": "TELEFONO",
             "dates": "DATE",
-            "from": "DA",
-            "to": "A",
             "submit": "PRENOTA",
             "date format": "d/m/Y"
         },
