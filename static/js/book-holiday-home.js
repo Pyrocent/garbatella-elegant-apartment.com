@@ -17,7 +17,7 @@ $(document).ready(function () {
     });
 
     $("#calender").click(function(){
-        $("#dates").click();
+        $("#days").click();
     });
 
 });

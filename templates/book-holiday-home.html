@@ -58,8 +58,8 @@
                 </fieldset>
 
                 <fieldset>
-                    <legend>{{lang["dates"]}}</legend>
-                    <input id = "dates" name = "DATE" required>
+                    <legend>* {{lang["days"]}}</legend>
+                    <input id = "days" name = "GIORNI" required>
                     <img id = "calender" src = "../../static/assets/icons/calender.png">
                 </fieldset>
 
@@ -75,7 +75,7 @@
 
         <script src = "static/js/min/book-holiday-home.min.js"></script>
         <script type = "text/javascript">
-            flatpickr("#dates", {
+            flatpickr("#days", {
                 disable: [],
                 mode: "range",
                 minDate: "today",
