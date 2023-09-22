@@ -50,7 +50,7 @@ lang = {
             "contacts": "CONTACTS",
             "email": "EMAIL",
             "phone": "PHONE",
-            "dates": "DATES",
+            "days": "DAYS",
             "submit": "BOOK",
             "date format": "Y/m/d"
         },
@@ -130,7 +130,7 @@ lang = {
             "contacts": "CONTATTI",
             "email": "EMAIL",
             "phone": "TELEFONO",
-            "dates": "DATE",
+            "days": "GIORNI",
             "submit": "PRENOTA",
             "date format": "d/m/Y"
         },
