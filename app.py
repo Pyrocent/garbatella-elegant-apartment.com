@@ -13,7 +13,12 @@ from flask import (
 )
 
 app = Flask(__name__)
-app.secret_key = token_hex(16)
+app.config.update(
+    SECRET_KEY = token_hex(16),
+    SESSION_COOKIE_SECURE = True,
+    SESSION_COOKIE_HTTPONLY = True,
+    SESSION_COOKIE_SAMESITE = "Strict",
+)
 app.template_folder = "templates/min"
 
 @app.before_request
