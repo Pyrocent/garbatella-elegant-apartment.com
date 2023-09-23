@@ -60,8 +60,7 @@ fieldset {
     filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.35));
 }
 
-input {
-    width: 100%;
+input, #codes {
     height: 32px;
     border: none;
     cursor: pointer;
@@ -69,6 +68,10 @@ input {
     padding-left: 5px;
     border-radius: 5px;
     font-family: "Outfit", sans-serif;
+}
+
+input {
+    width: 100%;
 }
 
 #calender {

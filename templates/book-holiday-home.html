@@ -55,6 +55,11 @@
                 <fieldset>
                     <legend>{{lang["contacts"]}}</legend>
                     <input name = "EMAIL" placeholder = '* {{lang["email"]}}' required>
+                    <select id = "codes" name = "PREFISSO">
+                        {% for code in lang["codes"] %}
+                            <option value = "+{{code}}">+{{code}}</option>
+                        {% endfor %}
+                    </select>
                     <input name = "TELEFONO" placeholder = '* {{lang["phone"]}}' required>
                 </fieldset>
 
@@ -64,7 +69,7 @@
                 </fieldset>
 
                 <fieldset>
-                    <input id = "guests" name = "N° OSPITI" placeholder = '* {{lang["guests no."]}}' required>
+                    <input id = "guests" name = "OSPITI" placeholder = '* {{lang["guests no."]}}' required>
                     <img src = "../../static/assets/icons/luggage.png" alt = "luggage">
                 </fieldset>
 

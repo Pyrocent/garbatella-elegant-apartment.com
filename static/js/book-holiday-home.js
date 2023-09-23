@@ -44,4 +44,8 @@ $(document).ready(function () {
         $("#days").click();
     });
 
+    $("form").on("submit", function () {
+        $("#book").prop("disabled", true);
+    });
+
 });
