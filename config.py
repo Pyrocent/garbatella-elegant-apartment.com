@@ -49,7 +49,7 @@ lang = {
             "email": "EMAIL",
             "phone": "PHONE",
             "select days": "SELECT DAYS",
-            "guests no.": "GUESTS NO.",
+            "guests no.": "GUESTS NO. (max. 4)",
             "submit": "BOOK",
             "date format": "Y/m/d"
         },
@@ -124,7 +124,7 @@ lang = {
             "email": "EMAIL",
             "phone": "TELEFONO",
             "select days": "SELEZIONA GIORNI",
-            "guests no.": "N° OSPITI",
+            "guests no.": "N° OSPITI (max. 4)",
             "submit": "PRENOTA",
             "date format": "d/m/Y"
         },
