@@ -47,15 +47,18 @@
                 </div>
 
                 <fieldset>
-                    <legend>{{lang["who books?"]}}</legend>
                     <input name = "NOME" placeholder = '* {{lang["name"]}}' required>
                     <input name = "COGNOME" placeholder = '* {{lang["surname"]}}' required>
                 </fieldset>
 
                 <fieldset>
-                    <legend>{{lang["contacts"]}}</legend>
+                    <img id = "email" src = "../../static/assets/icons/icon-14.png" alt = "email">
                     <input name = "EMAIL" placeholder = '* {{lang["email"]}}' required>
-                    <select id = "codes" name = "PREFISSO">
+                </fieldset>
+
+                <fieldset>
+                    <img id = "phone" src = "../../static/assets/icons/icon-15.png" alt = "phone">
+                    <select id = "codes" name = "PREFISSO" required>
                         {% for code in lang["codes"] %}
                             <option value = "+{{code}}">+{{code}}</option>
                         {% endfor %}
