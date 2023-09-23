@@ -23,7 +23,6 @@ $(document).ready(function () {
     $("#paypal").click(function () {
         window.location.href = "https://www."
     });
-
     $("#revolut").click(function () {
         window.location.href = "https://www."
     });
