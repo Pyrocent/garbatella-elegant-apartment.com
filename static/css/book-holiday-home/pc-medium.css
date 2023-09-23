@@ -12,7 +12,6 @@ body::-webkit-scrollbar {
 #bar {
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
     justify-content: space-between;
 }
 
@@ -38,7 +37,7 @@ body::-webkit-scrollbar {
 form {
     top: 50%;
     left: 50%;
-    gap: 5px;
+    gap: 30px;
     width: 35%;
     display: flex;
     padding: 50px;
@@ -53,23 +52,16 @@ form {
 fieldset {
     gap: 5px;
     margin: 0;
+    padding: 0;
     border: none;
     display: flex;
-    padding: 15px 0;
     font-size: 17.5px;
     color: rgb(255, 255, 255);
     filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.35));
 }
 
-#arrive {
-    flex: 0.5;
-}
-
-#departure {
-    flex: 0.5;
-}
-
 input {
+    height: 32px;
     width: 100%;
     border: none;
     cursor: pointer;

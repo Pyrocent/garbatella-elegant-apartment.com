@@ -1,9 +1,10 @@
-import airbnb
 from secrets import token_hex
 from config import lang
+from airbnb import Api
 from flask import (
     g,
     Flask,
+    jsonify,
     session,
     request,
     redirect,
@@ -25,14 +26,7 @@ def index():
 
 @app.get("/book-holiday-home")
 def book_holiday_home():
-
-    disable = []
-    for month in airbnb.Api(randomize = True).get_calendar("940534339344086732")["calendar_months"]:
-        for day in month["days"]:
-            if day["available"] == False:
-                disable.append(day["date"])
-
-    return render_template("book-holiday-home.min.html", lang = g.lang["book-holiday-home"], disable = disable)
+    return render_template("book-holiday-home.min.html", lang = g.lang["book-holiday-home"])
 
 @app.get("/tourist-tax-payment")
 def tourist_tax_payment():
@@ -44,6 +38,16 @@ def tourist_tax_payment():
 def change_language():
     session["lang"] = request.form.get("lang")
     return redirect(request.referrer)
+
+@app.post("/disable_dates")
+def disable_dates():
+    dates = []
+    for month in Api(randomize = True).get_calendar("940534339344086732")["calendar_months"]:
+        for day in month["days"]:
+            if day["available"] == False:
+                dates.append(day["date"])
+
+    return jsonify(dates)
 
 @app.get("/robots.txt")
 def robots():

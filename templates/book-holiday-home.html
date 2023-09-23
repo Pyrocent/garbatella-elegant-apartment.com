@@ -24,6 +24,7 @@
 
         <script src = "https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/flatpickr.min.js"></script>
         <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/flatpickr.min.css">
+        <link rel="stylesheet" type="text/css" href="https://npmcdn.com/flatpickr/dist/themes/material_green.css">
         <script src="https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/l10n/it.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/l10n/pt.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/l10n/fr.min.js"></script>
@@ -58,9 +59,13 @@
                 </fieldset>
 
                 <fieldset>
-                    <legend>* {{lang["days"]}}</legend>
-                    <input id = "days" name = "GIORNI" required>
-                    <img id = "calender" src = "../../static/assets/icons/calender.png">
+                    <input id = "days" name = "GIORNI" placeholder = '* {{lang["select days"]}}' required>
+                    <img id = "calender" src = "../../static/assets/icons/calender.png" alt = "calender">
+                </fieldset>
+
+                <fieldset>
+                    <input id = "guests" name = "N° OSPITI" placeholder = '* {{lang["guests no."]}}' required>
+                    <img src = "../../static/assets/icons/luggage.png" alt = "luggage">
                 </fieldset>
 
                 <input id = "book" type = "submit" value = "{{lang['submit']}}">
@@ -73,17 +78,10 @@
             </form>
         </main>
 
+        <input type = "hidden" id = "locale" value = "{{lang['country code']}}">
+        <input type = "hidden" id = "dateFormat" value = "{{lang['date format']}}">
+
         <script src = "static/js/min/book-holiday-home.min.js"></script>
-        <script type = "text/javascript">
-            console.log("{{disable}}")
-            flatpickr("#days", {
-                disable: "{{disable}}",
-                mode: "range",
-                minDate: "today",
-                locale: "{{lang['country code']}}",
-                dateFormat: "{{lang['date format']}}"
-            });
-        </script>
 
     </body>
 </html>
