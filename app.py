@@ -39,15 +39,15 @@ def change_language():
     session["lang"] = request.form.get("lang")
     return redirect(request.referrer)
 
-@app.post("/disable_dates")
-def disable_dates():
-    dates = []
+@app.post("/disable_days")
+def disable_days():
+    days = []
     for month in Api(randomize = True).get_calendar("940534339344086732")["calendar_months"]:
         for day in month["days"]:
             if day["available"] == False:
-                dates.append(day["date"])
+                days.append(day["date"])
 
-    return jsonify(dates)
+    return jsonify(days)
 
 @app.get("/robots.txt")
 def robots():

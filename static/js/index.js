@@ -7,17 +7,17 @@ $(document).ready(function () {
     $("#languages").change(function () {
         fetch("/", {
             method: "POST",
-            headers: {"Content-Type": "application/x-www-form-urlencoded"},
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: `lang=${$(this).val()}`,
         })
-        .then(response => {
-            if (response.status === 200) {
-                window.location.reload();
-            }
-        })
-        .catch(error => {
-            console.error(error);
-        });
+            .then(response => {
+                if (response.status === 200) {
+                    window.location.reload();
+                }
+            })
+            .catch(error => {
+                console.error(error);
+            });
     });
 
     $(".book").click(function () {
@@ -62,7 +62,7 @@ $(document).ready(function () {
         });
     }
 
-    $(".tab-button").click(function() {
+    $(".tab-button").click(function () {
         $(".tab-content").removeClass("active");
         $(".tab-button").removeClass("active");
         var $this = $(this);

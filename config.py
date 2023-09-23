@@ -58,9 +58,7 @@ lang = {
             "tab title": "Tourist Tax",
             "description": "Choose the payment method you prefer to pay the tourist tax",
             "supported languages": ["EN", "DE", "ES", "FR", "IT", "PT"],
-            "info title": "Tourist Tax Payment",
-            "money": "6 Euros Per Night Per Person",
-            "bracket": "(No Children Under 12)",
+            "info": "6 Euros Per Night At Person (No Children Under 12)",
             "or": "OR",
             "credit card": "CREDIT CARD"
         }
@@ -135,9 +133,7 @@ lang = {
             "tab title": "Tassa Di Soggiorno",
             "description": "Scegli il metodo di pagamento che preferisci per pagare la tassa di soggiorno",
             "supported languages": ["IT", "DE", "EN", "ES", "FR", "PT"],
-            "info title": "Pagamento Tassa Di Soggiorno",
-            "money": "6 Euro a Notte a Persona",
-            "bracket": "(No Minori Di 12 Anni)",
+            "info": "6 Euro a Notte a Persona (No Minori Di 12 Anni)",
             "or": "OPPURE",
             "credit card": "CARTA DI CREDITO"
         }

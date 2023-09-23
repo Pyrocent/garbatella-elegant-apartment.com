@@ -3,10 +3,6 @@ body {
     font-family: "Cabin", sans-serif;
 }
 
-body::-webkit-scrollbar {
-    display: none;
-}
-
 header {
     display: flex;
     height: 400px;
@@ -78,10 +74,6 @@ header {
     font-family: "Cabin", sans-serif;
     background-color: rgb(37, 104, 248);
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
-}
-
-#center .book:hover {
-    background-color: rgb(151, 219, 119);
 }
 
 #sliders {
@@ -170,10 +162,6 @@ header {
     border-radius: 90px;
 }
 
-.tab-button:hover:not(.tab-button.active) {
-    background-color: rgb(235, 235, 235);
-}
-
 .tab-content {
     display: none;
 }
@@ -209,11 +197,6 @@ header {
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
 }
 
-#tabs-container .book:hover {
-    color: rgb(255, 255, 255);
-    background-color: rgb(151, 219, 119);
-}
-
 #tax {
     font-size: 20px;
     margin-top: 5px;
@@ -225,8 +208,4 @@ header {
 #tax a {
     margin: 0;
     color: rgb(255, 255, 255);
-}
-
-#tax a:hover {
-    color: rgb(235, 235, 235);
 }
