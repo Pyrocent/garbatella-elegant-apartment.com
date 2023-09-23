@@ -62,7 +62,6 @@ fieldset {
 
 input,
 #codes {
-    width: 100%;
     height: 32px;
     border: none;
     cursor: pointer;
