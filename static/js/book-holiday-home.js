@@ -8,19 +8,20 @@ $(document).ready(function () {
     })
     .then((response) => response.json())
     .then((dates) => {
-          disableDates = []
-          disableDates.push(...dates);
+        disableDates = []
+        disableDates.push(...dates);
       
-          flatpickr("#days", {
+        flatpickr("#days", {
             disable: disableDates,
             mode: "range",
             minDate: "today",
             locale: $("#locale").val(),
             dateFormat: $("#dateFormat").val()
         });
+
     })
     .catch((error) => {
-          console.error(error);
+        console.error(error);
     });
 
     $("#languages").change(function () {
