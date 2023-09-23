@@ -25,8 +25,8 @@ body::-webkit-scrollbar {
 }
 
 #bar {
-    margin-bottom: 20px;
     display: flex;
+    margin-bottom: 20px;
     align-items: center;
     justify-content: space-between;
 }
@@ -107,9 +107,9 @@ hr {
 }
 
 #info {
-    text-align: center;
     margin: 20px 0;
     font-size: 15px;
     margin-bottom: 0;
+    text-align: center;
     color: rgb(255, 255, 255);
 }
