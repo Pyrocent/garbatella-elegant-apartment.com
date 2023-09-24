@@ -53,6 +53,11 @@ lang = {
             "info": "6 Euros Per Night At Person (No Children Under 12)",
             "or": "OR",
             "credit card": "CREDIT CARD"
+        },
+        "thanks": {
+            "country code": "en",
+            "tab title": "Tourist Tax",
+            "description": "Choose the payment method you prefer to pay the tourist tax"
         }
     },
     "IT": {
@@ -109,6 +114,11 @@ lang = {
             "info": "6 Euro a Notte a Persona (No Minori Di 12 Anni)",
             "or": "OPPURE",
             "credit card": "CARTA DI CREDITO"
+        },
+        "thanks": {
+            "country code": "it",
+            "tab title": "Tassa Di Soggiorno",
+            "description": "Scegli il metodo di pagamento che preferisci per pagare la tassa di soggiorno"
         }
     }
 }
