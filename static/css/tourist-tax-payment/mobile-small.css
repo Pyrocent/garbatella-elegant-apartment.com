@@ -19,6 +19,9 @@ body::-webkit-scrollbar {
     margin: 0;
     font-size: 12.5px;
     filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.15));
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 #languages {
