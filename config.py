@@ -1,21 +1,10 @@
 lang = {
-    "DE": {
-        "index": {
-            "country code": "de"
-        },
-        "book-holiday-home": {
-            "country code": "de"
-        },
-        "tourist-tax-payment": {
-            "country code": "de"
-        }
-    },
     "EN": {
         "index": {
             "country code": "en",
             "tab title": "Holiday Home in Rome",
             "description": "Enjoy The Comfort Of Your Holiday Home In The Garbatella District - The Ideal Place To Stay In Rome",
-            "supported languages": ["EN", "DE", "ES", "FR", "IT", "PT"],
+            "supported languages": ["EN", "IT"],
             "header title": "Enjoy The Comfort Of Your Holiday Home",
             "header subtitle": "The Perfect Place To Stay In Rome",
             "book button": "BOOK NOW",
@@ -43,7 +32,7 @@ lang = {
             "country code": "en",
             "tab title": "Book Your Holiday Home",
             "description": "Enjoy The Comfort Of Your Holiday Home In The Garbatella District - The Ideal Place To Stay In Rome",
-            "supported languages": ["EN", "DE", "ES", "FR", "IT", "PT"],
+            "supported languages": ["EN", "IT"],
             "name": "NAME",
             "surname": "SURNAME",
             "email": "EMAIL",
@@ -58,32 +47,10 @@ lang = {
             "country code": "en",
             "tab title": "Tourist Tax",
             "description": "Choose the payment method you prefer to pay the tourist tax",
-            "supported languages": ["EN", "DE", "ES", "FR", "IT", "PT"],
+            "supported languages": ["EN", "IT"],
             "info": "6 Euros Per Night At Person (No Children Under 12)",
             "or": "OR",
             "credit card": "CREDIT CARD"
-        }
-    },
-    "ES": {
-        "index": {
-            "country code": "es"
-        },
-        "book-holiday-home": {
-            "country code": "es"
-        },
-        "tourist-tax-payment": {
-            "country code": "es"
-        }
-    },
-    "FR": {
-        "index": {
-            "country code": "fr"
-        },
-        "book-holiday-home": {
-            "country code": "fr"
-        },
-        "tourist-tax-payment": {
-            "country code": "fr"
         }
     },
     "IT": {
@@ -91,7 +58,7 @@ lang = {
             "country code": "it",
             "tab title": "Casa Vacanze a Roma",
             "description": "Goditi Il Comfort Della Tua Casa Vacanze Nel Quartiere Garbatella - Il Luogo Ideale Per Soggiornare A Roma",
-            "supported languages": ["IT", "DE", "EN", "ES", "FR", "PT"],
+            "supported languages": ["IT", "EN"],
             "header title": "Goditi Il Comfort Della Tua Casa Vacanza",
             "header subtitle": "Il Luogo Ideale Per Soggiornare A Roma",
             "book button": "PRENOTA ORA",
@@ -119,7 +86,7 @@ lang = {
             "country code": "it",
             "tab title": "Prenota La Tua Casa Vacanze",
             "description": "Goditi Il Comfort Della Tua Casa Vacanze Nel Quartiere Garbatella - Il Luogo Ideale Per Soggiornare A Roma",
-            "supported languages": ["IT", "DE", "EN", "ES", "FR", "PT"],
+            "supported languages": ["IT", "EN"],
             "name": "NOME",
             "surname": "COGNOME",
             "email": "EMAIL",
@@ -134,21 +101,10 @@ lang = {
             "country code": "it",
             "tab title": "Tassa Di Soggiorno",
             "description": "Scegli il metodo di pagamento che preferisci per pagare la tassa di soggiorno",
-            "supported languages": ["IT", "DE", "EN", "ES", "FR", "PT"],
+            "supported languages": ["IT", "EN"],
             "info": "6 Euro a Notte a Persona (No Minori Di 12 Anni)",
             "or": "OPPURE",
             "credit card": "CARTA DI CREDITO"
-        }
-    },
-    "PT": {
-        "index": {
-            "country code": "pt"
-        },
-        "book-holiday-home": {
-            "country code": "pt"
-        },
-        "tourist-tax-payment": {
-            "country code": "pt"
         }
     }
 }
