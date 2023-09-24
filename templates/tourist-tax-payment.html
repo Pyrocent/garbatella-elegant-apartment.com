@@ -25,16 +25,17 @@
     </head>
     <body>
         <main>
-            <section id = "pay">
 
-                    <div id = "bar">
-                        <p id = "name">Garbatella Elegant Apartment</p>
-                        <select id = "languages">
-                            {% for language in lang["supported languages"] %}
-                                <option value = "{{language}}">{{language}}</option>
-                            {% endfor %}
-                        </select>
-                    </div>
+            <nav id = "navbar">
+                <p id = "name">Garbatella Elegant Apartment</p>
+                <select id = "languages">
+                    {% for language in lang["supported languages"] %}
+                        <option value = "{{language}}">{{language}}</option>
+                    {% endfor %}
+                </select>
+            </nav>
+
+            <section id = "pay">
 
                     <button id = "paypal"></button>
 
