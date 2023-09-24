@@ -185,7 +185,7 @@ header {
 .tab-content.active {
     gap: 10px;
     display: flex;
-    height: 242px;
+    height: 274px;
     padding: 20px;
     flex-direction: column;
     font-family: "Outfit", sans-serif;
