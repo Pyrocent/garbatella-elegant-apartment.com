@@ -9,10 +9,11 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-main {
+div {
     gap: 5px;
     top: 50%;
     left: 50%;
+    width: 100%;
     display: flex;
     position: absolute;
     align-items: center;
@@ -27,7 +28,7 @@ p {
 
 button {
     gap: 5px;
-    width: 75%;
+    width: 25%;
     height: 65px;
     border: none;
     display: flex;
