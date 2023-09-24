@@ -37,6 +37,10 @@ def book_holiday_home():
 def tourist_tax_payment():
     return render_template("tourist-tax-payment.min.html", lang = g.lang["tourist-tax-payment"])
 
+@app.get("/thanks")
+def thanks():
+    return render_template("thanks.min.html", lang = g.lang["thanks"])
+
 @app.post("/")
 @app.post("/book-holiday-home")
 @app.post("/tourist-tax-payment")
