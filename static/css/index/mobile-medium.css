@@ -168,7 +168,7 @@ header {
 .tab-content.active {
     gap: 10px;
     display: flex;
-    height: 274px;
+    height: 284px;
     padding: 20px 0;
     overflow-x: scroll;
     flex-direction: column;
