@@ -57,7 +57,10 @@ lang = {
         "thanks": {
             "country code": "en",
             "tab title": "Tourist Tax",
-            "description": "Choose the payment method you prefer to pay the tourist tax"
+            "description": "Choose the payment method you prefer to pay the tourist tax",
+            "thanks": "THAAANKS!!",
+            "info": "WE WILL CONTACT YOU SOON",
+            "home page": "BACK TO HOME PAGE"
         }
     },
     "IT": {
@@ -118,7 +121,10 @@ lang = {
         "thanks": {
             "country code": "it",
             "tab title": "Tassa Di Soggiorno",
-            "description": "Scegli il metodo di pagamento che preferisci per pagare la tassa di soggiorno"
+            "description": "Scegli il metodo di pagamento che preferisci per pagare la tassa di soggiorno",
+            "thanks": "GRAZIEEE!!",
+            "info": "TI CONTATTEREMO A BREVE",
+            "home page": "TORNA ALLA HOME PAGE"
         }
     }
 }
