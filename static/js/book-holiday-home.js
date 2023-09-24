@@ -8,9 +8,9 @@ $(document).ready(function () {
     })
         .then((response) => response.json())
         .then((dates) => {
+
             disableDays = []
             disableDays.push(...dates);
-
             flatpickr("#days", {
                 mode: "range",
                 minDate: "today",
