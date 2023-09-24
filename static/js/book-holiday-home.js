@@ -1,5 +1,9 @@
 $(document).ready(function () {
 
+    $("#name").click(function () {
+        window.location.href = "/"
+    });
+
     fetch("/disable_days", {
         method: "POST",
         headers: {

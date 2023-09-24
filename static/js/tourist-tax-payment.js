@@ -23,6 +23,7 @@ $(document).ready(function () {
     $("#paypal").click(function () {
         window.location.href = "https://www.paypal.me/GarbatellaElegantApt"
     });
+
     $("#revolut").click(function () {
         window.location.href = "https://revolut.me/garbelegantapt"
     });
