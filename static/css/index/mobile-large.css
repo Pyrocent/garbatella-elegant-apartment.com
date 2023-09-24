@@ -27,6 +27,9 @@ header {
     font-size: 15px;
     color: rgb(255, 255, 255);
     filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.75));
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 #languages {
