@@ -39,7 +39,7 @@ lang = {
             "metro": "Garbatella Metro 10min Walk",
             "city center": "City Center Less Than 20min",
             "rules": "RULES",
-            "smoking": "Smoking Only Outside",
+            "smoking": "Smoking Only On Terraces",
             "no party": "No Loud Parties",
             "contact": "CONTACT",
             "tourist tax": "Pay The Tourist Tax"
@@ -117,7 +117,7 @@ lang = {
             "metro": "Metro Garbatella 10min a Piedi",
             "city center": "In Centro In Meno Di 20min",
             "rules": "REGOLE",
-            "smoking": "Fumare Solo All'Esterno",
+            "smoking": "Fumare Solo Nei Terrazzi",
             "no party": "Vietate Feste Rumorose",
             "contact": "CONTATTO",
             "tourist tax": "Paga La Tassa Di Soggiorno"
