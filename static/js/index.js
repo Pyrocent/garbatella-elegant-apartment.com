@@ -1,9 +1,5 @@
 $(document).ready(function () {
 
-    $("#name").click(function () {
-        window.location.reload();
-    });
-
     $("#languages").change(function () {
         fetch("/", {
             method: "POST",
