@@ -30,7 +30,7 @@ lang = {
             "fire alarm": "Fire Alarm",
             "fire extinguisher": "Fire Extinguisher",
             "first aid kit": "First Aid Kit",
-            "district": "DISTRICT",
+            "neighborhood": "NEIGHBORHOOD",
             "supermarket": "Supermarket In Front Of Home",
             "garage": "Hourly Garage Under Home",
             "parking": "Free Parking In The Street",
