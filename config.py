@@ -93,7 +93,7 @@ lang = {
             "bed room": "2 Camere Matrimoniali",
             "bathroom": "1 Bagno Accogliente",
             "kitchen": "1 Cucina Accessoriata",
-            "terrace": "2 Terrazzi Sileziosi",
+            "terrace": "2 Terrazzi Silenziosi",
             "services": "SERVIZI",
             "dishwasher": "Lavastoviglie",
             "fridge": "Frigorifero",
