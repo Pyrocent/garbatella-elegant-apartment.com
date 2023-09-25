@@ -108,7 +108,7 @@ lang = {
             "fire alarm": "Allarme Antincendio",
             "fire extinguisher": "Estintore",
             "first aid kit": "Kit Di Primo Soccorso",
-            "district": "QUARTIERE",
+            "neighborhood": "QUARTIERE",
             "supermarket": "Supermercato Di Fronte Casa",
             "garage": "Garage a Ore Sotto Casa",
             "parking": "Parcheggi Gratis Nella Via",
