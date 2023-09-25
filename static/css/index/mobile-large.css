@@ -90,9 +90,9 @@ header {
 .slick-next {
     top: 50%;
     z-index: 1;
-    width: 10%;
+    width: 12.5%;
     border: none;
-    font-size: 35px;
+    font-size: 40px;
     position: absolute;
     border-radius: 90px;
     color: rgb(255, 255, 255);
