@@ -170,7 +170,7 @@ header {
     display: flex;
     height: 284px;
     padding: 20px;
-    overflow-x: scroll;
+    overflow: auto;
     flex-direction: column;
     font-family: "Outfit", sans-serif;
 }

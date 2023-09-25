@@ -187,8 +187,25 @@ header {
     display: flex;
     height: 284px;
     padding: 20px;
+    overflow: auto;
     flex-direction: column;
     font-family: "Outfit", sans-serif;
+}
+
+.tab-content::-webkit-scrollbar {
+    width: 7px;
+}
+
+.tab-content::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+}
+
+.tab-content::-webkit-scrollbar-thumb {
+    background: rgb(136, 136, 136);
+}
+
+.tab-content::-webkit-scrollbar-thumb:hover {
+    background: rgb(85, 85, 85);
 }
 
 .icon-text {

@@ -169,8 +169,8 @@ header {
     gap: 10px;
     display: flex;
     height: 284px;
+    overflow: auto;
     padding: 20px 0;
-    overflow-x: scroll;
     flex-direction: column;
     font-family: "Outfit", sans-serif;
 }
