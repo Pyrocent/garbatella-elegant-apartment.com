@@ -19,7 +19,7 @@ lang = {
             "services": "SERVICES",
             "dishwasher": "Dishwasher",
             "fridge": "Fridge",
-            "Microwave Oven": "Microwave Oven",
+            "microwave oven": "Microwave Oven",
             "toaster": "Toaster",
             "laundry machine": "Laundry Machine",
             "clothesline": "Clothesline",
