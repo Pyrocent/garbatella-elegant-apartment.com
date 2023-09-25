@@ -4,8 +4,9 @@ lang = {
             "country code": "en",
             "tab title": "Holiday Home in Rome",
             "description": "Enjoy the Comfort of Your Holiday Home in the Garbatella Neighborhood - the Ideal Place to Stay in Rome",
+            "tourist tax": "Pay the Tourist Tax",
             "supported languages": ["EN", "IT"],
-            "header title": "Enjoy the Comfort of Your Holiday Home",
+            "header title": "Garbatella Elegant Apartment",
             "header subtitle": "the Perfect Place to Stay in Rome",
             "book button": "BOOK NOW",
             "home": "HOME",
@@ -41,8 +42,7 @@ lang = {
             "rules": "RULES",
             "smoking": "Smoking Only on Terraces",
             "no party": "No Loud Parties",
-            "contact": "CONTACT",
-            "tourist tax": "Pay the Tourist Tax"
+            "contact": "CONTACT"
         },
         "book-holiday-home": {
             "country code": "en",
@@ -82,8 +82,9 @@ lang = {
             "country code": "it",
             "tab title": "Casa Vacanze a Roma",
             "description": "Goditi il Comfort della Tua Casa Vacanze nel Quartiere Garbatella - il Luogo Ideale per Soggiornare a Roma",
+            "tourist tax": "Paga la Tassa di Soggiorno",
             "supported languages": ["IT", "EN"],
-            "header title": "Goditi il Comfort della Tua Casa Vacanza",
+            "header title": "Garbatella Elegant Apartment",
             "header subtitle": "il Luogo Ideale per Soggiornare a Roma",
             "book button": "PRENOTA ORA",
             "home": "CASA",
@@ -119,8 +120,7 @@ lang = {
             "rules": "REGOLE",
             "smoking": "Fumare Solo nei Terrazzi",
             "no party": "Vietate Feste Rumorose",
-            "contact": "CONTATTO",
-            "tourist tax": "Paga la Tassa di Soggiorno"
+            "contact": "CONTATTO"
         },
         "book-holiday-home": {
             "country code": "it",

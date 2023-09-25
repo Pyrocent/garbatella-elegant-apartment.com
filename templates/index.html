@@ -34,7 +34,7 @@
 
             <header>
                 <nav id = "navbar">
-                    <p id = "name">Garbatella Elegant Apartment</p>
+                    <a id = "tax" href = "/tourist-tax-payment">{{lang["tourist tax"]}}</a>
                     <select id = "languages">
                         {% for language in lang["supported languages"] %}
                             <option value = "{{language}}">{{language}}</option>
@@ -367,7 +367,7 @@
                 </div>
             </section>
 
-            <footer id = "info">
+            <section id = "info">
                 <iframe
                     id = "map"
                     allowfullscreen
@@ -435,9 +435,8 @@
 
                     <button class = book>{{lang["book button"]}}</button>
                 </div>
-            </footer>
+            </section>
 
-            <div id = "tax"><a href = "/tourist-tax-payment">{{lang["tourist tax"]}}</a></div>
         </main>
 
         <script src = "static/js/min/index.min.js"></script>
