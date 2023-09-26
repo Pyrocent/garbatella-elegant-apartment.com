@@ -47,7 +47,7 @@ header {
 }
 
 #title {
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
     margin: 100px 0 0 0;
     color: rgb(255, 255, 255);
@@ -157,6 +157,7 @@ header {
 #tabs-buttons {
     gap: 5px;
     display: flex;
+    overflow-x: auto;
 }
 
 .tab-button {
@@ -167,7 +168,6 @@ header {
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     font-family: "Roboto Condensed", sans-serif;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
 }
 
 .tab-button.active {

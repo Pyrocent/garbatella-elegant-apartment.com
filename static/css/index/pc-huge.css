@@ -10,7 +10,7 @@ body::-webkit-scrollbar {
 
 header {
     display: flex;
-    height: 650px;
+    height: 600px;
     margin-bottom: 5px;
     flex-direction: column;
     background-size: cover;
@@ -30,9 +30,10 @@ header {
 
 #tax {
     margin: 0;
-    font-size: 25px;
+    font-size: 30px;
     cursor: pointer;
     color: rgb(255, 255, 255);
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.75));
 }
 
 #languages {
@@ -47,7 +48,7 @@ header {
 }
 
 #title {
-    font-size: 75px;
+    font-size: 60px;
     text-align: center;
     margin: 100px 0 0 0;
     color: rgb(255, 255, 255);
@@ -167,7 +168,6 @@ header {
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     font-family: "Roboto Condensed", sans-serif;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
 }
 
 .tab-button.active {

@@ -22,6 +22,8 @@
         <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
         <link href = "https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400&display=swap" rel = "stylesheet">
 
+        <script src = "https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+
         <script src = "https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/flatpickr.min.js"></script>
         <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/flatpickr.min.css">
         <link rel = "stylesheet" type = "text/css" href = "https://npmcdn.com/flatpickr/dist/themes/material_green.css">
@@ -30,61 +32,67 @@
         <script src="https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/l10n/fr.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/l10n/de.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/l10n/es.min.js"></script>
-
-        <script src = "https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
     </head>
     <body>
         <main>
 
-            <nav id = "navbar">
-                <p id = "name">Garbatella Elegant Apartment</p>
-                <select id = "languages">
-                    {% for language in lang["supported languages"] %}
-                        <option value = "{{language}}">{{language}}</option>
-                    {% endfor %}
-                </select>
-            </nav>
+            <header>
+            </header>
 
-            <form action = "https://formsubmit.co/panzieri.ale@gmail.com" method = "POST">
+            <div id = "overlap">
 
-                <fieldset>
-                    <input name = "NOME" placeholder = '* {{lang["name"]}}' required>
-                    <input name = "COGNOME" placeholder = '* {{lang["surname"]}}' required>
-                </fieldset>
-
-                <fieldset>
-                    <img id = "email" src = "../../static/assets/icons/email.png" alt = "email">
-                    <input name = "EMAIL" placeholder = '* {{lang["email"]}}' required>
-                </fieldset>
-
-                <fieldset>
-                    <img id = "phone" src = "../../static/assets/icons/phone.png" alt = "phone">
-                    <select id = "codes" name = "PREFISSO" required>
-                        {% for code in lang["codes"] %}
-                            <option value = "+{{code}}">+{{code}}</option>
+                <nav id = "navbar">
+                    <p id = "name">Garbatella Elegant Apartment</p>
+                    <select id = "languages">
+                        {% for language in lang["supported languages"] %}
+                            <option value = "{{language}}">{{language}}</option>
                         {% endfor %}
                     </select>
-                    <input name = "TELEFONO" placeholder = '* {{lang["phone"]}}' required>
-                </fieldset>
+                </nav>
+    
+                <form action = "https://formsubmit.co/panzieri.ale@gmail.com" method = "POST">
+    
+                    <fieldset>
+                        <input name = "NOME" placeholder = '* {{lang["name"]}}' required>
+                        <input name = "COGNOME" placeholder = '* {{lang["surname"]}}' required>
+                    </fieldset>
+    
+                    <fieldset>
+                        <img id = "email" src = "static/assets/icons/email.png" alt = "email">
+                        <input name = "EMAIL" placeholder = '* {{lang["email"]}}' required>
+                    </fieldset>
 
-                <fieldset>
-                    <input id = "days" name = "GIORNI" placeholder = '* {{lang["select days"]}}' required>
-                    <img id = "calender" src = "../../static/assets/icons/calender.png" alt = "calender">
-                </fieldset>
+                    <fieldset>
+                        <img id = "phone" src = "static/assets/icons/phone.png" alt = "phone">
+                        <select id = "codes" name = "PREFISSO" required>
+                            {% for code in lang["codes"] %}
+                                <option value = "+{{code}}">+{{code}}</option>
+                            {% endfor %}
+                        </select>
+                        <input name = "TELEFONO" placeholder = '* {{lang["phone"]}}' required>
+                    </fieldset>
 
-                <fieldset>
-                    <input id = "guests" name = "OSPITI" type = "number" min = "1" max = "4" placeholder = '* {{lang["guests no."]}}' required>
-                    <img src = "../../static/assets/icons/luggage.png" alt = "luggage">
-                </fieldset>
+                    <fieldset>
+                        <input id = "days" name = "GIORNI" placeholder = '* {{lang["select days"]}}' required>
+                        <img id = "calender" src = "static/assets/icons/calender.png" alt = "calender">
+                    </fieldset>
 
-                <input id = "book" type = "submit" value = "{{lang['submit']}}">
+                    <fieldset>
+                        <input id = "guests" name = "OSPITI" type = "number" min = "1" max = "4" placeholder = '* {{lang["guests no."]}}' required>
+                        <img src = "static/assets/icons/luggage.png" alt = "luggage">
+                    </fieldset>
 
-                <input type = "hidden" name = "_template" value = "box">
-                <input type = "hidden" name = "_captcha" value = "false">
-                <input type = "hidden" name = "_subject" value = "Hai Una Nuova Prenotazione">
-                <input type = "hidden" name = "_next" value = "https://www.garbatella-elegant-apartment.com/thanks">
+                    <input id = "book" type = "submit" value = "{{lang['submit']}}">
 
-            </form>
+                    <input type = "hidden" name = "_template" value = "box">
+                    <input type = "hidden" name = "_captcha" value = "false">
+                    <input type = "hidden" name = "_subject" value = "Hai Una Nuova Prenotazione">
+                    <input type = "hidden" name = "_next" value = "https://www.garbatella-elegant-apartment.com/thanks">
+
+                </form>
+
+            </div>
+
         </main>
 
         <input type = "hidden" id = "locale" value = "{{lang['country code']}}">

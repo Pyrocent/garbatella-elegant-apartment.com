@@ -30,9 +30,10 @@ header {
 
 #tax {
     margin: 0;
-    font-size: 20px;
+    font-size: 25px;
     cursor: pointer;
     color: rgb(255, 255, 255);
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.75));
 }
 
 #languages {
@@ -47,7 +48,7 @@ header {
 }
 
 #title {
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     margin: 100px 0 0 0;
     color: rgb(255, 255, 255);
@@ -55,7 +56,7 @@ header {
 }
 
 #subtitle {
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     margin: 15px 0 0 0;
     padding: 2.5px 0 2.5px 0;
@@ -167,7 +168,6 @@ header {
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     font-family: "Roboto Condensed", sans-serif;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
 }
 
 .tab-button.active {

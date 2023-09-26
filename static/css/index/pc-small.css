@@ -157,6 +157,7 @@ header {
 #tabs-buttons {
     gap: 5px;
     display: flex;
+    overflow-x: auto;
 }
 
 .tab-button {
@@ -167,7 +168,6 @@ header {
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     font-family: "Roboto Condensed", sans-serif;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
 }
 
 .tab-button.active {
