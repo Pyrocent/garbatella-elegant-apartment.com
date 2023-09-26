@@ -33,7 +33,7 @@ lang = {
             "first aid kit": "First Aid Kit",
             "neighborhood": "NEIGHBORHOOD",
             "supermarket": "Supermarket in front of the Home",
-            "garage": "Hourly Garage Under Home",
+            "garage": "Hourly Garage Under the Home",
             "parking": "Free Parking in The Street",
             "tobacco shop": "Tobacconist 10m Away",
             "cafe": "Bar in The Same Street 100m",
