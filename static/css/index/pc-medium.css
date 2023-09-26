@@ -35,10 +35,6 @@ header {
     filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.75));
 }
 
-#tax:hover {
-    color: rgb(235, 235, 235);
-}
-
 #languages {
     width: 75px;
     height: 40px;

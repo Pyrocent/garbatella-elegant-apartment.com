@@ -35,10 +35,6 @@ header {
     color: rgb(255, 255, 255);
 }
 
-#tax:hover {
-    color: rgb(235, 235, 235);
-}
-
 #languages {
     width: 75px;
     height: 40px;
