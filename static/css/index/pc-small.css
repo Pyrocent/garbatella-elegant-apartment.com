@@ -1,7 +1,7 @@
 body {
     cursor: default;
     margin: 0 5px 5px 5px;
-    font-family: "Cabin", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -46,7 +46,7 @@ header {
     cursor: pointer;
     padding-left: 5px;
     border-radius: 5px;
-    font-family: "Cabin", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
 }
 
@@ -82,8 +82,8 @@ header {
     cursor: pointer;
     border-radius: 10px;
     color: rgb(255, 255, 255);
-    font-family: "Cabin", sans-serif;
     background-color: rgb(37, 104, 248);
+    font-family: "Roboto Condensed", sans-serif;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
 }
 
@@ -169,8 +169,8 @@ header {
     font-size: 15px;
     padding: 10px 20px;
     border-radius: 10px;
-    font-family: "Cabin", sans-serif;
     background-color: rgb(255, 255, 255);
+    font-family: "Roboto Condensed", sans-serif;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
 }
 
@@ -193,7 +193,7 @@ header {
     padding: 20px;
     overflow: auto;
     flex-direction: column;
-    font-family: "Outfit", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 .tab-content::-webkit-scrollbar {
@@ -228,8 +228,8 @@ header {
     font-size: 25px;
     cursor: pointer;
     border-radius: 10px;
-    font-family: "Cabin", sans-serif;
     background-color: rgb(255, 255, 255);
+    font-family: "Roboto Condensed", sans-serif;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
 }
 

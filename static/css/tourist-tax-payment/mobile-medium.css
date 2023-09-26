@@ -1,7 +1,7 @@
 body {
     margin: 0;
     overflow: hidden;
-    font-family: "Cabin", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -27,7 +27,7 @@ body::-webkit-scrollbar {
     font-size: 15px;
     padding-left: 5px;
     border-radius: 5px;
-    font-family: "Cabin", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
 }
 
@@ -54,8 +54,8 @@ body::-webkit-scrollbar {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    font-family: "Cabin", sans-serif;
     background-color: rgb(255, 255, 255);
+    font-family: "Roboto Condensed", sans-serif;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
     background-image: url("../../../assets/paypal.png");
 }
@@ -87,8 +87,8 @@ hr {
     align-items: center;
     border-radius: 10px;
     justify-content: center;
-    font-family: "Cabin", sans-serif;
     background-color: rgb(255, 255, 255);
+    font-family: "Roboto Condensed", sans-serif;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
 }
 

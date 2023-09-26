@@ -1,7 +1,7 @@
 body {
     margin: 0;
     overflow: hidden;
-    font-family: "Outfit", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -37,7 +37,7 @@ button {
     border-radius: 10px;
     justify-content: center;
     color: rgb(255, 255, 255);
-    font-family: "Cabin", sans-serif;
     background-color: rgb(37, 104, 248);
+    font-family: "Roboto Condensed", sans-serif;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
 }
