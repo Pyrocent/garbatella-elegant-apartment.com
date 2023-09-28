@@ -29,6 +29,10 @@ def before_request():
 def index():
     return render_template("index.min.html", lang = g.lang["index"])
 
+@app.get("/more-info")
+def more_info():
+    return render_template("more-info.min.html", lang = g.lang["more-info"])
+
 @app.get("/book-holiday-home")
 def book_holiday_home():
     return render_template("book-holiday-home.min.html", lang = g.lang["book-holiday-home"])
@@ -42,6 +46,7 @@ def thanks():
     return render_template("thanks.min.html", lang = g.lang["thanks"])
 
 @app.post("/")
+@app.post("/more-info")
 @app.post("/book-holiday-home")
 @app.post("/tourist-tax-payment")
 def change_language():
