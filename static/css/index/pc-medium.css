@@ -234,12 +234,15 @@ header {
 }
 
 footer {
-    height: 30px;
+    height: 75px;
     display: flex;
     align-items: center;
     justify-content: end;
 }
 
 footer a {
-    font-size: 15px;
+    margin: 0;
+    font-size: 20px;
+    cursor: pointer;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.25));
 }
