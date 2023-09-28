@@ -24,7 +24,7 @@ header {
 
 #tax {
     margin: 0;
-    font-size: 12.5px;
+    font-size: 17.5px;
     color: rgb(255, 255, 255);
     filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.75));
 }
@@ -40,7 +40,7 @@ header {
 }
 
 #title {
-    font-size: 27.5px;
+    font-size: 30px;
     text-align: center;
     margin: 15px 0 0 0;
     color: rgb(255, 255, 255);
@@ -194,4 +194,19 @@ header {
     background-color: rgb(255, 255, 255);
     font-family: "Roboto Condensed", sans-serif;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
+}
+
+footer {
+    gap: 25px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+footer a {
+    margin: 0;
+    cursor: pointer;
+    font-size: 17.5px;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.25));
 }

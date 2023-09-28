@@ -42,7 +42,8 @@ lang = {
             "rules": "RULES",
             "smoking": "Smoking only on terraces",
             "no party": "No loud parties",
-            "contact": "CONTACT"
+            "contact": "CONTACT",
+            "more info": "More info"
         },
         "book-holiday-home": {
             "country code": "en",
@@ -120,7 +121,8 @@ lang = {
             "rules": "REGOLE",
             "smoking": "Fumare solo nei terrazzi",
             "no party": "Vietate feste rumorose",
-            "contact": "CONTATTO"
+            "contact": "CONTATTO",
+            "more info": "Più info"
         },
         "book-holiday-home": {
             "country code": "it",

@@ -232,3 +232,18 @@ header {
 #tabs-container .book:hover {
     border-radius: 90px;
 }
+
+footer {
+    gap: 35px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+footer a {
+    margin: 0;
+    font-size: 20px;
+    cursor: pointer;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.25));
+}
