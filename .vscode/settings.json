@@ -7,6 +7,7 @@
     "sitemap.xml": true,
     "vercel.json": true,
     "**/min": true,
-    "**/min.*": true
+    "**/min.*": true,
+    "__pycache__": true
   }
 }
