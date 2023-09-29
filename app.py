@@ -4,7 +4,6 @@ from airbnb import Api
 from flask import (
     Flask,
     jsonify,
-    session,
     request,
     redirect,
     send_file,
@@ -15,9 +14,12 @@ from flask import (
 app = Flask(__name__)
 app.config.update(
     SECRET_KEY = token_hex(16),
+    SESSION_COOKIE_NAME = "lang",
     SESSION_COOKIE_SECURE = True,
     SESSION_COOKIE_HTTPONLY = True,
+    SESSION_COOKIE_MAX_AGE = 47336400,
     SESSION_COOKIE_SAMESITE = "Strict",
+    SESSION_COOKIE_DOMAIN = ".garbatella-elegant-aparment.com"
 )
 app.template_folder = "templates/min"
 
@@ -56,8 +58,9 @@ def thanks():
 @app.post("/book-holiday-home")
 @app.post("/tourist-tax-payment")
 def change_language():
-    session["lang"] = request.form.get("lang")
-    return redirect(request.referrer)
+    response = make_response(redirect(request.referrer))
+    response.set_cookie("lang", request.form.get("lang"))
+    return response
 
 @app.post("/disable_days")
 def disable_days():
