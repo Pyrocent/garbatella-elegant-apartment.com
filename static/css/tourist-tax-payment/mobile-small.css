@@ -58,7 +58,7 @@ header {
     border-radius: 10px;
     flex-direction: column;
     transform: translate(-50%, -50%);
-    background-color: rgb(37, 104, 248);
+    background-color: rgba(37, 104, 248, 0.85);
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
