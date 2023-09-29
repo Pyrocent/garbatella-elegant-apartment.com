@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    
+
     $("#languages").change(function () {
         fetch("/book-holiday-home", {
             method: "POST",
@@ -52,8 +52,8 @@ $(document).ready(function () {
         $("#book").prop("disabled", true);
     });
 
-    $(document).on("keypress",function(e) {
-        if(e.which == 13) {
+    $(document).on("keypress", function (e) {
+        if (e.which == 13) {
             $("#book").click();
         }
     });
