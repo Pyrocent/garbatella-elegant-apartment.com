@@ -1,9 +1,5 @@
 $(document).ready(function () {
 
-    $("#name").click(function () {
-        window.location.href = "/"
-    });
-
     $("#languages").change(function () {
         fetch("/more-info", {
             method: "POST",
@@ -18,6 +14,10 @@ $(document).ready(function () {
             .catch(error => {
                 console.error(error);
             });
+    });
+
+    $("#name").click(function () {
+        window.location.href = "/"
     });
 
 });
