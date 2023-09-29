@@ -4,10 +4,6 @@ body {
     font-family: "Roboto Condensed", sans-serif;
 }
 
-body::-webkit-scrollbar {
-    display: none;
-}
-
 div {
     gap: 5px;
     top: 50%;
