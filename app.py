@@ -2,7 +2,6 @@ from secrets import token_hex
 from config import lang
 from airbnb import Api
 from flask import (
-    g,
     Flask,
     jsonify,
     session,
@@ -21,29 +20,25 @@ app.config.update(
 )
 app.template_folder = "templates/min"
 
-@app.before_request
-def before_request():
-    g.lang = lang[session.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))]
-
 @app.get("/")
 def index():
-    return render_template("index.min.html", lang = g.lang["index"])
+    return render_template("index.min.html", lang = lang[session.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))]["index"])
 
 @app.get("/more-info")
 def more_info():
-    return render_template("more-info.min.html", lang = g.lang["more-info"])
+    return render_template("more-info.min.html", lang = lang[session.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))]["more-info"])
 
 @app.get("/book-holiday-home")
 def book_holiday_home():
-    return render_template("book-holiday-home.min.html", lang = g.lang["book-holiday-home"])
+    return render_template("book-holiday-home.min.html", lang = lang[session.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))]["book-holiday-home"])
 
 @app.get("/tourist-tax-payment")
 def tourist_tax_payment():
-    return render_template("tourist-tax-payment.min.html", lang = g.lang["tourist-tax-payment"])
+    return render_template("tourist-tax-payment.min.html", lang = lang[session.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))]["tourist-tax-payment"])
 
 @app.get("/thanks")
 def thanks():
-    return render_template("thanks.min.html", lang = g.lang["thanks"])
+    return render_template("thanks.min.html", lang = lang[session.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))]["thanks"])
 
 @app.post("/")
 @app.post("/more-info")
