@@ -23,17 +23,19 @@ app.config.update(
 )
 app.template_folder = "templates/min"
 
+@app.before_request
+def before_request():
+    if request.cookies.get("lang") is None:
+        response = make_response("")
+        response.set_cookie("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))
+
 @app.get("/")
 def index():
-    response = make_response(render_template("index.min.html"))
-    response.set_cookie("lang", lang[request.cookies.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))]["index"])
-    return response
+    return render_template("index.min.html", lang = lang[request.cookies.get("lang")]["index"])
 
 @app.get("/more-info")
 def more_info():
-    response = make_response(render_template("more-info.min.html"))
-    response.set_cookie("lang", lang[request.cookies.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))]["more-info"])
-    return response
+    return render_template("more-info.min.html", lang = request.cookies.get("lang")["more-info"])
 
 @app.get("/book-holiday-home")
 def book_holiday_home():
