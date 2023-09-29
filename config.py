@@ -90,7 +90,7 @@ lang = {
             "supported languages": ["EN", "IT"],
             "info": "6 Euros per night at person (no children under 10)",
             "or": "OR",
-            "credit card": "CREDIT CARD"
+            "credit card": "CREDIT CARD (NO AMEX)"
         },
         "thanks": {
             "country code": "en",
@@ -192,7 +192,7 @@ lang = {
             "supported languages": ["IT", "EN"],
             "info": "6 Euro a notte a persona (no minori di 10 Anni)",
             "or": "OPPURE",
-            "credit card": "CARTA DI CREDITO"
+            "credit card": "CARTA DI CREDITO (NO AMEX)"
         },
         "thanks": {
             "country code": "it",
