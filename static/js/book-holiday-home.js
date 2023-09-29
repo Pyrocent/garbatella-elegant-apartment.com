@@ -52,4 +52,10 @@ $(document).ready(function () {
         $("#book").prop("disabled", true);
     });
 
+    $(document).on("keypress",function(e) {
+        if(e.which == 13) {
+            $("#book").click();
+        }
+    });
+
 });
