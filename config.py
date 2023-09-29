@@ -48,7 +48,12 @@ lang = {
         "more-info": {
             "country code": "en",
             "tab title": "Holiday home in Rome",
-            "description": "Enjoy the comfort of your holiday home in the Garbatella neighborhood - The ideal place to stay in Rome"
+            "description": "Enjoy the comfort of your holiday home in the Garbatella neighborhood - The ideal place to stay in Rome",
+            "supported languages": ["EN", "IT"],
+            "apartment": "Apartment",
+            "neighborhood": "Neighborhood",
+            "garbatella": "What to see in Garbatella",
+            "keep in mind": "To keep In Mind"
         },
         "book-holiday-home": {
             "country code": "en",
@@ -132,7 +137,12 @@ lang = {
         "more-info": {
             "country code": "it",
             "tab title": "Casa vacanze a Roma",
-            "description": "Goditi il Comfort della Tua Casa Vacanze nel Quartiere Garbatella - Il Luogo Ideale per Soggiornare a Roma"
+            "description": "Goditi il Comfort della Tua Casa Vacanze nel Quartiere Garbatella - Il Luogo Ideale per Soggiornare a Roma",
+            "supported languages": ["IT", "EN"],
+            "apartment": "Casa",
+            "neighborhood": "Quartiere",
+            "garbatella": "Cosa vedere alla Garbatella",
+            "keep in mind": "Da tenere in mente"
         },
         "book-holiday-home": {
             "country code": "it",

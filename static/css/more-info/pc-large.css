@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    cursor: default;
+    overflow: hidden;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px 0 15px;
+    justify-content: space-between;
+}
+
+#name {
+    margin: 0;
+    font-size: 20px;
+    cursor: pointer;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.15));
+}
+
+#languages {
+    width: 75px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    padding-left: 5px;
+    border-radius: 5px;
+    font-family: "Roboto Condensed", sans-serif;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+}

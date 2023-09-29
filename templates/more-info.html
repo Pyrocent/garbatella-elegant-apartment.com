@@ -34,9 +34,36 @@
     </head>
     <body>
         <main>
+
+            <nav id = "navbar">
+                <p id = "name">Garbatella Elegant Apartment</p>
+                <select id = "languages">
+                    {% for language in lang["supported languages"] %}
+                        <option value = "{{language}}">{{language}}</option>
+                    {% endfor %}
+                </select>
+            </nav>
+
             <fieldset>
-                
+                <legend>{{lang["apartment"]}}</legend>
+                <p></p>
             </fieldset>
+
+            <fieldset>
+                <legend>{{lang["neighborhood"]}}</legend>
+                <p></p>
+            </fieldset>
+
+            <fieldset>
+                <legend>{{lang["garbatella"]}}</legend>
+                <p></p>
+            </fieldset>
+
+            <fieldset>
+                <legend>{{lang["keep in mind"]}}</legend>
+                <p></p>
+            </fieldset>
+
         </main>
 
         <script src = "static/js/min/more-info.min.js"></script>
