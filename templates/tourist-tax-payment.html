@@ -37,32 +37,39 @@
     <body>
         <main>
 
-            <nav id = "navbar">
-                <p id = "name">Garbatella Elegant Apartment</p>
-                <select id = "languages">
-                    {% for language in lang["supported languages"] %}
-                        <option value = "{{language}}">{{language}}</option>
-                    {% endfor %}
-                </select>
-            </nav>
+            <header></header>
 
-            <section id = "pay">
+            <div id = "overlap">
 
-                    <button id = "paypal"></button>
+                <nav id = "navbar">
+                    <p id = "name">Garbatella Elegant Apartment</p>
+                    <select id = "languages">
+                        {% for language in lang["supported languages"] %}
+                            <option value = "{{language}}">{{language}}</option>
+                        {% endfor %}
+                    </select>
+                </nav>
 
-                    <div id = "separator"><hr><p>{{lang["or"]}}</p><hr></div>
+                <section id = "pay">
 
-                    <button id = "revolut"><img src = "../../static/assets/icons/credit-card.png" alt = "credit card">{{lang["credit card"]}}</button>
+                        <button id = "paypal"></button>
 
-                <div id = info>
-                    <img src = "../static/assets/icons/info.png" alt = "info">
-                    {{lang["info"]}}
-                </div>
+                        <div id = "separator"><hr><p>{{lang["or"]}}</p><hr></div>
 
-            </section>
+                        <button id = "revolut"><img src = "../../static/assets/icons/credit-card.png" alt = "credit card">{{lang["credit card"]}}</button>
+
+                    <div id = info>
+                        <img src = "../static/assets/icons/info.png" alt = "info">
+                        {{lang["info"]}}
+                    </div>
+
+                </section>
+
+            </div>
 
         </main>
 
         <script src = "static/js/min/tourist-tax-payment.min.js"></script>
+
     </body>
 </html>
