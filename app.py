@@ -8,6 +8,7 @@ from flask import (
     request,
     redirect,
     send_file,
+    make_response,
     render_template
 )
 
@@ -22,23 +23,33 @@ app.template_folder = "templates/min"
 
 @app.get("/")
 def index():
-    return render_template("index.min.html", lang = lang[session.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))]["index"])
+    response = make_response(render_template("index.min.html"))
+    response.set_cookie("lang", lang[request.cookies.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))]["index"])
+    return response
 
 @app.get("/more-info")
 def more_info():
-    return render_template("more-info.min.html", lang = lang[session.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))]["more-info"])
+    response = make_response(render_template("more-info.min.html"))
+    response.set_cookie("lang", lang[request.cookies.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))]["more-info"])
+    return response
 
 @app.get("/book-holiday-home")
 def book_holiday_home():
-    return render_template("book-holiday-home.min.html", lang = lang[session.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))]["book-holiday-home"])
+    response = make_response(render_template("book-holiday-home.min.html"))
+    response.set_cookie("lang", lang[request.cookies.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))]["book-holiday-home"])
+    return response
 
 @app.get("/tourist-tax-payment")
 def tourist_tax_payment():
-    return render_template("tourist-tax-payment.min.html", lang = lang[session.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))]["tourist-tax-payment"])
+    response = make_response(render_template("tourist-tax-payment.min.html"))
+    response.set_cookie("lang", lang[request.cookies.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))]["tourist-tax-payment"])
+    return response
 
 @app.get("/thanks")
 def thanks():
-    return render_template("thanks.min.html", lang = lang[session.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))]["thanks"])
+    response = make_response(render_template("thanks.min.html"))
+    response.set_cookie("lang", lang[request.cookies.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))]["thanks"])
+    return response
 
 @app.post("/")
 @app.post("/more-info")
