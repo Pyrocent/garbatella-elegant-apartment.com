@@ -43,7 +43,7 @@ lang = {
             "smoking": "Smoking only on terraces",
             "no party": "No loud parties",
             "contact": "CONTACT",
-            "more info": "More info"
+            "description": "Description"
         },
         "more-info": {
             "country code": "en",
@@ -145,7 +145,7 @@ lang = {
             "smoking": "Fumare solo nei terrazzi",
             "no party": "Vietate feste rumorose",
             "contact": "CONTATTO",
-            "more info": "Più info"
+            "Description": "Descrizione"
         },
         "more-info": {
             "country code": "it",
