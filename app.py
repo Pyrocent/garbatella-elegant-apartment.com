@@ -23,45 +23,39 @@ app.config.update(
 )
 app.template_folder = "templates/min"
 
-@app.before_request
-def before_request():
-    if request.cookies.get("lang") is None:
-        response = make_response("")
-        response.set_cookie("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))
-
 @app.get("/")
 def index():
-    return render_template("index.min.html", lang = lang[request.cookies.get("lang")]["index"])
+    user_lang = request.cookies.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))
+    response = make_response(render_template("index.min.html", lang = lang[user_lang]["index"]))
+    response.set_cookie("lang", user_lang)
+    return response
 
 @app.get("/more-info")
 def more_info():
-    return render_template("more-info.min.html", lang = request.cookies.get("lang")["more-info"])
+    user_lang = request.cookies.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))
+    response = make_response(render_template("more-info.min.html", lang = lang[user_lang]["more-info"]))
+    response.set_cookie("lang", user_lang)
+    return response
 
 @app.get("/book-holiday-home")
 def book_holiday_home():
-    response = make_response(render_template("book-holiday-home.min.html"))
-    response.set_cookie("lang", lang[request.cookies.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))]["book-holiday-home"])
+    user_lang = request.cookies.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))
+    response = make_response(render_template("book-holiday-home.min.html", lang = lang[user_lang]["book-holiday-home"]))
+    response.set_cookie("lang", user_lang)
     return response
 
 @app.get("/tourist-tax-payment")
 def tourist_tax_payment():
-    response = make_response(render_template("tourist-tax-payment.min.html"))
-    response.set_cookie("lang", lang[request.cookies.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))]["tourist-tax-payment"])
+    user_lang = request.cookies.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))
+    response = make_response(render_template("tourist-tax-payment.min.html", lang = lang[user_lang]["tourist-tax-payment"]))
+    response.set_cookie("lang", user_lang)
     return response
 
 @app.get("/thanks")
 def thanks():
-    response = make_response(render_template("thanks.min.html"))
-    response.set_cookie("lang", lang[request.cookies.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))]["thanks"])
-    return response
-
-@app.post("/")
-@app.post("/more-info")
-@app.post("/book-holiday-home")
-@app.post("/tourist-tax-payment")
-def change_language():
-    response = make_response(redirect(request.referrer))
-    response.set_cookie("lang", request.form.get("lang"))
+    user_lang = request.cookies.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))
+    response = make_response(render_template("thanks.min.html", lang = lang[user_lang]["thanks"]))
+    response.set_cookie("lang", user_lang)
     return response
 
 @app.post("/disable_days")
@@ -79,6 +73,15 @@ def disable_days():
                     days.append(day["date"])
 
     return jsonify(days)
+
+@app.post("/")
+@app.post("/more-info")
+@app.post("/book-holiday-home")
+@app.post("/tourist-tax-payment")
+def change_language():
+    response = make_response(redirect(request.referrer))
+    response.set_cookie("lang", request.form.get("lang"))
+    return response
 
 @app.get("/robots.txt")
 def robots():
