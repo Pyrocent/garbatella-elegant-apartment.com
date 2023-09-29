@@ -18,7 +18,7 @@ body::-webkit-scrollbar {
 
 #name {
     margin: 0;
-    font-size: 20px;
+    font-size: 25px;
     cursor: pointer;
     filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.15));
 }
