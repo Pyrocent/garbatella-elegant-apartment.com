@@ -165,7 +165,8 @@ header {
     border: none;
     cursor: pointer;
     font-size: 30px;
-    padding: 10px 20px;
+    padding: 10px 10px;
+    white-space: nowrap;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     font-family: "Roboto Condensed", sans-serif;
