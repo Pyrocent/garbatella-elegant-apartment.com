@@ -160,6 +160,22 @@ header {
     overflow-x: auto;
 }
 
+#tabs-buttons::-webkit-scrollbar {
+    height: 7px;
+}
+
+#tabs-buttons::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+}
+
+#tabs-buttons::-webkit-scrollbar-thumb {
+    background: rgb(136, 136, 136);
+}
+
+#tabs-buttons::-webkit-scrollbar-thumb:hover {
+    background: rgb(85, 85, 85);
+}
+
 .tab-button {
     border: none;
     cursor: pointer;

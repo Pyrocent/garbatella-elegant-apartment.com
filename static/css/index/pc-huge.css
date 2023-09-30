@@ -172,6 +172,22 @@ header {
     font-family: "Roboto Condensed", sans-serif;
 }
 
+.tab-button::-webkit-scrollbar {
+    width: 10px;
+}
+
+.tab-button::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+}
+
+.tab-button::-webkit-scrollbar-thumb {
+    background: rgb(136, 136, 136);
+}
+
+.tab-button::-webkit-scrollbar-thumb:hover {
+    background: rgb(85, 85, 85);
+}
+
 .tab-button.active {
     border-radius: 90px;
 }
