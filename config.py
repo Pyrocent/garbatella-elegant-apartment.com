@@ -145,7 +145,7 @@ lang = {
             "smoking": "Fumare solo nei terrazzi",
             "no party": "Vietate feste rumorose",
             "contact": "CONTATTO",
-            "more": "MORE"
+            "more": "DI PIÙ"
         },
         "more": {
             "country code": "it",
