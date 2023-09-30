@@ -17,15 +17,15 @@ $(document).ready(function () {
     });
 
     $("#name").click(function () {
-        window.location.href = "/"
+        window.location.href = "/";
     });
 
     $("#paypal").click(function () {
-        window.location.href = "https://www.paypal.me/GarbatellaElegantApt"
+        window.location.href = "https://www.paypal.me/GarbatellaElegantApt";
     });
 
     $("#revolut").click(function () {
-        window.location.href = "https://revolut.me/garbelegantapt"
+        window.location.href = "https://revolut.me/garbelegantapt";
     });
 
 });

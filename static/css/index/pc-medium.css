@@ -234,7 +234,6 @@ header {
 }
 
 footer  {
-    gap: 35px;
     height: 65px;
     display: flex;
     margin-top: 5px;

@@ -17,7 +17,7 @@ $(document).ready(function () {
     });
 
     $(".book").click(function () {
-        window.location.href = "/book-holiday-home"
+        window.location.href = "/book-holiday-home";
     });
 
     $("#slider-for").slick({
@@ -58,12 +58,16 @@ $(document).ready(function () {
         });
     }
 
-    $(".tab-button").click(function () {
+    $(".tab-button:not('#more')").click(function () {
         $(".tab-content").removeClass("active");
         $(".tab-button").removeClass("active");
         var $this = $(this);
         $this.addClass("active");
         $("#" + $this.data("tab")).addClass("active");
+    });
+
+    $("#more").click(function () {
+        window.location.href = "/more"
     });
 
 });

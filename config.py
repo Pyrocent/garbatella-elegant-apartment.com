@@ -43,9 +43,9 @@ lang = {
             "smoking": "Smoking only on terraces",
             "no party": "No loud parties",
             "contact": "CONTACT",
-            "description": "Description"
+            "more": "MORE"
         },
-        "more-info": {
+        "more": {
             "country code": "en",
             "tab title": "Holiday home in Rome",
             "description": "Enjoy the comfort of your holiday home in the Garbatella neighborhood - The ideal place to stay in Rome",
@@ -145,9 +145,9 @@ lang = {
             "smoking": "Fumare solo nei terrazzi",
             "no party": "Vietate feste rumorose",
             "contact": "CONTATTO",
-            "Description": "Descrizione"
+            "more": "MORE"
         },
-        "more-info": {
+        "more": {
             "country code": "it",
             "tab title": "Casa vacanze a Roma",
             "description": "Goditi il Comfort della Tua Casa Vacanze nel Quartiere Garbatella - Il Luogo Ideale per Soggiornare a Roma",

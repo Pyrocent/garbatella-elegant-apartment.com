@@ -21,7 +21,7 @@ $(document).ready(function () {
     }, 250);
 
     $("button").click(function () {
-        window.location.href = "/"
+        window.location.href = "/";
     });
 
 });

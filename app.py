@@ -30,10 +30,10 @@ def index():
     response.set_cookie("lang", user_lang, timedelta(weeks = 52))
     return response
 
-@app.get("/more-info")
-def more_info():
+@app.get("/more")
+def more():
     user_lang = request.cookies.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))
-    response = make_response(render_template("more-info.min.html", lang = lang[user_lang]["more-info"]))
+    response = make_response(render_template("more.min.html", lang = lang[user_lang]["more"]))
     response.set_cookie("lang", user_lang, timedelta(weeks = 52))
     return response
 
@@ -75,7 +75,7 @@ def disable_days():
     return jsonify(days)
 
 @app.post("/")
-@app.post("/more-info")
+@app.post("/more")
 @app.post("/book-holiday-home")
 @app.post("/tourist-tax-payment")
 def change_language():
