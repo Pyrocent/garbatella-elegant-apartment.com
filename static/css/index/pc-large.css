@@ -158,6 +158,7 @@ header {
 #tabs-buttons {
     gap: 5px;
     display: flex;
+    overflow-x: auto;
 }
 
 .tab-button {
