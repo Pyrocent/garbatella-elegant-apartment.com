@@ -1,13 +1,13 @@
 {
   "files.exclude": {
+    "__pycache__": true,
     ".vscode": true,
+    "**/min": true,
+    "**/min.*": true,
     ".gitignore": true,
     "requirements.txt": true,
     "robots.txt": true,
     "sitemap.xml": true,
-    "vercel.json": true,
-    "**/min": true,
-    "**/min.*": true,
-    "__pycache__": true
+    "vercel.json": true
   }
 }
