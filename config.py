@@ -43,6 +43,7 @@ lang = {
             "smoking": "Smoking only on terraces",
             "no party": "No loud parties",
             "contact": "CONTACT",
+            "always available": "Host is always available to help",
             "more": "MORE..."
         },
         "more": {
@@ -145,6 +146,7 @@ lang = {
             "smoking": "Fumare solo nei terrazzi",
             "no party": "Vietate feste rumorose",
             "contact": "CONTATTO",
+            "always available": "l'host è sempre disponibile ad aiutare",
             "more": "DI PIÙ..."
         },
         "more": {
@@ -155,7 +157,35 @@ lang = {
             "apartment": "Casa",
             "neighborhood": "Quartiere",
             "garbatella": "Cosa vedere alla Garbatella",
-            "keep in mind": "Da tenere in mente"
+            "keep in mind": "Da tenere in mente",
+            "apartment text paragraph 1": "L'appartamento è a pochi minuti a piedi dalla stazione “Garbatella” della linea B della metro, in una zona tranquilla e sicura, adatta alle famiglie e con servizio di portineria giornaliero. Per raggiungere il centro di Roma basterà prendere la Metro B e raggiungere in pochi minuti (solo 3 fermate!) la stazione Colosseo, per ritrovarsi proprio di fronte il monumento simbolo della “Città Eterna”.",
+            "apartment text paragraph 2": "La casa è situata al settimo piano raggiungibile con ascensore per avere la massima comodità con lo spostamento dei vostri bagagli. L'arredamento e il mobilio sono nuovi, moderni e curati in ogni dettaglio per farti sentire a tuo agio in un ambiente confortevole e rilassante.",
+            "apartment text paragraph 3": "La proprietà si compone di ingresso, soggiorno con tavolo da pranzo per 4 persone, con un ampio divano a forma di “L” , TV di 40 pollici con Netflix, condizionatore e terrazzo.",
+            "apartment text paragraph 4": "Proseguendo abbiamo due ampie camere da letto queen-size con materasso e cuscini in memory foam che vi permetteranno di dormire comodi e rilassati al fresco o alla temperatura che più preferite grazie ai moderni condizionatori presenti in entrambe le stanze.",
+            "apartment text paragraph 5": "Il bagno è nuovo e moderno, con un ampio box doccia, diversi getti d'acqua regolabili alla temperatura che più preferite e dispenser per il bagno schiuma. Sono presenti inoltre asciugamani e teli da doccia, kit di cortesia da Hotel e asciugacapelli. E’ presente, infine, anche la lavatrice.",
+            "apartment text paragraph 6": "La cucina spaziosa e abitabile, è completamente attrezzata con tutti i servizi necessari: microonde, forno, macchina del caffè a cialde, tostapane, bollitore, ampio tavolo per 4 persone e attrezzatura varia da cucina.",
+            "neighborhood text paragraph 1": "ll quartiere Garbatella è un vero e proprio gioiello nascosto nel cuore di Roma. Situato a sud del centro storico, è un luogo ricco di storia, cultura e autenticità, che cattura immediatamente l'attenzione di chiunque voglia fare una vera esperienza romana.",
+            "neighborhood text paragraph 2": "La Garbatella è conosciuta per le sue attività commerciali, le sue case colorate e i cortili interni pittoreschi. Camminare per le sue strade è come immergersi in un'altra epoca, dove tradizione e modernità si fondono in perfetta armonia. Ogni angolo rivela una storia da raccontare e lascia intravedere l'anima di un quartiere che ha fatto molto parlare di sé negli ultimi cento anni. Una delle esperienze imperdibili a Garbatella è sicuramente passeggiare per i suoi vicoli e perdersi tra i suoi giardini segreti. Lungo il percorso, puoi ammirare gli affascinanti murales che decorano le pareti degli edifici, dando vita a una vera e propria galleria a cielo aperto.",
+            "neighborhood text paragraph 3": "Inoltre, la Garbatella è famosa per la sua vibrante vita di quartiere con una vasta gamma di caffè, ristoranti, botteghe artigianali e mercati locali. Puoi gustare la cucina tradizionale romana, assaporando autentici piatti come la pasta alla carbonara o la coda alla vaccinara. Non mancano poi le occasioni per trascorrere una serata piacevole con gli amici, sorseggiando un aperitivo in uno dei numerosi locali caratteristici.",
+            "neighborhood text paragraph 4": "Anche se si distacca leggermente dai quartieri più famosi di Roma per vivere, la sua atmosfera familiare e l'ospitalità dei suoi abitanti rendono questo luogo una destinazione irresistibile per coloro che desiderano scoprire il vero spirito di Roma.",
+            "garbatella text paragraph 1": "Alla Garbatella puoi vedere e fare molte cose, sia dal punto di vista storico che culturale. Se deciderai di abitare qui per un periodo più o meno lungo potrai sia entrare nella storia del quartiere, che vivere la sua atmosfera familiare.",
+            "garbatella palladio theatre": "Teatro Palladium",
+            "garbatella text paragraph 2": "Si tratta di un antico cinema rionale trasformato in un dinamico centro culturale gestito dall'Università Roma Tre, qui puoi vedere diverse tipologie di film che vanno dal classico al progressivo.",
+            "garbatella lovers' staircase": "Scalinata degli innamorati",
+            "garbatella text paragraph 3": "Una romantica scalinata fuori dai normali tour che si fanno alla Garbatella e che conduce alla fontana di Carlotta, una fontana dedicata all'ostessa che avrebbe dato il nome al quartiere.",
+            "garbatella benedetto brin square": "Piazza Benedetto Brin",
+            "garbatella text paragraph 4": "Fu la prima piazza attorno alla quale sorse il nucleo originario della Garbatella, oggi ospita una fontana ed è anche la location di un cinema all’aperto.",
+            "garbatella hotels in piazza biffi": "Alberghi di Piazza Biffi",
+            "garbatella text paragraph 5": "Tre palazzi colorati costruiti negli anni '30 con uno stile moderno e funzionale, simbolo del cambiamento urbanistico del quartiere.",
+            "garbatella church of saints theodore and eurosia": "Chiesa dei Santi Teodoro ed Eurosia",
+            "garbatella text paragraph 6": "Nota anche come la “Chiesoletta”, è una piccola chiesa situata in via delle Sette Chiese, è dedicata a due santi legati all'agricoltura ed è anche famosa per esser stata il luogo di incontro tra i santi Filippo Neri e Carlo Borromeo nel 1500, come ricordato da due medaglioni di marmo sulla facciata.",
+            "garbatella montemartini museum": "Museo Montemartini",
+            "garbatella text paragraph 7": "Un ex impianto termoelettrico che ospita una collezione di sculture antiche, interessante da visitare poiché crea un suggestivo contrasto tra arte e industria.",
+            "garbatella basilica of st. paul": "Basilica di San Paolo",
+            "garbatella text paragraph 8": "Inoltre, vicino la Garbatella, nel famoso quartiere di San Paolo, è situata una delle quattro basiliche papali di Roma, costruita sul luogo dove sarebbe sepolto l'apostolo Paolo in onore del quale è stato dato il nome alla chiesa.",
+            "keep in mind text paragraph 1": "",
+            "keep in mind text paragraph 1": "",
+            "keep in mind text paragraph 1": ""
         },
         "book-holiday-home": {
             "country code": "it",
