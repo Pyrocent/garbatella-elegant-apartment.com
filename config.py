@@ -54,7 +54,7 @@ lang = {
             "apartment": "Apartment",
             "neighborhood": "Neighborhood",
             "garbatella": "What to see in Garbatella",
-            "keep in mind": "To keep In Mind",
+            "keep in mind": "To keep in mind",
             "apartment text paragraph 1": "The apartment is a few minutes walk from the Garbatella station of the metro line B, in a quiet and safe area, suitable for families and with daily concierge service. To reach the center of Rome, just take Metro B and reach the Colosseum station in a few minutes (only 3 stops!), to find yourself right in front of the symbolic monument of the “Eternal City”.",
             "apartment text paragraph 2": "The house is located on the seventh floor reachable by lift for maximum convenience when moving your luggage. The furnishings and furniture are new, modern and with attention to every detail to make you feel at ease in a comfortable and relaxing environment.",
             "apartment text paragraph 3": "The property consists of an entrance hall, living room with dining table for 4 people, with a large L-shaped sofa, 40-inch TV with Netflix, air conditioning and terrace.",
