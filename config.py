@@ -183,9 +183,8 @@ lang = {
             "garbatella text paragraph 7": "Un ex impianto termoelettrico che ospita una collezione di sculture antiche, interessante da visitare poiché crea un suggestivo contrasto tra arte e industria.",
             "garbatella basilica of st. paul": "Basilica di San Paolo",
             "garbatella text paragraph 8": "Inoltre, vicino la Garbatella, nel famoso quartiere di San Paolo, è situata una delle quattro basiliche papali di Roma, costruita sul luogo dove sarebbe sepolto l'apostolo Paolo in onore del quale è stato dato il nome alla chiesa.",
-            "keep in mind text paragraph 1": "",
-            "keep in mind text paragraph 1": "",
-            "keep in mind text paragraph 1": ""
+            "keep in mind text paragraph 1": "Sulla strada proprio di fronte l'appartamento troverai un comodo supermercato aperto anche la domenica.",
+            "keep in mind text paragraph 2": "A pochi metri dal portone di ingresso è situato un comodo garage privato a pagamento (20 Euro al giorno), mentre è sempre possibile parcheggiare sulla strada gratuitamente."
         },
         "book-holiday-home": {
             "country code": "it",
