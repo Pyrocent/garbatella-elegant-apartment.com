@@ -162,7 +162,7 @@ header {
 }
 
 #tabs-buttons::-webkit-scrollbar {
-    height: 7px;
+    height: 5px;
 }
 
 #tabs-buttons::-webkit-scrollbar-track {
@@ -211,7 +211,7 @@ header {
 }
 
 .tab-content::-webkit-scrollbar {
-    width: 7px;
+    width: 5px;
 }
 
 .tab-content::-webkit-scrollbar-track {

@@ -17,7 +17,7 @@ $(document).ready(function () {
     });
 
     $(".book").click(function () {
-        window.location.href = "/book-holiday-home";
+        window.location.href = "/book-holiday-home"
     });
 
     $("#slider-for").slick({
