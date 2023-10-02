@@ -23,6 +23,6 @@ These are all the dependencies:
 - [Google Analytics](https://marketingplatform.google.com/intl/it/about/analytics/) (for users metrics and statistics)
 - [Google Font](https://fonts.google.com/) (all the site uses [Roboto Condensed](https://fonts.google.com/specimen/Roboto+Condensed?query=roboto+conde) font)
 
-This site is GDPR compliant, [here](https://audaxly.com/privacy-policy?code=ln3hbi9fqw5k6r) its privacy policy provided by [Audaxly](https://audaxly.com/), for free.
+This site is [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) compliant, [here](https://audaxly.com/privacy-policy?code=ln3hbi9fqw5k6r) its privacy policy provided by [Audaxly](https://audaxly.com/), for free.
 
-[garbatella-elegant-apartment.com](https://www.garbatella-elegant-apartment.com/) is hosted on [Vercel](https://vercel.com/).
+[garbatella-elegant-apartment.com](https://www.garbatella-elegant-apartment.com/) is hosted on [Vercel](https://vercel.com/) free plan.
