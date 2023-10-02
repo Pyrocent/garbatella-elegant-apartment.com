@@ -5,6 +5,8 @@
     "**/min": true,
     "**/min.*": true,
     ".gitignore": true,
+    "LICENSE.md": true,
+    "README.md": true,
     "requirements.txt": true,
     "robots.txt": true,
     "sitemap.xml": true,
