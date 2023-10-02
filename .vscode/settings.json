@@ -5,7 +5,7 @@
     "**/min": true,
     "**/min.*": true,
     ".gitignore": true,
-    "LICENSE.md": true,
+    "LICENSE": true,
     "README.md": true,
     "requirements.txt": true,
     "robots.txt": true,
