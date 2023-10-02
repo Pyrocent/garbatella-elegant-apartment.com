@@ -17,11 +17,11 @@ I've developed this site using the following programming languages:
 These are all the dependencies:
 
 - [Slick](https://kenwheeler.github.io/slick/) (for the carousels)
-- [jQuery](https://jquery.com/) (for)
 - [Flatpickr](https://flatpickr.js.org/) (for the data picker)
+- [jQuery](https://jquery.com/) (a "JavaScript simplifier")
 - [CookieYes](https://www.cookieyes.com/) (provides a cookie banner)
+- [Google Analytics](https://marketingplatform.google.com/intl/it/about/analytics/) (for users metrics and statistics)
 - [Google Font](https://fonts.google.com/) (all the site uses [Roboto Condensed](https://fonts.google.com/specimen/Roboto+Condensed?query=roboto+conde) font)
-- [Google Analytics](https://marketingplatform.google.com/intl/it/about/analytics/)
 
 This site is GDPR compliant, [here](https://audaxly.com/privacy-policy?code=ln3hbi9fqw5k6r) its privacy policy provided by [Audaxly](https://audaxly.com/), for free.
 
