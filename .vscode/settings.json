@@ -10,6 +10,7 @@
     "requirements.txt": true,
     "robots.txt": true,
     "sitemap.xml": true,
+    "thumbnail.png": true,
     "vercel.json": true
   }
 }
