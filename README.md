@@ -28,4 +28,4 @@ These are all the dependencies:
 
 This site is [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) compliant, [here](https://audaxly.com/privacy-policy?code=ln3hbi9fqw5k6r) its privacy policy provided by [Audaxly.com](https://audaxly.com/), for free.
 
-[garbatella-elegant-apartment.com](https://www.garbatella-elegant-apartment.com/) is hosted on [Vercel.com](https://vercel.com/) free plan and its domain was bought on [Register.it](https://www.register.it/)
+[garbatella-elegant-apartment.com](https://www.garbatella-elegant-apartment.com/) is hosted on [Vercel.com](https://vercel.com/) free plan and its web domain was bought on [Register.it](https://www.register.it/)
