@@ -251,20 +251,21 @@ header {
 }
 
 footer {
-    height: 65px;
+    height: 50px;
     display: flex;
     margin-top: 5px;
     padding: 0px 10px;
     border-radius: 20px;
     align-items: center;
     justify-content: end;
+    justify-content: space-between;
     background-color: rgb(37, 104, 248);
 }
 
 footer a {
     margin: 0;
-    font-size: 20px;
     cursor: pointer;
+    font-size: 17.5px;
     color: rgb(255, 255, 255);
     filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.35));
 }
