@@ -30,12 +30,6 @@ header {
 }
 
 #navbar div {
-    gap: 5px;
-    display: flex;
-    align-items: center;
-}
-
-#navbar div {
     gap: 10px;
     display: flex;
     align-items: center;

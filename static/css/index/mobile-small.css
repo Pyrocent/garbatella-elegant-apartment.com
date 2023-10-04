@@ -29,12 +29,6 @@ header {
     filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.75));
 }
 
-#navbar div {
-    gap: 5px;
-    display: flex;
-    align-items: center;
-}
-
 #languages {
     width: 50px;
     height: 25px;
