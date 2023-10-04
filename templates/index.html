@@ -44,11 +44,14 @@
             <header>
                 <nav id = "navbar">
                     <a id = "tax" href = "/tourist-tax-payment">{{lang["tourist tax"]}}</a>
-                    <select id = "languages">
-                        {% for language in lang["supported languages"] %}
-                            <option value = "{{language}}">{{language}}</option>
-                        {% endfor %}
-                    </select>
+                    <div>
+                        <label for = "languages"><img src="../../static/assets/icons/language.png" alt = "language"></label>
+                        <select id = "languages">
+                            {% for language in lang["supported languages"] %}
+                                <option value = "{{language}}">{{language}}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
                 </nav>
 
                 <p id = "title">{{lang["header title"]}}</p>
