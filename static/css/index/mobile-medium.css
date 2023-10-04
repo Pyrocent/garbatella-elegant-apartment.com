@@ -30,7 +30,7 @@ header {
 }
 
 #navbar div {
-    gap: 10px;
+    gap: 5px;
     display: flex;
     align-items: center;
 }
