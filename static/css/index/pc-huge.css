@@ -258,7 +258,6 @@ footer {
     padding: 0px 10px;
     border-radius: 20px;
     align-items: center;
-    justify-content: end;
     justify-content: space-between;
     background-color: rgb(37, 104, 248);
 }
