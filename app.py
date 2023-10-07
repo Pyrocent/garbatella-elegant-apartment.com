@@ -30,12 +30,15 @@ def index():
     response.set_cookie("lang", user_lang, timedelta(weeks = 52))
     return response
 
-@app.get("/more")
-def more():
-    user_lang = request.cookies.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))
-    response = make_response(render_template("more.min.html", lang = lang[user_lang]["more"]))
-    response.set_cookie("lang", user_lang, timedelta(weeks = 52))
-    return response
+@app.get("/more/<tab>")
+def more(tab):
+    if tab == "home" or tab == "neighborhood":
+        user_lang = request.cookies.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))
+        response = make_response(render_template("more.min.html", lang = lang[user_lang]["more"], tab = tab))
+        response.set_cookie("lang", user_lang, timedelta(weeks = 52))
+        return response
+    else:
+        return redirect("/")
 
 @app.get("/book-holiday-home")
 def book_holiday_home():
@@ -75,7 +78,8 @@ def disable_days():
     return jsonify(days)
 
 @app.post("/")
-@app.post("/more")
+@app.post("/more/home")
+@app.post("/more/neighborhood")
 @app.post("/book-holiday-home")
 @app.post("/tourist-tax-payment")
 def change_language():

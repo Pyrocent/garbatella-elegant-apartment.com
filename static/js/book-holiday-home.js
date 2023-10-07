@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     $("#languages").change(function () {
-        fetch("/book-holiday-home", {
+        fetch(window.location.href, {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: `lang=${$(this).val()}`,

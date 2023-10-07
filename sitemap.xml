@@ -6,6 +6,11 @@
 		<lastmod>2023-10-07</lastmod>
 	</url>
 	<url>
+		<loc>https://www.garbatella-elegant-apartment.com/templates/more-neighborhood.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-10-07</lastmod>
+	</url>
+	<url>
 		<loc>https://www.garbatella-elegant-apartment.com/templates/book-holiday-home.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2023-10-04</lastmod>
@@ -23,7 +28,12 @@
 	<url>
 		<loc>https://www.garbatella-elegant-apartment.com/templates/more.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2023-10-04</lastmod>
+		<lastmod>2023-10-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.garbatella-elegant-apartment.com/templates/more-home.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-10-07</lastmod>
 	</url>
 	<url>
 		<loc>https://www.garbatella-elegant-apartment.com/templates/min/book-holiday-home.min.html</loc>
