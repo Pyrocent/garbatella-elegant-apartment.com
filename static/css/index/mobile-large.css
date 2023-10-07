@@ -169,7 +169,7 @@ header {
 .tab-content.active {
     gap: 10px;
     display: flex;
-    height: 318px;
+    height: 324px;
     overflow: auto;
     padding: 20px 0;
     flex-direction: column;
@@ -219,5 +219,5 @@ footer a {
 
 #home a,
 #neighborhood a {
-    font-size: 20px;
+    font-size: 25px;
 }
