@@ -6,24 +6,9 @@
 		<lastmod>2023-10-07</lastmod>
 	</url>
 	<url>
-		<loc>https://www.garbatella-elegant-apartment.com/templates/more-neighborhood.html</loc>
+		<loc>https://www.garbatella-elegant-apartment.com/templates/more-home.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2023-10-07</lastmod>
-	</url>
-	<url>
-		<loc>https://www.garbatella-elegant-apartment.com/templates/book-holiday-home.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2023-10-04</lastmod>
-	</url>
-	<url>
-		<loc>https://www.garbatella-elegant-apartment.com/templates/thanks.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2023-09-28</lastmod>
-	</url>
-	<url>
-		<loc>https://www.garbatella-elegant-apartment.com/templates/tourist-tax-payment.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2023-09-29</lastmod>
 	</url>
 	<url>
 		<loc>https://www.garbatella-elegant-apartment.com/templates/more.html</loc>
@@ -31,17 +16,27 @@
 		<lastmod>2023-10-07</lastmod>
 	</url>
 	<url>
-		<loc>https://www.garbatella-elegant-apartment.com/templates/more-home.html</loc>
+		<loc>https://www.garbatella-elegant-apartment.com/templates/tourist-tax-payment.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-09-29</lastmod>
+	</url>
+	<url>
+		<loc>https://www.garbatella-elegant-apartment.com/templates/thanks.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-09-28</lastmod>
+	</url>
+	<url>
+		<loc>https://www.garbatella-elegant-apartment.com/templates/book-holiday-home.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-10-04</lastmod>
+	</url>
+	<url>
+		<loc>https://www.garbatella-elegant-apartment.com/templates/more-neighborhood.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2023-10-07</lastmod>
 	</url>
 	<url>
-		<loc>https://www.garbatella-elegant-apartment.com/templates/min/book-holiday-home.min.html</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-09-28</lastmod>
-	</url>
-	<url>
-		<loc>https://www.garbatella-elegant-apartment.com/templates/min/index.min.html</loc>
+		<loc>https://www.garbatella-elegant-apartment.com/templates/min/tourist-tax-payment.min.html</loc>
 		<priority>0.25</priority>
 		<lastmod>2023-09-27</lastmod>
 	</url>
@@ -51,8 +46,13 @@
 		<lastmod>2023-09-27</lastmod>
 	</url>
 	<url>
-		<loc>https://www.garbatella-elegant-apartment.com/templates/min/tourist-tax-payment.min.html</loc>
+		<loc>https://www.garbatella-elegant-apartment.com/templates/min/index.min.html</loc>
 		<priority>0.25</priority>
 		<lastmod>2023-09-27</lastmod>
+	</url>
+	<url>
+		<loc>https://www.garbatella-elegant-apartment.com/templates/min/book-holiday-home.min.html</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-09-28</lastmod>
 	</url>
 </urlset>
