@@ -169,7 +169,7 @@ header {
 .tab-content.active {
     gap: 10px;
     display: flex;
-    height: 284px;
+    height: 309px;
     padding: 20px;
     overflow: auto;
     flex-direction: column;
@@ -207,7 +207,8 @@ footer {
     justify-content: space-between;
     background-color: rgb(37, 104, 248);
 }
-
+#home a,
+#neighborhood a,
 footer a {
     margin: 0;
     cursor: pointer;

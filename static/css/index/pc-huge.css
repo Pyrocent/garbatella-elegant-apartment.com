@@ -203,7 +203,7 @@ header {
 .tab-content.active {
     gap: 10px;
     display: flex;
-    height: 365px;
+    height: 388px;
     padding: 20px;
     overflow: auto;
     flex-direction: column;
@@ -262,6 +262,8 @@ footer {
     background-color: rgb(37, 104, 248);
 }
 
+#home a,
+#neighborhood a,
 footer a {
     margin: 0;
     font-size: 20px;
