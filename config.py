@@ -44,7 +44,7 @@ lang = {
             "no party": "No loud parties",
             "contact": "CONTACT",
             "always available": "Host is always available to help",
-            "more": "More..."
+            "more": "More info..."
         },
         "more": {
             "country code": "en",
@@ -174,7 +174,7 @@ lang = {
             "no party": "Vietate feste rumorose",
             "contact": "CONTATTO",
             "always available": "L'host è sempre disponibile ad aiutare",
-            "more": "Di più..."
+            "more": "Più info..."
         },
         "more": {
             "country code": "it",
