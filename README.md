@@ -4,7 +4,7 @@
 
 This is a site for a holiday home in Rome, situated in the "Garbatella" neighborhood.
 
-It is developed using the following programming languages:
+It was developed using the following languages:
 
 *for the back-end*
 
