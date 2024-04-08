@@ -175,7 +175,7 @@ header {
 .tab-content.active {
     gap: 10px;
     display: flex;
-    height: 324px;
+    height: 325px;
     overflow: auto;
     padding: 20px 0;
     flex-direction: column;
@@ -204,8 +204,8 @@ header {
 }
 
 footer {
+    height: 50px;
     display: flex;
-    height: 52.5px;
     margin-top: 5px;
     padding: 0px 10px;
     border-radius: 20px;
@@ -240,7 +240,7 @@ footer div a {
 }
 
 footer div p {
-    font-size: 9px;
+    font-size: 8px;
 }
 
 footer div {

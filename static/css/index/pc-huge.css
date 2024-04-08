@@ -203,7 +203,7 @@ header {
 .tab-content.active {
     gap: 10px;
     display: flex;
-    height: 406px;
+    height: 410px;
     padding: 20px;
     overflow: auto;
     flex-direction: column;
