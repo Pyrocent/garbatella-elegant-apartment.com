@@ -65,7 +65,7 @@ def thanks():
 def disable_days():
     days = []
     only_checkout = None
-    for month in Api(randomize = True).get_calendar("940534339344086732")["calendar_months"]:
+    for month in Api(randomize = True).get_calendar("1103438586972971737")["calendar_months"]:
         for day in month["days"]:
             if day["available"] == True:
                 only_checkout = True

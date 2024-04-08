@@ -4,12 +4,4 @@
 		<loc>https://www.garbatella-elegant-apartment.com/</loc>
 		<priority>1</priority>
 	</url>
-	<url>
-		<loc>https://www.garbatella-elegant-apartment.com/book-holiday-home</loc>
-		<priority>0.50</priority>
-	</url>
-	<url>
-		<loc>https://www.garbatella-elegant-apartment.com/tourist-tax-payment</loc>
-		<priority>0.50</priority>
-	</url>
 </urlset>
