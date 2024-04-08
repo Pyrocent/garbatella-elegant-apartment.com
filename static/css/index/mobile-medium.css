@@ -204,26 +204,47 @@ header {
 }
 
 footer {
-    height: 35px;
     display: flex;
+    height: 52.5px;
     margin-top: 5px;
     padding: 0px 10px;
     border-radius: 20px;
     align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-around;
     background-color: rgb(37, 104, 248);
 }
 
 #home a,
 #neighborhood a,
-footer a {
+footer div a,
+footer div p {
     margin: 0;
-    font-size: 11px;
     color: rgb(255, 255, 255);
     filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.35));
 }
 
 #home a,
+#neighborhood a,
+footer div a {
+    cursor: pointer;
+}
+
+#home a,
 #neighborhood a {
     font-size: 25px;
+}
+
+footer div a {
+    font-size: 11px;
+}
+
+footer div p {
+    font-size: 9px;
+}
+
+footer div {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }
