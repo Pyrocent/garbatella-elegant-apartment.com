@@ -88,16 +88,11 @@ def change_language():
     return response
 
 @app.get("/robots.txt")
-def robots():
-    return send_file("robots.txt")
-
 @app.get("/sitemap.xml")
-def sitemap():
-    return send_file("sitemap.xml")
+def serve_file(): return send_file(f"./{request.path}")
 
 @app.errorhandler(404)
 @app.errorhandler(405)
-def error(_):
-    return redirect("/")
+def error(_): return redirect("/")
 
 if __name__ == "__main__": app.run()
