@@ -46,19 +46,17 @@ def book_holiday_home():
     response.set_cookie("lang", user_lang, timedelta(weeks = 52))
     return response
 
-@app.get("/tourist-tax-payment")
-def tourist_tax_payment():
-    user_lang = request.cookies.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))
-    response = make_response(render_template("tourist-tax-payment.html", lang = lang[user_lang]["tourist-tax-payment"]))
-    response.set_cookie("lang", user_lang, timedelta(weeks = 52))
-    return response
-
 @app.get("/thanks")
 def thanks():
     user_lang = request.cookies.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))
     response = make_response(render_template("thanks.html", lang = lang[user_lang]["thanks"]))
     response.set_cookie("lang", user_lang, timedelta(weeks = 52))
     return response
+
+
+@app.get("/tourist-tax-payment")
+def tourist_tax_payment():
+    return redirect("https://buy.stripe.com/fZe2akcUl7gOdRC002")
 
 @app.get("/policy")
 def policy():
