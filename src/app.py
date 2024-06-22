@@ -60,6 +60,10 @@ def thanks():
     response.set_cookie("lang", user_lang, timedelta(weeks = 52))
     return response
 
+@app.get("/policy")
+def policy():
+    return redirect("https://audaxly.com/privacy-policy?code=ln3hbi9fqw5k6r")
+
 @app.post("/disable_days")
 def disable_days():
     days = []
