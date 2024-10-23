@@ -89,7 +89,7 @@ def change_language():
 
 @app.get("/robots.txt")
 @app.get("/sitemap.xml")
-def serve_file(): return send_file(f"./{request.path}")
+def serve_file(): return send_file(f"app/{request.path}")
 
 @app.errorhandler(404)
 @app.errorhandler(405)
