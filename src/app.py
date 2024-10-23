@@ -12,7 +12,7 @@ from flask import (
     render_template
 )
 
-app = Flask(__name__, template_folder = "app/templates", static_folder = "app/static")
+app = Flask(__name__, template_folder = "app/templates/min", static_folder = "app/static")
 app.config.update(
     SECRET_KEY = token_hex(16),
     SESSION_COOKIE_NAME = "lang",
@@ -25,7 +25,7 @@ app.config.update(
 @app.get("/")
 def index():
     user_lang = request.cookies.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))
-    response = make_response(render_template("index.html", lang = lang[user_lang]["index"]))
+    response = make_response(render_template("index.min.html", lang = lang[user_lang]["index"]))
     response.set_cookie("lang", user_lang, timedelta(weeks = 52))
     return response
 
@@ -33,7 +33,7 @@ def index():
 def more(tab):
     if tab == "home" or tab == "neighborhood":
         user_lang = request.cookies.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))
-        response = make_response(render_template("more.html", lang = lang[user_lang]["more"], tab = tab))
+        response = make_response(render_template("more.min.html", lang = lang[user_lang]["more"], tab = tab))
         response.set_cookie("lang", user_lang, timedelta(weeks = 52))
         return response
     else:
@@ -42,17 +42,16 @@ def more(tab):
 @app.get("/book-holiday-home")
 def book_holiday_home():
     user_lang = request.cookies.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))
-    response = make_response(render_template("book-holiday-home.html", lang = lang[user_lang]["book-holiday-home"]))
+    response = make_response(render_template("book-holiday-home.min.html", lang = lang[user_lang]["book-holiday-home"]))
     response.set_cookie("lang", user_lang, timedelta(weeks = 52))
     return response
 
 @app.get("/thanks")
 def thanks():
     user_lang = request.cookies.get("lang", request.accept_languages.best_match(lang.keys(), default = "EN"))
-    response = make_response(render_template("thanks.html", lang = lang[user_lang]["thanks"]))
+    response = make_response(render_template("thanks.min.html", lang = lang[user_lang]["thanks"]))
     response.set_cookie("lang", user_lang, timedelta(weeks = 52))
     return response
-
 
 @app.get("/tourist-tax-payment")
 def tourist_tax_payment():
