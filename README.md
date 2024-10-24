@@ -2,9 +2,9 @@
 
 ![thumbnail](https://github.com/user-attachments/assets/cbd2ecaa-bd25-4360-bf92-eb0e0e946eee)
 
-This is a site for an holiday home in Rome, situated in the "Garbatella" neighborhood.
+This is a web site for a holiday home in Rome, situated in the "Garbatella" neighborhood.
 
-It was developed using the following languages:
+It was developed by using the following languages:
 
 *for the backend*
 
@@ -16,7 +16,7 @@ It was developed using the following languages:
 - **CSS**
 - **JavaScript**
 
-These are all the dependencies:
+The codebase has all these dependencies:
 
 - [Slick](https://kenwheeler.github.io/slick/) (for the carousels)
 - [Flatpickr](https://flatpickr.js.org/) (for the data picker)
@@ -28,4 +28,4 @@ These are all the dependencies:
 
 This site is [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) compliant, [here](https://audaxly.com/privacy-policy?code=ln3hbi9fqw5k6r) its privacy policy provided by [Audaxly.com](https://audaxly.com/), for free.
 
-[garbatella-elegant-apartment.com](https://www.garbatella-elegant-apartment.com/) is hosted on [Vercel.com](https://vercel.com/) (free plan) and its web domain was bought on [Register.it](https://www.register.it/)
+[garbatella-elegant-apartment.com](https://www.garbatella-elegant-apartment.com/) is hosted on [Vercel.com](https://vercel.com/) (free plan) and its web domain is registered on [Ionos.it](https://www.ionos.it/)
