@@ -1,6 +1,6 @@
 # [garbatella-elegant-apartment.com](https://www.garbatella-elegant-apartment.com/)
 
-[![Thumbnail](./thumbnail.png)](https://www.garbatella-elegant-apartment.com/)
+![thumbnail](https://github.com/user-attachments/assets/cbd2ecaa-bd25-4360-bf92-eb0e0e946eee)
 
 This is a site for an holiday home in Rome, situated in the "Garbatella" neighborhood.
 
