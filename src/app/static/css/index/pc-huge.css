@@ -162,6 +162,7 @@ header {
 }
 
 .tab-button {
+    flex: 0.2;
     border: none;
     cursor: pointer;
     font-size: 30px;
