@@ -272,12 +272,6 @@ footer div p {
 }
 
 #home a,
-#neighborhood a,
-footer div a {
-    cursor: pointer;
-}
-
-#home a,
 #neighborhood a {
     font-size: 25px;
 }
