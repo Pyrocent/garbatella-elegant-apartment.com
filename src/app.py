@@ -18,7 +18,7 @@ app.config.update(
     SESSION_COOKIE_NAME = "lang",
     SESSION_COOKIE_SECURE = True,
     SESSION_COOKIE_HTTPONLY = True,
-    SESSION_COOKIE_SAMESITE = "Strict",
+    SESSION_COOKIE_SAMESITE = "strict",
     SESSION_COOKIE_DOMAIN = ".garbatella-elegant-apartment.com"
 )
 
@@ -54,28 +54,19 @@ def thanks():
     return response
 
 @app.get("/tourist-tax-payment")
-def tourist_tax_payment():
-    return redirect("https://buy.stripe.com/fZe2akcUl7gOdRC002")
+def tourist_tax_payment(): return redirect("https://buy.stripe.com/fZe2akcUl7gOdRC002")
 
 @app.get("/policy")
-def policy():
-    return redirect("https://audaxly.com/privacy-policy?code=ln3hbi9fqw5k6r")
+def policy(): return redirect("https://audaxly.com/privacy-policy?code=ln3hbi9fqw5k6r")
 
 @app.post("/disable_days")
 def disable_days():
-    days = []
-    only_checkout = None
-    for month in Api(randomize = True).get_calendar("1103438586972971737")["calendar_months"]:
-        for day in month["days"]:
-            if day["available"] == True:
-                only_checkout = True
-            else:
-                if only_checkout == True:
-                    only_checkout = False
-                else:
-                    days.append(day["date"])
-
-    return jsonify(days)
+    return jsonify([
+        day["date"]
+        for month in Api(randomize = True).get_calendar("1103438586972971737")["calendar_months"]
+        for day in month["days"]
+        if day["available"] == False
+    ])
 
 @app.post("/")
 @app.post("/more/home")
@@ -94,5 +85,3 @@ def serve_file(): return send_file(f"app/{request.path}")
 @app.errorhandler(404)
 @app.errorhandler(405)
 def error(_): return redirect("/")
-
-if __name__ == "__main__": app.run()
